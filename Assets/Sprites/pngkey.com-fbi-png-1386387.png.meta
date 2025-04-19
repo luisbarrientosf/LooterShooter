@@ -1,0 +1,1030 @@
+fileFormatVersion: 2
+guid: f9870b96063a21e4aabee9e44081b167
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8224363357509410636
+    second: pngkey.com-fbi-png-1386387_0
+  - first:
+      213: 5895472102458408604
+    second: pngkey.com-fbi-png-1386387_1
+  - first:
+      213: 5758593016915957330
+    second: pngkey.com-fbi-png-1386387_2
+  - first:
+      213: -4522538178123384567
+    second: pngkey.com-fbi-png-1386387_3
+  - first:
+      213: 2133208076742933815
+    second: pngkey.com-fbi-png-1386387_4
+  - first:
+      213: -8059980648634619791
+    second: pngkey.com-fbi-png-1386387_5
+  - first:
+      213: 4993473501799051725
+    second: pngkey.com-fbi-png-1386387_6
+  - first:
+      213: -7200640473618213899
+    second: pngkey.com-fbi-png-1386387_7
+  - first:
+      213: -7995865057083393924
+    second: pngkey.com-fbi-png-1386387_8
+  - first:
+      213: -9178776623541143976
+    second: pngkey.com-fbi-png-1386387_9
+  - first:
+      213: 2805566917247177722
+    second: pngkey.com-fbi-png-1386387_10
+  - first:
+      213: 6914716561175332540
+    second: pngkey.com-fbi-png-1386387_11
+  - first:
+      213: -7946545645962837956
+    second: pngkey.com-fbi-png-1386387_12
+  - first:
+      213: 7099823683239216633
+    second: pngkey.com-fbi-png-1386387_13
+  - first:
+      213: -7749578100527732047
+    second: pngkey.com-fbi-png-1386387_14
+  - first:
+      213: -107898529029932737
+    second: pngkey.com-fbi-png-1386387_15
+  - first:
+      213: 8038471035471397246
+    second: pngkey.com-fbi-png-1386387_16
+  - first:
+      213: 4527125266809320402
+    second: pngkey.com-fbi-png-1386387_17
+  - first:
+      213: 6186033993965934482
+    second: pngkey.com-fbi-png-1386387_18
+  - first:
+      213: -5272099592047656556
+    second: pngkey.com-fbi-png-1386387_19
+  - first:
+      213: 8888061225818778384
+    second: pngkey.com-fbi-png-1386387_20
+  - first:
+      213: -5353915463658109569
+    second: pngkey.com-fbi-png-1386387_21
+  - first:
+      213: 6230538346852887533
+    second: pngkey.com-fbi-png-1386387_22
+  - first:
+      213: 471990461146207912
+    second: pngkey.com-fbi-png-1386387_23
+  - first:
+      213: -8333509598715973502
+    second: pngkey.com-fbi-png-1386387_24
+  - first:
+      213: -6722695700562594281
+    second: pngkey.com-fbi-png-1386387_25
+  - first:
+      213: -4376027045543181004
+    second: pngkey.com-fbi-png-1386387_26
+  - first:
+      213: -6188336044775273155
+    second: pngkey.com-fbi-png-1386387_27
+  - first:
+      213: -5624796307617622439
+    second: pngkey.com-fbi-png-1386387_28
+  - first:
+      213: 3014027890580617760
+    second: pngkey.com-fbi-png-1386387_29
+  - first:
+      213: -1293201523507838942
+    second: pngkey.com-fbi-png-1386387_30
+  - first:
+      213: 7830164529693999464
+    second: pngkey.com-fbi-png-1386387_31
+  - first:
+      213: -989700025231873452
+    second: pngkey.com-fbi-png-1386387_32
+  - first:
+      213: -3287201786540602993
+    second: pngkey.com-fbi-png-1386387_33
+  - first:
+      213: 6854048598612579649
+    second: pngkey.com-fbi-png-1386387_34
+  - first:
+      213: -748942034666786107
+    second: pngkey.com-fbi-png-1386387_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f561c26eec22270800000000000000
+      internalID: 8224363357509410636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e324244ace0d150800000000000000
+      internalID: 5895472102458408604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 191
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256125ba6d1aaef40800000000000000
+      internalID: 5758593016915957330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 190
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90930d90d77bc31c0800000000000000
+      internalID: -4522538178123384567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 191
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73db14e817daa9d10800000000000000
+      internalID: 2133208076742933815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1786c9dbd42352090800000000000000
+      internalID: -8059980648634619791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 191
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1fe0e71b16c4540800000000000000
+      internalID: 4993473501799051725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 190
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f39faec3af221c90800000000000000
+      internalID: -7200640473618213899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 191
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78f590381bf80190800000000000000
+      internalID: -7995865057083393924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 127
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856bb29ca4f6e9080800000000000000
+      internalID: -9178776623541143976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 127
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af31b182f306fe620800000000000000
+      internalID: 2805566917247177722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 128
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6cd5f931206ff50800000000000000
+      internalID: 6914716561175332540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_12
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 128
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3045fc66d238b190800000000000000
+      internalID: -7946545645962837956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_13
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 127
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5016ff504a78260800000000000000
+      internalID: 7099823683239216633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_14
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 127
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bae5eec6c7f37490800000000000000
+      internalID: -7749578100527732047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_15
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 127
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3932690cdaa08ef0800000000000000
+      internalID: -107898529029932737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_16
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 127
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e710a8e21d26e8f60800000000000000
+      internalID: 8038471035471397246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_17
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 127
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d37dd5c17493de30800000000000000
+      internalID: 4527125266809320402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29794da742539d550800000000000000
+      internalID: 6186033993965934482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 63
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49184839a5db5d6b0800000000000000
+      internalID: -5272099592047656556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 62
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01be9da089cb85b70800000000000000
+      internalID: 8888061225818778384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 62
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f750037804213b5b0800000000000000
+      internalID: -5353915463658109569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 62
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: debad9b9d91577650800000000000000
+      internalID: 6230538346852887533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 63
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a61efdd2d8dc8600800000000000000
+      internalID: 471990461146207912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 62
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280f93c3c2d695c80800000000000000
+      internalID: -8333509598715973502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 62
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716bbe2f0ef24b2a0800000000000000
+      internalID: -6722695700562594281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 62
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43585e6569a3543c0800000000000000
+      internalID: -4376027045543181004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d8c6c872d9e1aa0800000000000000
+      internalID: -6188336044775273155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_28
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956d5864f85b0f1b0800000000000000
+      internalID: -5624796307617622439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_29
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a7d21c56af3d920800000000000000
+      internalID: 3014027890580617760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_30
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2204258e010ad0ee0800000000000000
+      internalID: -1293201523507838942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_31
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861464d57255aac60800000000000000
+      internalID: 7830164529693999464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_32
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45aebd91211e342f0800000000000000
+      internalID: -989700025231873452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_33
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 0
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89c73834638162d0800000000000000
+      internalID: -3287201786540602993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_34
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1451199d2e87e1f50800000000000000
+      internalID: 6854048598612579649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-fbi-png-1386387_35
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 0
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2f35200393b95f0800000000000000
+      internalID: -748942034666786107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
