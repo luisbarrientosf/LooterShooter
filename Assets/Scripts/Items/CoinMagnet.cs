@@ -17,7 +17,7 @@ public class CoinMagnet : MonoBehaviour {
   private float maxScaleX;
   private float currentSpinMultiplier = 1f;
   private float normalSpinMultiplier = 1f;
-  private float magnetizedSpinMultiplier = 2.2f;
+  private float magnetizedSpinMultiplier = 2.5f;
   public float spinTransitionSpeed = 2f;
   private float spinTimer = 0f;
 
@@ -58,7 +58,7 @@ public class CoinMagnet : MonoBehaviour {
     }
 
     // Pick up
-    if (distance < 0.2f) {
+    if (distance < 0.1f) {
       if (activeTrail != null) {
         StartCoroutine(FadeOutAndDestroyTrail(activeTrail.GetComponent<ParticleSystem>(), 0.5f));
       }
