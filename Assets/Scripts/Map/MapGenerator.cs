@@ -2,8 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
 
-public class MapGenerator : MonoBehaviour
-{
+public class MapGenerator : MonoBehaviour {
   public GameObject roomPrefab;
   public int minRooms = 6;
   public int maxRooms = 20;
@@ -22,13 +21,12 @@ public class MapGenerator : MonoBehaviour
     Vector2Int.right
   };
 
-  void Start()
-  {
+  void Start() {
     GetMapSize();
     GenerateMap();
   }
 
-  void GetMapSize(){
+  void GetMapSize() {
     GameObject instance = Instantiate(roomPrefab);
     Renderer renderer = instance.GetComponentInChildren<Renderer>();
     if (renderer != null) {
@@ -37,8 +35,7 @@ public class MapGenerator : MonoBehaviour
   }
 
 
-  void GenerateMap()
-  {
+  void GenerateMap() {
     spawnedRooms.Clear();
 
     Vector2Int startPos = Vector2Int.zero;
@@ -64,8 +61,9 @@ public class MapGenerator : MonoBehaviour
           path.RemoveAt(path.Count - 1);
           currentPos = path[path.Count - 1];
           continue;
-        } else {
-          break; // exit loop if no more paths are available
+        }
+        else {
+          break;
         }
       }
 
@@ -80,16 +78,14 @@ public class MapGenerator : MonoBehaviour
 
     AssignSpecialRooms();
   }
-    
 
-  void SpawnRoom(Vector2Int position)
-  {
+
+  void SpawnRoom(Vector2Int position) {
     Vector3 worldPos = new(position.x * roomSize.x, position.y * roomSize.y, 0);
     GameObject room = Instantiate(roomPrefab, worldPos, Quaternion.identity);
     spawnedRooms.Add(position, room);
   }
-  void AssignSpecialRooms()
-  {
+  void AssignSpecialRooms() {
     if (spawnedRooms.TryGetValue(Vector2Int.zero, out GameObject startRoom)) {
       SetRoomColor(startRoom, startRoomColor);
     }
@@ -101,10 +97,9 @@ public class MapGenerator : MonoBehaviour
     SetRoomColor(spawnedRooms[bossPosition], bossRoomColor);
   }
 
-  void SetRoomColor(GameObject room, Color color)
-  {
+  void SetRoomColor(GameObject room, Color color) {
     SpriteRenderer sr = room.GetComponentInChildren<SpriteRenderer>();
-    if (sr != null){
+    if (sr != null) {
       sr.color = color;
     }
   }

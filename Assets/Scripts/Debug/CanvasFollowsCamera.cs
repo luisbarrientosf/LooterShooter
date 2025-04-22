@@ -1,16 +1,13 @@
 using UnityEngine;
 
-public class CanvasFollowsCamera : MonoBehaviour
-{
+public class CanvasFollowsCamera : MonoBehaviour {
   private Camera cam;
 
-  void Start()
-  {
+  void Start() {
     cam = Camera.main;
   }
 
-  void LateUpdate()
-  {
+  void LateUpdate() {
     transform.forward = cam.transform.forward;
   }
 }

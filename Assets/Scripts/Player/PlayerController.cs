@@ -1,8 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class PlayerController : MonoBehaviour
-{
+public class PlayerController : MonoBehaviour {
   private Animator animator;
   public float speed = 5f;
 
@@ -20,13 +19,11 @@ public class PlayerController : MonoBehaviour
   };
 
 
-  void Awake()
-  {
+  void Awake() {
     animator = GetComponent<Animator>();
   }
 
-  void Update()
-  {
+  void Update() {
     UpdateKeysBeingHolded();
     Vector2 currentDirection = GetCurrentDirection();
 
@@ -41,10 +38,12 @@ public class PlayerController : MonoBehaviour
     if (up && down) {
       animator.SetFloat("walkingY", currentDirection.y);
       animator.SetFloat("walkingX", 0);
-    } else if (left && right) {
+    }
+    else if (left && right) {
       animator.SetFloat("walkingX", currentDirection.x);
       animator.SetFloat("walkingY", 0);
-    } else if (isWalking) {
+    }
+    else if (isWalking) {
       animator.SetFloat("walkingX", currentDirection.x);
       animator.SetFloat("walkingY", currentDirection.y);
     }
@@ -54,13 +53,14 @@ public class PlayerController : MonoBehaviour
     float vertical = Input.GetAxisRaw("Vertical");
     bool hasInverseDirections = (up && down) || (left && right);
     float sprintMultiplier = 1f;
+
     if (Input.GetKey(KeyCode.LeftShift)) {
       sprintMultiplier = 3f;
     }
     if (hasInverseDirections) {
-     
       transform.Translate(sprintMultiplier * speed * Time.deltaTime * currentDirection);
-    } else {
+    }
+    else {
       Vector2 movement = new Vector2(horizontal, vertical);
       transform.Translate(sprintMultiplier * speed * Time.deltaTime * movement);
     }
@@ -81,13 +81,11 @@ public class PlayerController : MonoBehaviour
   private void UpdateKeysBeingHolded() {
     foreach (var pair in keysDictionary) {
       if (Input.GetKeyDown(pair.Key)) {
-        // add holded keys
-        keysBeingHolded.Remove(pair.Key); 
+        keysBeingHolded.Remove(pair.Key);
         keysBeingHolded.Add(pair.Key);
       }
 
       if (Input.GetKeyUp(pair.Key)) {
-        // remove released keys
         keysBeingHolded.Remove(pair.Key);
       }
     }
