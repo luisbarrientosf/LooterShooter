@@ -1,0 +1,1005 @@
+fileFormatVersion: 2
+guid: c9d62f0ac4c59f9478632b0fbde7ca90
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 903080731823852046
+    second: hats gpt 1_0
+  - first:
+      213: 6066067907554267162
+    second: hats gpt 1_1
+  - first:
+      213: -8422966263695462315
+    second: hats gpt 1_2
+  - first:
+      213: -2004168439863132927
+    second: hats gpt 1_3
+  - first:
+      213: -1168127045641512590
+    second: hats gpt 1_4
+  - first:
+      213: -631547842390883615
+    second: hats gpt 1_5
+  - first:
+      213: -218869081948617784
+    second: hats gpt 1_6
+  - first:
+      213: 91891607039810940
+    second: hats gpt 1_7
+  - first:
+      213: 5307433319932440073
+    second: hats gpt 1_8
+  - first:
+      213: 3337893874983598323
+    second: hats gpt 1_9
+  - first:
+      213: 2133357111810738546
+    second: hats gpt 1_10
+  - first:
+      213: -5137677667570287818
+    second: hats gpt 1_11
+  - first:
+      213: 8115109586347811874
+    second: hats gpt 1_12
+  - first:
+      213: -3065507321259934195
+    second: hats gpt 1_13
+  - first:
+      213: 5210899301537450538
+    second: hats gpt 1_14
+  - first:
+      213: 1432488743866398129
+    second: hats gpt 1_15
+  - first:
+      213: 5767727338918280369
+    second: hats gpt 1_16
+  - first:
+      213: -5996599244833772159
+    second: hats gpt 1_17
+  - first:
+      213: 1771349867317864505
+    second: hats gpt 1_18
+  - first:
+      213: -5640068055286188312
+    second: hats gpt 1_19
+  - first:
+      213: -6357382466563640208
+    second: hats gpt 1_20
+  - first:
+      213: 962850891046107334
+    second: hats gpt 1_21
+  - first:
+      213: 2043961655568877063
+    second: hats gpt 1_22
+  - first:
+      213: 5116928590294700269
+    second: hats gpt 1_23
+  - first:
+      213: -2966668360232264848
+    second: hats gpt 1_24
+  - first:
+      213: 9146419605309377067
+    second: hats gpt 1_25
+  - first:
+      213: 8434893217083200603
+    second: hats gpt 1_26
+  - first:
+      213: 419254289831317900
+    second: hats gpt 1_27
+  - first:
+      213: -4090652682597084379
+    second: hats gpt 1_28
+  - first:
+      213: 3301324105110126302
+    second: hats gpt 1_29
+  - first:
+      213: 889162920445698129
+    second: hats gpt 1_30
+  - first:
+      213: 7025936531264343457
+    second: hats gpt 1_31
+  - first:
+      213: 8265729410584515207
+    second: hats gpt 1_32
+  - first:
+      213: -1201836809950325519
+    second: hats gpt 1_33
+  - first:
+      213: 2290569363632772135
+    second: hats gpt 1_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hats gpt 1_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 415
+        width: 100
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a4cdf0423688c00800000000000000
+      internalID: 903080731823852046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 415
+        width: 90
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a105b2d5f900f2450800000000000000
+      internalID: 6066067907554267162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_2
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 416
+        width: 93
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55035595fcc9b1b80800000000000000
+      internalID: -8422966263695462315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_3
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 415
+        width: 85
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10db8e72c63cf24e0800000000000000
+      internalID: -2004168439863132927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_4
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 415
+        width: 94
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279d20814aaf9cfe0800000000000000
+      internalID: -1168127045641512590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 346
+        width: 98
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e280ab559a4c37f0800000000000000
+      internalID: -631547842390883615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_6
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 346
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c30326cabb66fcf0800000000000000
+      internalID: -218869081948617784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 345
+        width: 94
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d92730ee6764100800000000000000
+      internalID: 91891607039810940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_8
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 286
+        width: 101
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e25a70c7ac7a940800000000000000
+      internalID: 5307433319932440073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_9
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 342
+        width: 88
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8795c5bc4925e20800000000000000
+      internalID: 3337893874983598323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_10
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 343
+        width: 96
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279488c7df43b9d10800000000000000
+      internalID: 2133357111810738546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 285
+        width: 91
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bf306c16d43b8b0800000000000000
+      internalID: -5137677667570287818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_12
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 287
+        width: 85
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224e0af4c29ae9070800000000000000
+      internalID: 8115109586347811874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_13
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 273
+        width: 85
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e31f345512575d0800000000000000
+      internalID: -3065507321259934195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_14
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 277
+        width: 88
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a88746e45d05840800000000000000
+      internalID: 5210899301537450538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 216
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5f6e24ce831e310800000000000000
+      internalID: 1432488743866398129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 153
+        width: 92
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc788db4751b0050800000000000000
+      internalID: 5767727338918280369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_17
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 214
+        width: 78
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18dae4712ccc7cca0800000000000000
+      internalID: -5996599244833772159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_18
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 210
+        width: 77
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938aa6eb159159810800000000000000
+      internalID: 1771349867317864505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_19
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 148
+        width: 81
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e673af6cf37ab1b0800000000000000
+      internalID: -5640068055286188312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_20
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 208
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0747d2b545a06c7a0800000000000000
+      internalID: -6357382466563640208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_21
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 141
+        width: 101
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8b874b8cbbc5d00800000000000000
+      internalID: 962850891046107334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_22
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 215
+        width: 101
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706c3bedb4c9d5c10800000000000000
+      internalID: 2043961655568877063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_23
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 90
+        width: 83
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de05e85317bf20740800000000000000
+      internalID: 5116928590294700269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 73
+        width: 80
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b17fd28d644d6d0800000000000000
+      internalID: -2966668360232264848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_25
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 144
+        width: 89
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a4225db2c9eee70800000000000000
+      internalID: 9146419605309377067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_26
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 78
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b549892e0b2ce0570800000000000000
+      internalID: 8434893217083200603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_27
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 144
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8154f72e8d71d500800000000000000
+      internalID: 419254289831317900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_28
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 81
+        width: 95
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5235d42fe051b37c0800000000000000
+      internalID: -4090652682597084379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_29
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 74
+        width: 96
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edef58d48c8a0dd20800000000000000
+      internalID: 3301324105110126302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_30
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 17
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1506d9417f0f65c00800000000000000
+      internalID: 889162920445698129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_31
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 17
+        width: 72
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad8378dc04218160800000000000000
+      internalID: 7025936531264343457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_32
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 17
+        width: 80
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782936fea15c5b270800000000000000
+      internalID: 8265729410584515207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_33
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 17
+        width: 90
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f41ce8f9c7325fe0800000000000000
+      internalID: -1201836809950325519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hats gpt 1_34
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 19
+        width: 104
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72459b443bcb9cf10800000000000000
+      internalID: 2290569363632772135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

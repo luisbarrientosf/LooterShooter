@@ -1,0 +1,905 @@
+fileFormatVersion: 2
+guid: 2fead8cb3b85e0047a07e014fbbdaf23
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1565248894396461112
+    second: future guns gpt 1_0
+  - first:
+      213: -3839624622988432102
+    second: future guns gpt 1_1
+  - first:
+      213: -5315318785303781729
+    second: future guns gpt 1_2
+  - first:
+      213: 6280045586342629964
+    second: future guns gpt 1_3
+  - first:
+      213: -5172938359760950333
+    second: future guns gpt 1_4
+  - first:
+      213: -2267367851674827538
+    second: future guns gpt 1_5
+  - first:
+      213: 7389583832946348427
+    second: future guns gpt 1_6
+  - first:
+      213: 2972941858505346570
+    second: future guns gpt 1_7
+  - first:
+      213: 4685127071332508516
+    second: future guns gpt 1_8
+  - first:
+      213: -8462281985970225297
+    second: future guns gpt 1_9
+  - first:
+      213: 8612070099031543375
+    second: future guns gpt 1_10
+  - first:
+      213: -3620784860337761447
+    second: future guns gpt 1_11
+  - first:
+      213: 1446852795276982862
+    second: future guns gpt 1_12
+  - first:
+      213: 1725402803085676580
+    second: future guns gpt 1_13
+  - first:
+      213: -2075966124900589868
+    second: future guns gpt 1_14
+  - first:
+      213: 1841154868835648195
+    second: future guns gpt 1_15
+  - first:
+      213: -2491671286480890387
+    second: future guns gpt 1_16
+  - first:
+      213: -1755190996297801182
+    second: future guns gpt 1_17
+  - first:
+      213: 8639153409280067917
+    second: future guns gpt 1_18
+  - first:
+      213: -4605650134443956558
+    second: future guns gpt 1_19
+  - first:
+      213: 6725213427701584492
+    second: future guns gpt 1_20
+  - first:
+      213: 8078088395910461808
+    second: future guns gpt 1_21
+  - first:
+      213: 4439661142450053711
+    second: future guns gpt 1_22
+  - first:
+      213: -555086009738441111
+    second: future guns gpt 1_23
+  - first:
+      213: 9063214844476495565
+    second: future guns gpt 1_24
+  - first:
+      213: 5636320390529954019
+    second: future guns gpt 1_25
+  - first:
+      213: -8075476236217381996
+    second: future guns gpt 1_26
+  - first:
+      213: -6896702358296833054
+    second: future guns gpt 1_27
+  - first:
+      213: 7673930527552931667
+    second: future guns gpt 1_28
+  - first:
+      213: -1631970602017560259
+    second: future guns gpt 1_29
+  - first:
+      213: -343591013460039259
+    second: future guns gpt 1_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: future guns gpt 1_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 409
+        width: 84
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf0d607c6e174ae0800000000000000
+      internalID: -1565248894396461112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 409
+        width: 89
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d6ee3afb9e6bac0800000000000000
+      internalID: -3839624622988432102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 329
+        width: 58
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ed10ef9b13c36b0800000000000000
+      internalID: -5315318785303781729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 407
+        width: 120
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42563b0034372750800000000000000
+      internalID: 6280045586342629964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_4
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 407
+        width: 64
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbe47d18f70638b0800000000000000
+      internalID: -5172938359760950333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_5
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 407
+        width: 102
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee408c1b3f0b880e0800000000000000
+      internalID: -2267367851674827538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_6
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 328
+        width: 57
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b819cb828531d8660800000000000000
+      internalID: 7389583832946348427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_7
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 329
+        width: 84
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ec9167ed2024920800000000000000
+      internalID: 2972941858505346570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_8
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 314
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463275e9f3ae40140800000000000000
+      internalID: 4685127071332508516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 329
+        width: 86
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fbe0d6e5fef8a80800000000000000
+      internalID: -8462281985970225297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_10
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 329
+        width: 61
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ec9895028348770800000000000000
+      internalID: 8612070099031543375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_11
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 328
+        width: 69
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953947f6a5360cdc0800000000000000
+      internalID: -3620784860337761447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_12
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 328
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4af3c893f0441410800000000000000
+      internalID: 1446852795276982862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_13
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 249
+        width: 81
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420926435bcd1f710800000000000000
+      internalID: 1725402803085676580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_14
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 251
+        width: 98
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de5e8feecfa033e0800000000000000
+      internalID: -2075966124900589868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_15
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 252
+        width: 128
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c20e6d29981d8910800000000000000
+      internalID: 1841154868835648195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_16
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 250
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de514489a2ecb6dd0800000000000000
+      internalID: -2491671286480890387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_17
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 253
+        width: 102
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222a4b8961f44a7e0800000000000000
+      internalID: -1755190996297801182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_18
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 174
+        width: 85
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d494e38e04074e770800000000000000
+      internalID: 8639153409280067917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_19
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 174
+        width: 94
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6ecb0ca917510c0800000000000000
+      internalID: -4605650134443956558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_20
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 174
+        width: 125
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6217d41bf1c45d50800000000000000
+      internalID: 6725213427701584492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_21
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 186
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079b276b8922b1070800000000000000
+      internalID: 8078088395910461808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_22
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 174
+        width: 108
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4227d66948dc9d30800000000000000
+      internalID: 4439661142450053711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_23
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 97
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e40c11730fb48f0800000000000000
+      internalID: -555086009738441111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_24
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 97
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc69110d1e107cd70800000000000000
+      internalID: 9063214844476495565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_25
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 98
+        width: 124
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e034dd588b383e40800000000000000
+      internalID: 5636320390529954019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 103
+        width: 165
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b872c16252eef80800000000000000
+      internalID: -8075476236217381996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_27
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 18
+        width: 88
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e35e14debdf940a0800000000000000
+      internalID: -6896702358296833054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_28
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 19
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35781d518274f7a60800000000000000
+      internalID: 7673930527552931667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_29
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 18
+        width: 139
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39ecde42631a59e0800000000000000
+      internalID: -1631970602017560259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future guns gpt 1_30
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 18
+        width: 161
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9a2be2bc15b3bf0800000000000000
+      internalID: -343591013460039259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

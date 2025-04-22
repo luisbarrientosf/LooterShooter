@@ -1,0 +1,1030 @@
+fileFormatVersion: 2
+guid: 74085b8c301c7d54d851fa9d7350f03d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8339553892085880804
+    second: pets gpt 1_0
+  - first:
+      213: -2760197914442661843
+    second: pets gpt 1_1
+  - first:
+      213: 8749060768791104169
+    second: pets gpt 1_2
+  - first:
+      213: 4219554713429317157
+    second: pets gpt 1_3
+  - first:
+      213: -7604905583812460678
+    second: pets gpt 1_4
+  - first:
+      213: -5983340162564093958
+    second: pets gpt 1_5
+  - first:
+      213: -4162488214972528782
+    second: pets gpt 1_6
+  - first:
+      213: 9164476453721300619
+    second: pets gpt 1_7
+  - first:
+      213: 1269201721399336315
+    second: pets gpt 1_8
+  - first:
+      213: 4368168806326682343
+    second: pets gpt 1_9
+  - first:
+      213: -762687040999850322
+    second: pets gpt 1_10
+  - first:
+      213: -8181811551468728382
+    second: pets gpt 1_11
+  - first:
+      213: 8331642889807376546
+    second: pets gpt 1_12
+  - first:
+      213: 2024556412934209238
+    second: pets gpt 1_13
+  - first:
+      213: 1893078465314749468
+    second: pets gpt 1_14
+  - first:
+      213: 8314659396837185368
+    second: pets gpt 1_15
+  - first:
+      213: -8366639151391134655
+    second: pets gpt 1_16
+  - first:
+      213: -4451317037512767962
+    second: pets gpt 1_17
+  - first:
+      213: 6767038604725058633
+    second: pets gpt 1_18
+  - first:
+      213: -4057555748880568459
+    second: pets gpt 1_19
+  - first:
+      213: -8430431276376355916
+    second: pets gpt 1_20
+  - first:
+      213: -6480160841216644397
+    second: pets gpt 1_21
+  - first:
+      213: -4163565642790445943
+    second: pets gpt 1_22
+  - first:
+      213: 5142756798817389970
+    second: pets gpt 1_23
+  - first:
+      213: 398874519309388067
+    second: pets gpt 1_24
+  - first:
+      213: 8726306745937830618
+    second: pets gpt 1_25
+  - first:
+      213: 6628810411746711937
+    second: pets gpt 1_26
+  - first:
+      213: -5968635673879533382
+    second: pets gpt 1_27
+  - first:
+      213: 3353860328668698772
+    second: pets gpt 1_28
+  - first:
+      213: -5986875040666466300
+    second: pets gpt 1_29
+  - first:
+      213: -655630087916471440
+    second: pets gpt 1_30
+  - first:
+      213: -1777631823277169142
+    second: pets gpt 1_31
+  - first:
+      213: -7896123408538571880
+    second: pets gpt 1_32
+  - first:
+      213: 7174553924281828407
+    second: pets gpt 1_33
+  - first:
+      213: 1763117396739725797
+    second: pets gpt 1_34
+  - first:
+      213: 3480860497283462124
+    second: pets gpt 1_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pets gpt 1_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 413
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7510b741c0cb370800000000000000
+      internalID: 8339553892085880804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 413
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d200fd7fe9ec1b9d0800000000000000
+      internalID: -2760197914442661843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_2
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 412
+        width: 71
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa891a2a68ea6970800000000000000
+      internalID: 8749060768791104169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 413
+        width: 81
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526974cd7aede8a30800000000000000
+      internalID: 4219554713429317157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 413
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f397ef9a2f57690800000000000000
+      internalID: -7604905583812460678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_5
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 413
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af70a00c2d7e6fca0800000000000000
+      internalID: -5983340162564093958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 334
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27700d4b50fdb36c0800000000000000
+      internalID: -4162488214972528782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_7
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 333
+        width: 75
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e5d7877c2ce2f70800000000000000
+      internalID: 9164476453721300619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_8
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 331
+        width: 85
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d5258bd3c1d9110800000000000000
+      internalID: 1269201721399336315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_9
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 327
+        width: 82
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e24b04c26ade9c30800000000000000
+      internalID: 4368168806326682343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_10
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 327
+        width: 67
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaef8665d246a65f0800000000000000
+      internalID: -762687040999850322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_11
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 329
+        width: 79
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfc4873ebd547e80800000000000000
+      internalID: -8181811551468728382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 251
+        width: 79
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0b06ab011ff9370800000000000000
+      internalID: 8331642889807376546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 247
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6debeacb45ba81c10800000000000000
+      internalID: 2024556412934209238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_14
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 250
+        width: 79
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cf60195d0954a10800000000000000
+      internalID: 1893078465314749468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_15
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 251
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85718d02baa936370800000000000000
+      internalID: 8314659396837185368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_16
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 247
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ca479250ab3eb80800000000000000
+      internalID: -8366639151391134655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_17
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 253
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626486c0dbeb932c0800000000000000
+      internalID: -4451317037512767962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 169
+        width: 78
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94cfdf7f1c959ed50800000000000000
+      internalID: 6767038604725058633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_19
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 174
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f21a35b8aa0b7c0800000000000000
+      internalID: -4057555748880568459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_20
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 174
+        width: 76
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb8e34ab67110b80800000000000000
+      internalID: -8430431276376355916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_21
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 173
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3daa2eb5c08d116a0800000000000000
+      internalID: -6480160841216644397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_22
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 173
+        width: 77
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c547e7b1b0836c0800000000000000
+      internalID: -4163565642790445943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_23
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 176
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d4cbf9f0ebe5740800000000000000
+      internalID: 5142756798817389970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_24
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 98
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32904611346198500800000000000000
+      internalID: 398874519309388067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 98
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad228b060c11a1970800000000000000
+      internalID: 8726306745937830618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_26
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 101
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189d293d2f34efb50800000000000000
+      internalID: 6628810411746711937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_27
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 99
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8afa05a752b2da0800000000000000
+      internalID: -5968635673879533382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_28
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 102
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498929c033e4b8e20800000000000000
+      internalID: 3353860328668698772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_29
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 102
+        width: 72
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4084c6eced85aeca0800000000000000
+      internalID: -5986875040666466300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_30
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 27
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b3ea1a8ebb6e6f0800000000000000
+      internalID: -655630087916471440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_31
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 26
+        width: 78
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06622866459457e0800000000000000
+      internalID: -1777631823277169142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_32
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 27
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b696b68955b6290800000000000000
+      internalID: -7896123408538571880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_33
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 28
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73404be18c2219360800000000000000
+      internalID: 7174553924281828407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_34
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 30
+        width: 82
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e99bf15ee9d77810800000000000000
+      internalID: 1763117396739725797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pets gpt 1_35
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 30
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3354d0e208e4030800000000000000
+      internalID: 3480860497283462124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

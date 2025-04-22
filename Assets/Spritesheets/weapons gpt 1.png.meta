@@ -1,0 +1,1780 @@
+fileFormatVersion: 2
+guid: 676bd382a51d655418411496fa5c846d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 124555981555342637
+    second: weapons gpt 1_0
+  - first:
+      213: -6855942190893435699
+    second: weapons gpt 1_1
+  - first:
+      213: -3744586050253916289
+    second: weapons gpt 1_2
+  - first:
+      213: -5480146798364167360
+    second: weapons gpt 1_3
+  - first:
+      213: -7082373862552960570
+    second: weapons gpt 1_4
+  - first:
+      213: 6793426178229000073
+    second: weapons gpt 1_5
+  - first:
+      213: 6941136387061639061
+    second: weapons gpt 1_6
+  - first:
+      213: 9139322112012579308
+    second: weapons gpt 1_7
+  - first:
+      213: -6502845140591629523
+    second: weapons gpt 1_8
+  - first:
+      213: 7516270084561586776
+    second: weapons gpt 1_9
+  - first:
+      213: -758766164135863272
+    second: weapons gpt 1_10
+  - first:
+      213: -4966577004935640367
+    second: weapons gpt 1_11
+  - first:
+      213: -8328643359733708670
+    second: weapons gpt 1_12
+  - first:
+      213: 7175542136386065213
+    second: weapons gpt 1_13
+  - first:
+      213: -7684948291715690348
+    second: weapons gpt 1_14
+  - first:
+      213: -5870340221013662062
+    second: weapons gpt 1_15
+  - first:
+      213: -8561673364280590653
+    second: weapons gpt 1_16
+  - first:
+      213: -1394462116102236109
+    second: weapons gpt 1_17
+  - first:
+      213: 3016186502626373734
+    second: weapons gpt 1_18
+  - first:
+      213: 2676125966567065209
+    second: weapons gpt 1_19
+  - first:
+      213: 2710408722613262092
+    second: weapons gpt 1_20
+  - first:
+      213: 4379473735256651604
+    second: weapons gpt 1_21
+  - first:
+      213: -8177099257351179248
+    second: weapons gpt 1_22
+  - first:
+      213: -4898753185232451763
+    second: weapons gpt 1_23
+  - first:
+      213: -4310995896088045688
+    second: weapons gpt 1_24
+  - first:
+      213: 402190569644541245
+    second: weapons gpt 1_25
+  - first:
+      213: 2009812738578828047
+    second: weapons gpt 1_26
+  - first:
+      213: 6736388618161377326
+    second: weapons gpt 1_27
+  - first:
+      213: -1793533325432078959
+    second: weapons gpt 1_28
+  - first:
+      213: -4214008404489669829
+    second: weapons gpt 1_29
+  - first:
+      213: 7110557838983515421
+    second: weapons gpt 1_30
+  - first:
+      213: -6483909389420952800
+    second: weapons gpt 1_31
+  - first:
+      213: -1703454514974159859
+    second: weapons gpt 1_32
+  - first:
+      213: -5302310454052466149
+    second: weapons gpt 1_33
+  - first:
+      213: 7033375416294711033
+    second: weapons gpt 1_34
+  - first:
+      213: 6997096830061874818
+    second: weapons gpt 1_35
+  - first:
+      213: -2299667999773857539
+    second: weapons gpt 1_36
+  - first:
+      213: -8136004743976864615
+    second: weapons gpt 1_37
+  - first:
+      213: -4682257341722806548
+    second: weapons gpt 1_38
+  - first:
+      213: 105136485559111055
+    second: weapons gpt 1_39
+  - first:
+      213: -762858337311246910
+    second: weapons gpt 1_40
+  - first:
+      213: -3939938330957450575
+    second: weapons gpt 1_41
+  - first:
+      213: 4915046680353289396
+    second: weapons gpt 1_42
+  - first:
+      213: -4118520119818772206
+    second: weapons gpt 1_43
+  - first:
+      213: 7306747447795812981
+    second: weapons gpt 1_44
+  - first:
+      213: 3389959913192368374
+    second: weapons gpt 1_45
+  - first:
+      213: 4409887236829384703
+    second: weapons gpt 1_46
+  - first:
+      213: 8561868518285987209
+    second: weapons gpt 1_47
+  - first:
+      213: 4465317316429326991
+    second: weapons gpt 1_48
+  - first:
+      213: -2039037078395584147
+    second: weapons gpt 1_49
+  - first:
+      213: -4332452263628640535
+    second: weapons gpt 1_50
+  - first:
+      213: -8460203865836298030
+    second: weapons gpt 1_51
+  - first:
+      213: -3098854076414937234
+    second: weapons gpt 1_52
+  - first:
+      213: -6041876602475018104
+    second: weapons gpt 1_53
+  - first:
+      213: -8258634241444498620
+    second: weapons gpt 1_54
+  - first:
+      213: -2667247567950240540
+    second: weapons gpt 1_55
+  - first:
+      213: 399112455834645859
+    second: weapons gpt 1_56
+  - first:
+      213: -6982319597549032717
+    second: weapons gpt 1_57
+  - first:
+      213: 975317765194675775
+    second: weapons gpt 1_58
+  - first:
+      213: 6999540014667610181
+    second: weapons gpt 1_59
+  - first:
+      213: -5836114469099763423
+    second: weapons gpt 1_60
+  - first:
+      213: 6452634313162126848
+    second: weapons gpt 1_61
+  - first:
+      213: -4620876043157249832
+    second: weapons gpt 1_62
+  - first:
+      213: 5161249579692817778
+    second: weapons gpt 1_63
+  - first:
+      213: -7613925267062405189
+    second: weapons gpt 1_64
+  - first:
+      213: -2829175250823161523
+    second: weapons gpt 1_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: weapons gpt 1_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 438
+        width: 72
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d914b51038ab100800000000000000
+      internalID: 124555981555342637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 439
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4fe27d6eccad0a0800000000000000
+      internalID: -6855942190893435699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_2
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 441
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f777bb3b3de880cc0800000000000000
+      internalID: -3744586050253916289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_3
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 433
+        width: 51
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043728e958b92f3b0800000000000000
+      internalID: -5480146798364167360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 434
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1050cfe7a56bd90800000000000000
+      internalID: -7082373862552960570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_5
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 433
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987dd21bd19174e50800000000000000
+      internalID: 6793426178229000073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_6
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 435
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597e850b4ced35060800000000000000
+      internalID: 6941136387061639061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_7
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 435
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1f166e90565de70800000000000000
+      internalID: 9139322112012579308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 396
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b29a55cc041c5a0800000000000000
+      internalID: -6502845140591629523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_9
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 371
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a403aa1d72f4860800000000000000
+      internalID: 7516270084561586776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_10
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 372
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c981f91325875f0800000000000000
+      internalID: -758766164135863272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_11
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 374
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da003f278c231bb0800000000000000
+      internalID: -4966577004935640367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_12
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 374
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288082acdf6ba6c80800000000000000
+      internalID: -8328643359733708670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_13
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 374
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33932e2e85a49360800000000000000
+      internalID: 7175542136386065213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 374
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4909a0bce34995590800000000000000
+      internalID: -7684948291715690348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_15
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 375
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296eacfdbac588ea0800000000000000
+      internalID: -5870340221013662062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_16
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 373
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ceb127df63de2980800000000000000
+      internalID: -8561673364280590653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_17
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 312
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3389cf4f710e5ace0800000000000000
+      internalID: -1394462116102236109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_18
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 313
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6607f59c4a5abd920800000000000000
+      internalID: 3016186502626373734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_19
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 314
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976cd6b4362832520800000000000000
+      internalID: 2676125966567065209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_20
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 316
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07db737f5e4d9520800000000000000
+      internalID: 2710408722613262092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_21
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 316
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4573025a82407cc30800000000000000
+      internalID: 4379473735256651604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_22
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 316
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014f870bc8b158e80800000000000000
+      internalID: -8177099257351179248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_23
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 316
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4708e7cee1240cb0800000000000000
+      internalID: -4898753185232451763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_24
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 314
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8875189b2144c24c0800000000000000
+      internalID: -4310995896088045688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_25
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 255
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35cca3313ed49500800000000000000
+      internalID: 402190569644541245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_26
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 257
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bcb0c890a44eb10800000000000000
+      internalID: 2009812738578828047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_27
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 256
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e205e7ed1c57c7d50800000000000000
+      internalID: 6736388618161377326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_28
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 257
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19dbbcc61f61c17e0800000000000000
+      internalID: -1793533325432078959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_29
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 257
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33f1e1dea5d485c0800000000000000
+      internalID: -4214008404489669829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_30
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 257
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d4b736ea6cda260800000000000000
+      internalID: 7110557838983515421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_31
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 256
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0238eb773c68406a0800000000000000
+      internalID: -6483909389420952800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_32
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 256
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c0ee7d42d1c58e0800000000000000
+      internalID: -1703454514974159859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_33
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 198
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12dc512cb86a66b0800000000000000
+      internalID: -5302310454052466149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_34
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 198
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe163c3da19b9160800000000000000
+      internalID: 7033375416294711033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_35
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 199
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e89d6ae7eaa1160800000000000000
+      internalID: 6997096830061874818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_36
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 200
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8652c6320f510e0800000000000000
+      internalID: -2299667999773857539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_37
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 198
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994bd50baca171f80800000000000000
+      internalID: -8136004743976864615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_38
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 199
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6b5af51c7450fb0800000000000000
+      internalID: -4682257341722806548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_39
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 200
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d0faa9315857100800000000000000
+      internalID: 105136485559111055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_40
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 198
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c53e9e4268c965f0800000000000000
+      internalID: -762858337311246910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_41
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 142
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2f55276f68259c0800000000000000
+      internalID: -3939938330957450575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4bbec2ae0c53440800000000000000
+      internalID: 4915046680353289396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_43
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 146
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21127e995c318d6c0800000000000000
+      internalID: -4118520119818772206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_44
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 144
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a8c594718c66560800000000000000
+      internalID: 7306747447795812981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_45
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 144
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f825ac849e8b0f20800000000000000
+      internalID: 3389959913192368374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_46
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 145
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff8ebac311133d30800000000000000
+      internalID: 4409887236829384703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_47
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 144
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d490efd0ed1d670800000000000000
+      internalID: 8561868518285987209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_48
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 144
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8aab27e07ef7fd30800000000000000
+      internalID: 4465317316429326991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_49
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 88
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61816a9492e3b3e0800000000000000
+      internalID: -2039037078395584147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_50
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 89
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eee31cde9900e3c0800000000000000
+      internalID: -4332452263628640535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_51
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 90
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0e0797861579a80800000000000000
+      internalID: -8460203865836298030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_52
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 88
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67348cc2a8aef4d0800000000000000
+      internalID: -3098854076414937234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_53
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 88
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8888bb4cd31f62ca0800000000000000
+      internalID: -6041876602475018104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_54
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 89
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443b2dcd9ef636d80800000000000000
+      internalID: -8258634241444498620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_55
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 93
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e42d48f7780cfad0800000000000000
+      internalID: -2667247567950240540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_56
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 90
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365357bf9aee98500800000000000000
+      internalID: 399112455834645859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_57
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 30
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa67d7e151d91f90800000000000000
+      internalID: -6982319597549032717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_58
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 31
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f367e890756098d00800000000000000
+      internalID: 975317765194675775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_59
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 31
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5483565ee8c532160800000000000000
+      internalID: 6999540014667610181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_60
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 31
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1298ac8bfc4f10fa0800000000000000
+      internalID: -5836114469099763423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_61
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 32
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006768568bc5c8950800000000000000
+      internalID: 6452634313162126848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_62
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 32
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0ef70a8b95fdfb0800000000000000
+      internalID: -4620876043157249832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_63
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 35
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d79b2b52170a740800000000000000
+      internalID: 5161249579692817778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_64
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 37
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7cf565f47e55690800000000000000
+      internalID: -7613925267062405189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons gpt 1_65
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 36
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49db575910ccb8d0800000000000000
+      internalID: -2829175250823161523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

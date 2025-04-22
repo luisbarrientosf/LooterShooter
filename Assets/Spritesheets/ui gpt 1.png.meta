@@ -1,0 +1,1080 @@
+fileFormatVersion: 2
+guid: 0ca9ac93658bc614795e812db4bd84fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4622616470391418762
+    second: ui gpt 1_0
+  - first:
+      213: 3921879544600593760
+    second: ui gpt 1_1
+  - first:
+      213: 3381312270816207405
+    second: ui gpt 1_2
+  - first:
+      213: 1304783392369225198
+    second: ui gpt 1_3
+  - first:
+      213: 2978825694809297240
+    second: ui gpt 1_4
+  - first:
+      213: 2608828201841560487
+    second: ui gpt 1_5
+  - first:
+      213: 6471173159171070674
+    second: ui gpt 1_6
+  - first:
+      213: -6156192690228977016
+    second: ui gpt 1_7
+  - first:
+      213: -399599869903148112
+    second: ui gpt 1_8
+  - first:
+      213: 373708962948456994
+    second: ui gpt 1_9
+  - first:
+      213: 3277872827169967471
+    second: ui gpt 1_10
+  - first:
+      213: 352323242463862450
+    second: ui gpt 1_11
+  - first:
+      213: -4900714525457606950
+    second: ui gpt 1_12
+  - first:
+      213: -824463145533891618
+    second: ui gpt 1_13
+  - first:
+      213: -8741825908041343837
+    second: ui gpt 1_14
+  - first:
+      213: -3644075713674050823
+    second: ui gpt 1_15
+  - first:
+      213: 7263712514583987715
+    second: ui gpt 1_16
+  - first:
+      213: -3244738291033846382
+    second: ui gpt 1_17
+  - first:
+      213: -5396685515382598310
+    second: ui gpt 1_18
+  - first:
+      213: 1789375557045500992
+    second: ui gpt 1_19
+  - first:
+      213: -3766386838765961020
+    second: ui gpt 1_20
+  - first:
+      213: 3917080239724400809
+    second: ui gpt 1_21
+  - first:
+      213: 2914955007105979535
+    second: ui gpt 1_22
+  - first:
+      213: -3837807302958208314
+    second: ui gpt 1_23
+  - first:
+      213: -8081542583447428637
+    second: ui gpt 1_24
+  - first:
+      213: -4763702727147759558
+    second: ui gpt 1_25
+  - first:
+      213: -1147244929755692577
+    second: ui gpt 1_26
+  - first:
+      213: -1912402373483298549
+    second: ui gpt 1_27
+  - first:
+      213: 1130129142187759975
+    second: ui gpt 1_28
+  - first:
+      213: 5207026030146099401
+    second: ui gpt 1_29
+  - first:
+      213: -8413427285463834055
+    second: ui gpt 1_30
+  - first:
+      213: -8646433898009276629
+    second: ui gpt 1_31
+  - first:
+      213: -1530684619411958902
+    second: ui gpt 1_32
+  - first:
+      213: -4123738270845180892
+    second: ui gpt 1_33
+  - first:
+      213: 6196803271445976031
+    second: ui gpt 1_34
+  - first:
+      213: 3206501429033025645
+    second: ui gpt 1_35
+  - first:
+      213: -2634041465656286871
+    second: ui gpt 1_36
+  - first:
+      213: -5375707678066095523
+    second: ui gpt 1_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ui gpt 1_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 414
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fec8a2035d62040800000000000000
+      internalID: 4622616470391418762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 415
+        width: 72
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0650ac3baa05d6630800000000000000
+      internalID: 3921879544600593760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_2
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 414
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d226ba86895dcee20800000000000000
+      internalID: 3381312270816207405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_3
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 415
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed2ff215958b1210800000000000000
+      internalID: 1304783392369225198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 417
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8511aeadf2ae65920800000000000000
+      internalID: 2978825694809297240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_5
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 413
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab89ca6d6b643420800000000000000
+      internalID: 2608828201841560487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 338
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da1f68d3b93ec950800000000000000
+      internalID: 6471173159171070674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 338
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882ab0a7d5fc09aa0800000000000000
+      internalID: -6156192690228977016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_8
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 340
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb61261906547af0800000000000000
+      internalID: -399599869903148112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_9
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 337
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2222ce1625eaf2500800000000000000
+      internalID: 373708962948456994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_10
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 338
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d0f5a28f75d7d20800000000000000
+      internalID: 3277872827169967471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_11
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 337
+        width: 57
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be1c215f14b3e400800000000000000
+      internalID: 352323242463862450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 259
+        width: 61
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6908caa1a2dfbb0800000000000000
+      internalID: -4900714525457606950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 261
+        width: 71
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb1d08232bee84f0800000000000000
+      internalID: -824463145533891618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_14
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 262
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac93ee17abcea680800000000000000
+      internalID: -8741825908041343837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 263
+        width: 68
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f284df0274ad6dc0800000000000000
+      internalID: -3644075713674050823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_16
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 260
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30686561c04edc460800000000000000
+      internalID: 7263712514583987715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_17
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 264
+        width: 68
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29dc1d537bf58f2d0800000000000000
+      internalID: -3244738291033846382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_18
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 183
+        width: 25
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55df1bdd1f1b15b0800000000000000
+      internalID: -5396685515382598310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 183
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cb67fa69325d810800000000000000
+      internalID: 1789375557045500992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_20
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 182
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c006a4102b1bbbc0800000000000000
+      internalID: -3766386838765961020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_21
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 184
+        width: 69
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0997579b34c5630800000000000000
+      internalID: 3917080239724400809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_22
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 184
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f845cc68220047820800000000000000
+      internalID: 2914955007105979535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_23
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 184
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6caa6ce679e5dbac0800000000000000
+      internalID: -3837807302958208314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_24
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 109
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e16c6496d798df80800000000000000
+      internalID: -8081542583447428637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_25
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 110
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a385cccdb9de3edb0800000000000000
+      internalID: -4763702727147759558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_26
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 110
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd14b8390da2410f0800000000000000
+      internalID: -1147244929755692577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_27
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 109
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b010ae47c28c575e0800000000000000
+      internalID: -1912402373483298549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_28
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 109
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7691b6697760faf00800000000000000
+      internalID: 1130129142187759975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_29
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 112
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8121f1692134840800000000000000
+      internalID: 5207026030146099401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_30
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 129
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932695ac5708d3b80800000000000000
+      internalID: -8413427285463834055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_31
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 120
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fc2473e22b10880800000000000000
+      internalID: -8646433898009276629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_32
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 28
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83dbc4d27ae1cae0800000000000000
+      internalID: -1530684619411958902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_33
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 28
+        width: 74
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424e69324e985c6c0800000000000000
+      internalID: -4123738270845180892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_34
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 35
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd314894eb77ff550800000000000000
+      internalID: 6196803271445976031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_35
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 30
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60cb499f08cf7c20800000000000000
+      internalID: 3206501429033025645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_36
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 32
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96168e32e31027bd0800000000000000
+      internalID: -2634041465656286871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui gpt 1_37
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 34
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ac7883956a565b0800000000000000
+      internalID: -5375707678066095523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

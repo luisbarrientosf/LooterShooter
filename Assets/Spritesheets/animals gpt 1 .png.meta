@@ -1,0 +1,830 @@
+fileFormatVersion: 2
+guid: e8c6304b207934045a323a9484e9609e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7170338365177414934
+    second: animals gpt 1 _0
+  - first:
+      213: -5777680237330466468
+    second: animals gpt 1 _1
+  - first:
+      213: 5245049096127751282
+    second: animals gpt 1 _2
+  - first:
+      213: 3478136041109984657
+    second: animals gpt 1 _3
+  - first:
+      213: 8815556812720818562
+    second: animals gpt 1 _4
+  - first:
+      213: 7377806579514118691
+    second: animals gpt 1 _5
+  - first:
+      213: 4623621768650670874
+    second: animals gpt 1 _6
+  - first:
+      213: -2291721634238327290
+    second: animals gpt 1 _7
+  - first:
+      213: 5217511761921916107
+    second: animals gpt 1 _8
+  - first:
+      213: 809147305930047747
+    second: animals gpt 1 _9
+  - first:
+      213: 8151278612262434005
+    second: animals gpt 1 _10
+  - first:
+      213: -3444845884837614810
+    second: animals gpt 1 _11
+  - first:
+      213: 7958872874796807246
+    second: animals gpt 1 _12
+  - first:
+      213: -184475786810398874
+    second: animals gpt 1 _13
+  - first:
+      213: -4695156848430141438
+    second: animals gpt 1 _14
+  - first:
+      213: -3994028437135798457
+    second: animals gpt 1 _15
+  - first:
+      213: 1858072197966681919
+    second: animals gpt 1 _16
+  - first:
+      213: 1068765390620951128
+    second: animals gpt 1 _17
+  - first:
+      213: -6862401294959932978
+    second: animals gpt 1 _18
+  - first:
+      213: 2387568795171559312
+    second: animals gpt 1 _19
+  - first:
+      213: 8283941075180361490
+    second: animals gpt 1 _20
+  - first:
+      213: -3833560612282608989
+    second: animals gpt 1 _21
+  - first:
+      213: 2398110904134006926
+    second: animals gpt 1 _22
+  - first:
+      213: -3435819418859404798
+    second: animals gpt 1 _23
+  - first:
+      213: -7894078764755156410
+    second: animals gpt 1 _24
+  - first:
+      213: 7178784060260336388
+    second: animals gpt 1 _25
+  - first:
+      213: 65291605485704455
+    second: animals gpt 1 _26
+  - first:
+      213: 2851891806579980825
+    second: animals gpt 1 _27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animals gpt 1 _0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 386
+        width: 92
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeabe383f37dd7c90800000000000000
+      internalID: -7170338365177414934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 387
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c597f148f6e81dfa0800000000000000
+      internalID: -5777680237330466468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 387
+        width: 77
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274ad2c0d582ac840800000000000000
+      internalID: 5245049096127751282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _3
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 387
+        width: 97
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19518da2d42d44030800000000000000
+      internalID: 3478136041109984657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _4
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 387
+        width: 123
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289cf7fd636275a70800000000000000
+      internalID: 8815556812720818562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 300
+        width: 92
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3229a79aefb336660800000000000000
+      internalID: 7377806579514118691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _6
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 298
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13cf2860876a2040800000000000000
+      internalID: 4623621768650670874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _7
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 298
+        width: 76
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6069523d05b2230e0800000000000000
+      internalID: -2291721634238327290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 298
+        width: 88
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc37cccd43586840800000000000000
+      internalID: 5217511761921916107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _9
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 297
+        width: 68
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301ccec003baa3b00800000000000000
+      internalID: 809147305930047747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _10
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 299
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d43425e5b82f1170800000000000000
+      internalID: 8151278612262434005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _11
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 209
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ba9485be27130d0800000000000000
+      internalID: -3444845884837614810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _12
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 208
+        width: 90
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4471c236b8937e60800000000000000
+      internalID: 7958872874796807246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 207
+        width: 91
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6676181df3c907df0800000000000000
+      internalID: -184475786810398874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _14
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 208
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200349ce8b377deb0800000000000000
+      internalID: -4695156848430141438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _15
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 205
+        width: 136
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f46b53c4c5298c0800000000000000
+      internalID: -3994028437135798457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 123
+        width: 76
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3755dec1d239c910800000000000000
+      internalID: 1858072197966681919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _17
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 123
+        width: 74
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8528130d57405de00800000000000000
+      internalID: 1068765390620951128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _18
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 125
+        width: 72
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec98bbb716ad3c0a0800000000000000
+      internalID: -6862401294959932978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _19
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 126
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09712095b29522120800000000000000
+      internalID: 2387568795171559312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _20
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 131
+        width: 89
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2179466848876f270800000000000000
+      internalID: 8283941075180361490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _21
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 128
+        width: 78
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a257f72fe47ccac0800000000000000
+      internalID: -3833560612282608989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _22
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 42
+        width: 80
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88f5ec592dc74120800000000000000
+      internalID: 2398110904134006926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _23
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 60
+        width: 68
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2020f7a31748150d0800000000000000
+      internalID: -3435819418859404798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _24
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 43
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64280d52039927290800000000000000
+      internalID: -7894078764755156410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _25
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 53
+        width: 73
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403cd07611a20a360800000000000000
+      internalID: 7178784060260336388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _26
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 49
+        width: 79
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7055ac78e56f7e000800000000000000
+      internalID: 65291605485704455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animals gpt 1 _27
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 56
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91afb05fc74f39720800000000000000
+      internalID: 2851891806579980825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
