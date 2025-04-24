@@ -12,31 +12,26 @@ public class PlayerYSort : MonoBehaviour {
 
   public float sortingScale = 100f;
 
+  private float lastY;
+  private int lastBaseOrder;
+
   void LateUpdate() {
-    int baseOrder = -(int)(transform.position.y * sortingScale);
+    float currentY = transform.position.y;
+    if (Mathf.Approximately(currentY, lastY)) return;
 
-    if (shadowRenderer != null)
-      shadowRenderer.sortingOrder = baseOrder;
+    lastY = currentY;
+    int baseOrder = -(int)(currentY * sortingScale);
+    if (baseOrder == lastBaseOrder) return;
 
-    if (bodyBorderRenderer != null)
-      bodyBorderRenderer.sortingOrder = baseOrder + 1;
+    lastBaseOrder = baseOrder;
 
-    if (bodyRenderer != null)
-      bodyRenderer.sortingOrder = baseOrder + 2;
-
-    if (headBorderRenderer != null)
-      headBorderRenderer.sortingOrder = baseOrder + 3;
-
-    if (headRenderer != null)
-      headRenderer.sortingOrder = baseOrder + 4;
-
-    if (leftEyeRenderer != null)
-      leftEyeRenderer.sortingOrder = baseOrder + 5;
-
-    if (rightEyeRenderer != null)
-      rightEyeRenderer.sortingOrder = baseOrder + 5;
-
-    if (hatRenderer != null)
-      hatRenderer.sortingOrder = baseOrder + 6;
+    if (shadowRenderer) shadowRenderer.sortingOrder = baseOrder;
+    if (bodyBorderRenderer) bodyBorderRenderer.sortingOrder = baseOrder + 1;
+    if (bodyRenderer) bodyRenderer.sortingOrder = baseOrder + 2;
+    if (headBorderRenderer) headBorderRenderer.sortingOrder = baseOrder + 3;
+    if (headRenderer) headRenderer.sortingOrder = baseOrder + 4;
+    if (leftEyeRenderer) leftEyeRenderer.sortingOrder = baseOrder + 5;
+    if (rightEyeRenderer) rightEyeRenderer.sortingOrder = baseOrder + 5;
+    if (hatRenderer) hatRenderer.sortingOrder = baseOrder + 6;
   }
 }

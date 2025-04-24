@@ -1,40 +1,55 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class FootPush : MonoBehaviour {
-  [Header("Push Settings")]
-  public float pushRadius = 0.5f;
-  public float pushForce = 3f;
-  public LayerMask footLayer; // Set to "Foot" layer in Inspector
+    public float pushRadius = 1.5f;
+    public float pushForce = 10f;
+    public float minPushDistance = 0.1f; 
+    public LayerMask footLayer;
 
-  private Rigidbody2D rb;
+    private Rigidbody2D rb;
 
-  void Awake() {
-    // Get the root Rigidbody2D (enemy's main body)
+    // Reusable list to avoid allocations
+    private static readonly List<Collider2D> hitList = new List<Collider2D>(15); // Grow as needed
+private float minPushDistanceSqr;
+private float pushRadiusSqr;
+
+private static readonly ContactFilter2D contactFilter = new() {
+    useLayerMask = true,
+    useTriggers = false,
+    layerMask = LayerMask.GetMask("EnemyFoot")
+};
+
+void Awake() {
     rb = GetComponentInParent<Rigidbody2D>();
-  }
+    minPushDistanceSqr = minPushDistance * minPushDistance;
+    pushRadiusSqr = pushRadius * pushRadius;
+}
 
-  void FixedUpdate() {
-    Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, pushRadius, footLayer);
+    void FixedUpdate() {
+        // Clear the list before reuse
+        hitList.Clear();
 
-    foreach (Collider2D col in hits) {
-      // Skip self
-      if (col.attachedRigidbody == null || col.attachedRigidbody == rb)
-        continue;
+        Physics2D.OverlapCircle(transform.position, pushRadius, contactFilter, hitList);
 
-      Vector2 diff = (Vector2)rb.position - (Vector2)col.attachedRigidbody.position;
-      float distance = diff.magnitude;
+        if (hitList.Count == 0) return;
 
-      if (distance == 0f)
-        continue;
+        for (int i = 0; i < hitList.Count; i++) {
+          Collider2D col = hitList[i];
 
-      float strength = Mathf.Clamp01(1f - (distance / pushRadius));
-      Vector2 force = diff.normalized * pushForce * strength;
+          if (col.attachedRigidbody == null || col.attachedRigidbody == rb)
+              continue;
 
-      rb.AddForce(force, ForceMode2D.Force);
+          Vector2 diff = rb.position - col.attachedRigidbody.position;
+          float sqrDistance = diff.sqrMagnitude;
 
-      // Debug (optional)
-      Debug.DrawLine(transform.position, rb.position + force, Color.green);
-      Debug.Log($"Pushing {col.name} with force {force}");
+          if (sqrDistance < minPushDistanceSqr || sqrDistance > pushRadiusSqr)
+              continue;
+
+          float strength = 1f - Mathf.Sqrt(sqrDistance) / pushRadius;
+          Vector2 force = diff.normalized * pushForce * Mathf.Clamp01(strength);
+
+          rb.AddForce(force, ForceMode2D.Force);
+        }
     }
-  }
 }

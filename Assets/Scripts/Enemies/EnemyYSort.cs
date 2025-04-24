@@ -1,21 +1,26 @@
 using UnityEngine;
 
 public class EnemyYSort : MonoBehaviour {
-  public SpriteRenderer bodyBorderRenderer;
-  public SpriteRenderer bodyRenderer;
-  public SpriteRenderer headRenderer;
-  public float sortingScale = 100f;
+    public SpriteRenderer bodyBorderRenderer;
+    public SpriteRenderer bodyRenderer;
+    public SpriteRenderer headRenderer;
+    public float sortingScale = 100f;
 
-  void LateUpdate() {
-    int baseOrder = -(int)(transform.position.y * sortingScale);
+    private float lastY;
+    private int lastBaseOrder;
 
-    if (bodyBorderRenderer != null)
-      bodyBorderRenderer.sortingOrder = baseOrder;
+    void LateUpdate() {
+        float currentY = transform.position.y;
+        if (Mathf.Approximately(currentY, lastY)) return;
 
-    if (bodyRenderer != null)
-      bodyRenderer.sortingOrder = baseOrder + 1;
+        lastY = currentY;
+        int baseOrder = -(int)(currentY * sortingScale);
+        if (baseOrder == lastBaseOrder) return;
 
-    if (headRenderer != null)
-      headRenderer.sortingOrder = baseOrder + 2;
-  }
+        lastBaseOrder = baseOrder;
+
+        if (bodyBorderRenderer) bodyBorderRenderer.sortingOrder = baseOrder;
+        if (bodyRenderer) bodyRenderer.sortingOrder = baseOrder + 1;
+        if (headRenderer) headRenderer.sortingOrder = baseOrder + 2;
+    }
 }
