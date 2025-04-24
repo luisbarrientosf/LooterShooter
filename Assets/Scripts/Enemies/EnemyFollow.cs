@@ -1,23 +1,27 @@
 using UnityEngine;
 
-public class WalkTowardsPlayer : MonoBehaviour {
+[RequireComponent(typeof(Rigidbody2D))]
+
+public class EnemyFollow : MonoBehaviour {
   public float speed = 2f;
   private Transform player;
+  private Rigidbody2D rb;
 
-  void Start() {
+  void Awake() {
+    rb = GetComponent<Rigidbody2D>();
     PlayerController playerController = FindFirstObjectByType<PlayerController>();
     if (playerController != null) {
       player = playerController.transform;
     }
     else {
-      Debug.LogWarning("Player not found. Make sure the PlayerController is in the scene.");
+      Debug.LogWarning("PlayerController not found in the scene.");
     }
   }
 
-  void Update() {
+  void FixedUpdate() {
     if (player == null) return;
 
     Vector2 direction = (player.position - transform.position).normalized;
-    transform.position += (Vector3)(direction * speed * Time.deltaTime);
+    rb.linearVelocity = direction * speed;
   }
 }
