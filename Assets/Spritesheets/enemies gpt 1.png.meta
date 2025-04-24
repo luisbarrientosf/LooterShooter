@@ -1022,7 +1022,43 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      enemies gpt 1_0: -2102874783119176656
+      enemies gpt 1_1: -8695953508052964483
+      enemies gpt 1_10: -8735265786794155231
+      enemies gpt 1_11: 1094651028240396458
+      enemies gpt 1_12: 2037185521558655575
+      enemies gpt 1_13: 2875899046250801932
+      enemies gpt 1_14: 5886712847487766138
+      enemies gpt 1_15: 1982012550906363143
+      enemies gpt 1_16: -6276704833357433846
+      enemies gpt 1_17: -5128158266926905748
+      enemies gpt 1_18: -6716275799671133230
+      enemies gpt 1_19: 8824595148632655380
+      enemies gpt 1_2: -4371816924064692191
+      enemies gpt 1_20: -2807541379608902842
+      enemies gpt 1_21: -7692819683344326149
+      enemies gpt 1_22: 931973702069780359
+      enemies gpt 1_23: -8406413204865987278
+      enemies gpt 1_24: 5950819374491521501
+      enemies gpt 1_25: 3233504248801707313
+      enemies gpt 1_26: -3032461289633725144
+      enemies gpt 1_27: 7939500567104235372
+      enemies gpt 1_28: 6188611537781449382
+      enemies gpt 1_29: -7902445423963810054
+      enemies gpt 1_3: -8754853912537489961
+      enemies gpt 1_30: -26956218425615073
+      enemies gpt 1_31: -6889930810842600652
+      enemies gpt 1_32: -6027510433262899158
+      enemies gpt 1_33: 2345017289844306634
+      enemies gpt 1_34: -6711193876614302427
+      enemies gpt 1_35: 2930968459078977506
+      enemies gpt 1_4: -1023254409444694517
+      enemies gpt 1_5: -8669982849269541127
+      enemies gpt 1_6: -7583081609328583555
+      enemies gpt 1_7: -3755385688178338907
+      enemies gpt 1_8: 3267956879670584587
+      enemies gpt 1_9: 1042873999690113427
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

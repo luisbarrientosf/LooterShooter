@@ -897,7 +897,38 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      items gpt 1_0: -34160455477098333
+      items gpt 1_1: -8059217120648169719
+      items gpt 1_10: -8046789807511879299
+      items gpt 1_11: -2940876229537747408
+      items gpt 1_12: -8908491725490670085
+      items gpt 1_13: -8762275175413047593
+      items gpt 1_14: 7748614094429244089
+      items gpt 1_15: 1644162450985566070
+      items gpt 1_16: -8137215925033276028
+      items gpt 1_17: 2898851194122670658
+      items gpt 1_18: -2693515643583571335
+      items gpt 1_19: -957502328831814943
+      items gpt 1_2: -6764120669438135980
+      items gpt 1_20: 360307041378190522
+      items gpt 1_21: -6194091484413383456
+      items gpt 1_22: 4613987658082658909
+      items gpt 1_23: 1031811715764016888
+      items gpt 1_24: 4205740248673948894
+      items gpt 1_25: -8924158655658272998
+      items gpt 1_26: 8297166096265240217
+      items gpt 1_27: 7925871651223772013
+      items gpt 1_28: -7010314279108331196
+      items gpt 1_29: 5235329279718177962
+      items gpt 1_3: -8296471059885091328
+      items gpt 1_30: 722456558083963976
+      items gpt 1_4: 4045334863679366373
+      items gpt 1_5: -593945886306608321
+      items gpt 1_6: 8373579198689473204
+      items gpt 1_7: -7693460440025659220
+      items gpt 1_8: -8516568136696680629
+      items gpt 1_9: 4838899852817409890
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
