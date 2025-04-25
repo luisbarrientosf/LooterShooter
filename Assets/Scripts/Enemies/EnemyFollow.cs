@@ -13,9 +13,6 @@ public class EnemyFollow : MonoBehaviour {
     if (playerController != null) {
       player = playerController.transform;
     }
-    else {
-      Debug.LogWarning("PlayerController not found in the scene.");
-    }
   }
 
   void FixedUpdate() {
