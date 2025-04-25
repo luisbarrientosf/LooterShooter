@@ -14,16 +14,18 @@ public class FootPush : MonoBehaviour {
   private float minPushDistanceSqr;
   private float pushRadiusSqr;
 
-  private static readonly ContactFilter2D contactFilter = new() {
-    useLayerMask = true,
-    useTriggers = false,
-    layerMask = LayerMask.GetMask("EnemyFoot")
-  };
+  private static ContactFilter2D contactFilter;
 
   void Awake() {
     rb = GetComponentInParent<Rigidbody2D>();
     minPushDistanceSqr = minPushDistance * minPushDistance;
     pushRadiusSqr = pushRadius * pushRadius;
+
+    contactFilter = new() {
+      useLayerMask = true,
+      useTriggers = false,
+      layerMask = LayerMask.GetMask("EnemyFoot")
+    };
   }
 
   void FixedUpdate() {
