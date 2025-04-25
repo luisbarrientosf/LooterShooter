@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5840385749883859164}
   - component: {fileID: 6989657836129948593}
   m_Layer: 0
-  m_Name: CoinPickupParticles
+  m_Name: CoinTrailParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

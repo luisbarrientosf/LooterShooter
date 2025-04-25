@@ -5,7 +5,6 @@ public class MagnetizedCoin : MonoBehaviour {
   public float magnetRange = 3f;
   public float magnetSpeed = 3f;
   public float slowdownRate = 3.5f;
-  public GameObject magnetTrailEffect;
 
   private Transform player;
   private CoinSpin coinSpin;
@@ -53,14 +52,20 @@ public class MagnetizedCoin : MonoBehaviour {
 
     if (isMagnetized && currentSpeed > 0f) {
       transform.position += currentSpeed * Time.deltaTime * lastDirection;
+      trailHandler?.UpdateTrailPosition(transform);
     }
 
-    if (distance < 0.1f) {
-      trailHandler?.StopTrail();
-      player.GetComponent<PlayerInventory>().AddCoin();
-      pool.Return(gameObject);
-    }
+  }
 
-    trailHandler?.UpdateTrailPosition(transform);
+  void OnTriggerEnter2D(Collider2D other) {
+    var rb = other.attachedRigidbody;
+    if (rb == null) return;
+
+    var root = rb.gameObject;
+    if (!root.CompareTag("Player")) return;
+
+    trailHandler?.StopTrail();
+    root.GetComponent<PlayerInventory>()?.AddCoin();
+    pool.Return(gameObject);
   }
 }
