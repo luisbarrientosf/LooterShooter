@@ -325,7 +325,7 @@ GameObject:
   - component: {fileID: 210155871}
   - component: {fileID: 210155872}
   m_Layer: 0
-  m_Name: CoinSpawner
+  m_Name: Coin Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -883,7 +883,7 @@ GameObject:
   - component: {fileID: 1451763291}
   - component: {fileID: 1451763292}
   m_Layer: 0
-  m_Name: EnemySpawner
+  m_Name: Enemy Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -965,6 +965,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 6186465975471884251, guid: cb667efcd3ec814468b0b47987854d92, type: 3}
   initialSize: 200
+--- !u!114 &1654683610 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5260301592141608403, guid: f5c5b08d8c167594fb26ec4a8da8e1ee, type: 3}
+  m_PrefabInstance: {fileID: 6805830517624672983}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff82e9cbb4fc2543ba26b8daf7e6802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1837260894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,10 +1087,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 210155871}
   - {fileID: 949129515}
-  - {fileID: 1451763291}
+  - {fileID: 210155871}
   - {fileID: 1640700283}
+  - {fileID: 1451763291}
   - {fileID: 2022434421}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1343,6 +1354,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 8367410838096704697, guid: f5c5b08d8c167594fb26ec4a8da8e1ee, type: 3}
+      propertyPath: pawnBounceAnimation
+      value: 
+      objectReference: {fileID: 1654683610}
     - target: {fileID: 8500260931661340035, guid: f5c5b08d8c167594fb26ec4a8da8e1ee, type: 3}
       propertyPath: m_Layer
       value: 7
