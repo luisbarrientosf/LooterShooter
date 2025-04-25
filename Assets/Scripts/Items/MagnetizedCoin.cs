@@ -57,15 +57,4 @@ public class MagnetizedCoin : MonoBehaviour {
 
   }
 
-  void OnTriggerEnter2D(Collider2D other) {
-    var rb = other.attachedRigidbody;
-    if (rb == null) return;
-
-    var root = rb.gameObject;
-    if (!root.CompareTag("Player")) return;
-
-    trailHandler?.StopTrail();
-    root.GetComponent<PlayerInventory>()?.AddCoin();
-    pool.Return(gameObject);
-  }
 }
