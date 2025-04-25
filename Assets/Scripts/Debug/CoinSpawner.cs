@@ -16,6 +16,11 @@ public class CoinSpawner : MonoBehaviour {
 
       GameObject coin = coinPool.Get();
       coin.transform.position = position;
+
+      CoinSpin spin = coin.GetComponent<CoinSpin>();
+      spin.SetRandomFlipAmount(0.6f, 1.0f);
+      spin.ResetSpin();
+
     }
   }
 }
