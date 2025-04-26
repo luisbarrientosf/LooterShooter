@@ -2,12 +2,13 @@ using UnityEngine;
 using System.Collections.Generic;
 
 public class PlayerController : MonoBehaviour {
-  private Animator animator;
   public float speed = 5f;
+  public float sprintSpeed = 10f;
+  private Rigidbody2D rb;
+  private Animator animator;
 
   private readonly List<KeyCode> keysBeingHolded = new();
-  private readonly Dictionary<KeyCode, Vector2> keysDictionary = new()
-  {
+  private readonly Dictionary<KeyCode, Vector2> keysDictionary = new() {
     { KeyCode.W, Vector2.up },
     { KeyCode.UpArrow, Vector2.up },
     { KeyCode.S, Vector2.down },
@@ -18,51 +19,39 @@ public class PlayerController : MonoBehaviour {
     { KeyCode.RightArrow, Vector2.right }
   };
 
-
   void Awake() {
+    rb = GetComponent<Rigidbody2D>();
     animator = GetComponent<Animator>();
   }
 
   void Update() {
-    UpdateKeysBeingHolded();
-    Vector2 currentDirection = GetCurrentDirection();
+    if (!rb || !animator) return;
 
-    // Update Animator
-    bool isWalking = currentDirection != Vector2.zero;
+    UpdateKeysBeingHolded();
+
+    Vector2 currentDirection = GetCurrentDirection();
     bool up = Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow);
     bool down = Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow);
     bool left = Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow);
     bool right = Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow);
 
-    animator.SetBool("isWalking", isWalking);
-    if (up && down) {
-      animator.SetFloat("walkingY", currentDirection.y);
-      animator.SetFloat("walkingX", 0);
-    }
-    else if (left && right) {
-      animator.SetFloat("walkingX", currentDirection.x);
-      animator.SetFloat("walkingY", 0);
-    }
-    else if (isWalking) {
-      animator.SetFloat("walkingX", currentDirection.x);
-      animator.SetFloat("walkingY", currentDirection.y);
-    }
+    UpdateAnimator(currentDirection, up, down, left, right);
 
-    // Movement
     float horizontal = Input.GetAxisRaw("Horizontal");
     float vertical = Input.GetAxisRaw("Vertical");
     bool hasInverseDirections = (up && down) || (left && right);
     float sprintMultiplier = 1f;
 
     if (Input.GetKey(KeyCode.LeftShift)) {
-      sprintMultiplier = 3f;
+      sprintMultiplier = sprintSpeed / speed;
     }
+
+    Vector2 movement = new Vector2(horizontal, vertical).normalized;
     if (hasInverseDirections) {
-      transform.Translate(sprintMultiplier * speed * Time.deltaTime * currentDirection);
+      rb.MovePosition(rb.position + sprintMultiplier * speed * Time.deltaTime * currentDirection);
     }
     else {
-      Vector2 movement = new Vector2(horizontal, vertical);
-      transform.Translate(sprintMultiplier * speed * Time.deltaTime * movement);
+      rb.MovePosition(rb.position + sprintMultiplier * speed * Time.deltaTime * movement);
     }
   }
 
@@ -89,5 +78,27 @@ public class PlayerController : MonoBehaviour {
         keysBeingHolded.Remove(pair.Key);
       }
     }
+  }
+
+  private void UpdateAnimator(Vector2 currentDirection, bool up, bool down, bool left, bool right) {
+    if (animator == null) {
+      Debug.LogError("Animator component is missing.");
+      return;
+    }
+    bool isWalking = currentDirection != Vector2.zero;
+    animator.SetBool("isWalking", isWalking);
+    if (up && down) {
+      animator.SetFloat("walkingY", currentDirection.y);
+      animator.SetFloat("walkingX", 0);
+    }
+    else if (left && right) {
+      animator.SetFloat("walkingX", currentDirection.x);
+      animator.SetFloat("walkingY", 0);
+    }
+    else if (isWalking) {
+      animator.SetFloat("walkingX", currentDirection.x);
+      animator.SetFloat("walkingY", currentDirection.y);
+    }
+
   }
 }

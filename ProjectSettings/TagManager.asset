@@ -15,7 +15,7 @@ TagManager:
   - Foots
   - Player Body
   - Coins
-  - 
+  - BackgroundObstacles
   - 
   - 
   - 
@@ -39,8 +39,17 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: 'Tilemap Background '
+    uniqueID: 3883114295
+    locked: 0
+  - name: Tilemap Upper
+    uniqueID: 3200637405
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: 
+    uniqueID: 3564939657
     locked: 0
   m_RenderingLayers:
   - Default

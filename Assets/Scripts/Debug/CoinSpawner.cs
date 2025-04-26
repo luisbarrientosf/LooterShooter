@@ -1,26 +1,40 @@
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class CoinSpawner : MonoBehaviour {
   public ObjectPool coinPool;
   public int count = 200;
   public Vector2 spawnArea = new Vector2(30, 30);
+  public Tilemap obstacleTilemap;
 
   void Start() {
-    if (coinPool == null) return;
+    if (coinPool == null || obstacleTilemap == null) return;
 
-    for (int i = 0; i < count; i++) {
-      Vector2 position = new Vector2(
+    int spawned = 0;
+    int tries = 0;
+    int maxTries = count * 10; // Avoid infinite loop
+
+    while (spawned < count && tries < maxTries) {
+      tries++;
+
+      Vector3 worldPos = new Vector3(
           Random.Range(-spawnArea.x, spawnArea.x),
-          Random.Range(-spawnArea.y, spawnArea.y)
+          Random.Range(-spawnArea.y, spawnArea.y),
+          0
       );
 
-      GameObject coin = coinPool.Get();
-      coin.transform.position = position;
+      Vector3Int tilePos = obstacleTilemap.WorldToCell(worldPos);
 
-      CoinSpin spin = coin.GetComponent<CoinSpin>();
-      spin.SetRandomFlipAmount(0.6f, 1.0f);
-      spin.ResetSpin();
+      // Only spawn if there's NO obstacle tile
+      if (!obstacleTilemap.HasTile(tilePos)) {
+        GameObject coin = coinPool.Get();
+        coin.transform.position = worldPos; // center coin
 
+        CoinSpin spin = coin.GetComponent<CoinSpin>();
+        spin.ResetSpin();
+
+        spawned++;
+      }
     }
   }
 }
