@@ -27,8 +27,11 @@ public class EnemySpawner : MonoBehaviour {
 
       // Only spawn if there's NO obstacle tile
       if (!obstacleTilemap.HasTile(tilePos)) {
-        GameObject enemy = enemyPool.Get();
-        enemy.transform.position = worldPos;
+        GameObject enemyGameObject = enemyPool.Get();
+        enemyGameObject.transform.position = worldPos;
+
+        Enemy enemy = enemyGameObject.GetComponent<Enemy>();
+        enemy.pool = enemyPool;
 
         spawned++;
       }

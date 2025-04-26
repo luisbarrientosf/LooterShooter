@@ -7,6 +7,7 @@ public class Bullet : MonoBehaviour {
   private Vector2 direction;
   private float lifeTimer;
   private ObjectPool pool;
+  private bool hasHit = false;
 
   public void Init(Vector2 shootDir, ObjectPool bulletPool) {
     direction = shootDir.normalized;
@@ -24,7 +25,11 @@ public class Bullet : MonoBehaviour {
   }
 
   void OnTriggerEnter2D(Collider2D other) {
+    if (!gameObject.activeInHierarchy) return;
+    if (hasHit) return;
+
     if (other.CompareTag("Enemy")) {
+      hasHit = true;
       var enemy = other.GetComponentInParent<Enemy>();
       if (enemy != null) {
         enemy.TakeDamage(3); // or any damage value
@@ -36,12 +41,15 @@ public class Bullet : MonoBehaviour {
       ReturnToPool();
     }
     else if (other.CompareTag("Wall")) {
+      hasHit = true;
       ReturnToPool();
     }
   }
 
   void ReturnToPool() {
     gameObject.SetActive(false);
+    hasHit = false;
+    lifeTimer = lifetime;
     pool.Return(gameObject);
   }
 }
