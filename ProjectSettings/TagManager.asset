@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - EnemyFoot
+  - Enemy
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -15,10 +17,10 @@ TagManager:
   - Foots
   - Player Body
   - Coins
-  - BackgroundObstacles
-  - 
-  - 
-  - 
+  - Obstacles
+  - Player Bullets
+  - Enemy Bullets
+  - Enemy Body
   - 
   - 
   - 
