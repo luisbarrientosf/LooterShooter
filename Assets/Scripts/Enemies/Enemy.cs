@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour {
   public ObjectPool pool;
+  public ObjectPool coinPool;
   public float maxHealth = 100f;
   private float currentHealth;
 
@@ -57,9 +58,32 @@ public class Enemy : MonoBehaviour {
   }
 
   private void Die() {
+
+    DropCoins();
+    // Reset health and deactivate the enemy
     currentHealth = maxHealth;
     targetHealthPercent = 1f;
     gameObject.SetActive(false);
     pool.Return(gameObject);
+  }
+
+  private void DropCoins() {
+    int coinAmount = Random.Range(1, 5);
+    float coinForce = 3f;
+    for (int i = 0; i < coinAmount; i++) {
+      GameObject coin = coinPool.Get();
+      if (coin == null) continue;
+
+      coin.transform.position = transform.position;
+      coin.transform.rotation = Quaternion.identity;
+      coin.SetActive(true);
+
+      Rigidbody2D rb = coin.GetComponent<Rigidbody2D>();
+      if (rb != null) {
+        Vector2 forceDir = Random.insideUnitCircle.normalized;
+        rb.linearVelocity = Vector2.zero;
+        rb.AddForce(forceDir * coinForce, ForceMode2D.Impulse);
+      }
+    }
   }
 }

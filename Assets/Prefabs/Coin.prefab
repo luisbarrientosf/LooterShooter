@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   magnetRange: 3
-  magnetSpeed: 3
+  magnetSpeed: 4
   slowdownRate: 3.5
 --- !u!114 &4381291641606752023
 MonoBehaviour:
@@ -200,7 +200,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDamping: 0
+  m_LinearDamping: 3
   m_AngularDamping: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
