@@ -11,6 +11,7 @@ public class ObjectPool : MonoBehaviour {
     for (int i = 0; i < initialSize; i++) {
       GameObject obj = Instantiate(prefab);
       obj.SetActive(false);
+      obj.transform.SetParent(transform);
       pool.Enqueue(obj);
     }
   }
@@ -25,6 +26,7 @@ public class ObjectPool : MonoBehaviour {
     // Expand pool if needed
     GameObject newObj = Instantiate(prefab);
     newObj.SetActive(true);
+    newObj.transform.SetParent(transform);
     return newObj;
   }
 

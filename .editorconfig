@@ -2,6 +2,5 @@
 indent_style = space
 indent_size = 2
 insert_final_newline = true
-csharp_new_line_before_open_brace = all
 csharp_indent_switch_labels = true
 csharp_new_line_before_open_brace = none
