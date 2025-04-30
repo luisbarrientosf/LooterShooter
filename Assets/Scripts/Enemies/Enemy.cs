@@ -68,14 +68,18 @@ public class Enemy : MonoBehaviour {
   }
 
   private void DropCoins() {
-    int coinAmount = Random.Range(1, 5);
-    float coinForce = 3f;
+    int coinAmount = Random.Range(3, 8);
+    float coinForce = 1f;
     for (int i = 0; i < coinAmount; i++) {
       GameObject coin = coinPool.Get();
       if (coin == null) continue;
 
-      coin.transform.position = transform.position;
-      coin.transform.rotation = Quaternion.identity;
+      coin.transform.SetPositionAndRotation(transform.position, Quaternion.identity);
+
+      if (coin.TryGetComponent<CoinSpin>(out var coinSpin)) {
+        coinSpin.ResetSpin();
+      }
+
       coin.SetActive(true);
 
       Rigidbody2D rb = coin.GetComponent<Rigidbody2D>();
