@@ -7,4 +7,8 @@ public class PlayerInventory : MonoBehaviour {
     coinCount++;
     Debug.Log("Coin collected! Total: " + coinCount);
   }
+
+  public int GetCoinCount() {
+    return coinCount;
+  }
 }

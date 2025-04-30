@@ -4,13 +4,14 @@ public class UIManager : MonoBehaviour {
   public static UIManager Instance;
 
   public GameObject inventoryPanel;
-  public GameObject hudPanel;
 
   private void Awake() {
     if (Instance != null && Instance != this) {
       Destroy(this.gameObject);
       return;
     }
+
+    inventoryPanel.SetActive(false); // Ensure inventory is closed at start
 
     Instance = this;
     DontDestroyOnLoad(gameObject); // optional if you want persistence
