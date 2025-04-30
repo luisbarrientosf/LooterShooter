@@ -8,16 +8,16 @@ public class SpriteYSort : MonoBehaviour {
   private int lastBaseOrder;
 
   void LateUpdate() {
-    float currentY = transform.position.y;
-    if (Mathf.Approximately(currentY, lastY)) return;
+    if (!spriteRenderer) return;
 
-    lastY = currentY;
-    int baseOrder = -(int)(currentY * sortingScale);
+    float bottomY = spriteRenderer.bounds.min.y;
+    if (Mathf.Approximately(bottomY, lastY)) return;
+
+    lastY = bottomY;
+    int baseOrder = -(int)(bottomY * sortingScale);
     if (baseOrder == lastBaseOrder) return;
 
     lastBaseOrder = baseOrder;
-
-    if (spriteRenderer) spriteRenderer.sortingOrder = baseOrder;
-
+    spriteRenderer.sortingOrder = baseOrder;
   }
 }

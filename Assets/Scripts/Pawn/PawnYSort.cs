@@ -16,11 +16,22 @@ public class PlayerYSort : MonoBehaviour {
   private int lastBaseOrder;
 
   void LateUpdate() {
-    float currentY = transform.position.y;
-    if (Mathf.Approximately(currentY, lastY)) return;
+    Bounds bounds = new Bounds(transform.position, Vector3.zero);
 
-    lastY = currentY;
-    int baseOrder = -(int)(currentY * sortingScale);
+    if (shadowRenderer) bounds.Encapsulate(shadowRenderer.bounds);
+    if (bodyRenderer) bounds.Encapsulate(bodyRenderer.bounds);
+    if (bodyBorderRenderer) bounds.Encapsulate(bodyBorderRenderer.bounds);
+    if (headRenderer) bounds.Encapsulate(headRenderer.bounds);
+    if (headBorderRenderer) bounds.Encapsulate(headBorderRenderer.bounds);
+    if (leftEyeRenderer) bounds.Encapsulate(leftEyeRenderer.bounds);
+    if (rightEyeRenderer) bounds.Encapsulate(rightEyeRenderer.bounds);
+    if (hatRenderer) bounds.Encapsulate(hatRenderer.bounds);
+
+    float bottomY = bounds.min.y;
+    if (Mathf.Approximately(bottomY, lastY)) return;
+
+    lastY = bottomY;
+    int baseOrder = -(int)(bottomY * sortingScale);
     if (baseOrder == lastBaseOrder) return;
 
     lastBaseOrder = baseOrder;

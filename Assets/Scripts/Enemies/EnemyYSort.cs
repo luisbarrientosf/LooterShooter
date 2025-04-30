@@ -11,11 +11,18 @@ public class EnemyYSort : MonoBehaviour {
   private int lastBaseOrder;
 
   void LateUpdate() {
-    float currentY = transform.position.y;
-    if (Mathf.Approximately(currentY, lastY)) return;
 
-    lastY = currentY;
-    int baseOrder = -(int)(currentY * sortingScale);
+    Bounds bounds = new Bounds(transform.position, Vector3.zero);
+    if (bodyRenderer != null) bounds.Encapsulate(bodyRenderer.bounds);
+    if (bodyBorderRenderer != null) bounds.Encapsulate(bodyBorderRenderer.bounds);
+    if (headRenderer != null) bounds.Encapsulate(headRenderer.bounds);
+
+    float bottomY = bounds.min.y; // This gives the bottom Y of the object
+
+    if (Mathf.Approximately(bottomY, lastY)) return;
+
+    lastY = bottomY;
+    int baseOrder = -(int)(bottomY * sortingScale);
     if (baseOrder == lastBaseOrder) return;
 
     lastBaseOrder = baseOrder;
@@ -26,11 +33,9 @@ public class EnemyYSort : MonoBehaviour {
 
     if (healthBar) {
       SpriteRenderer[] healthBarRenderers = healthBar.GetComponentsInChildren<SpriteRenderer>();
-      if (healthBarRenderers.Length > 0) {
-        foreach (SpriteRenderer healthBarRenderer in healthBarRenderers) {
-          if (healthBarRenderer != null) {
-            healthBarRenderer.sortingOrder = baseOrder + 3;
-          }
+      foreach (SpriteRenderer healthBarRenderer in healthBarRenderers) {
+        if (healthBarRenderer != null) {
+          healthBarRenderer.sortingOrder = baseOrder + 3;
         }
       }
     }
