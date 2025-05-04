@@ -1011,7 +1011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pool: {fileID: 0}
   coinPool: {fileID: 0}
-  maxHealth: 3
+  maxHealth: 5
   healthBar: {fileID: 8365771971003189350}
   healthBarFill: {fileID: 7526448450896502579}
   damageTextPrefab: {fileID: 3342897213597974981}
