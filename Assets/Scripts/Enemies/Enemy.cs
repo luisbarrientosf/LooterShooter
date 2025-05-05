@@ -1,8 +1,10 @@
 using UnityEngine;
 
 public class Enemy : MonoBehaviour {
-  public ObjectPool pool;
-  public ObjectPool coinPool;
+  private ObjectPool pool;
+  private ObjectPool coinPool;
+  private ObjectPool damageTextPool;
+
   public float maxHealth = 100f;
   private float currentHealth;
 
@@ -92,19 +94,21 @@ public class Enemy : MonoBehaviour {
     }
   }
 
-  void ShowDamageText(int amount) {
-    Vector3 spawnPos = transform.position + new Vector3(0, 1f, 0); // above enemy
-    GameObject damageText = Instantiate(damageTextPrefab, spawnPos, Quaternion.identity);
+  private void ShowDamageText(int amount) {
+    GameObject instance = damageTextPool.Get();
+    DamageText damageText = instance.GetComponent<DamageText>();
+    damageText.Initialize(damageTextPool, transform, amount);
+  }
 
-    var damageScript = damageText.GetComponent<DamageText>();
-    damageScript.SetText(amount.ToString());
+  public void SetPool(ObjectPool newPool) {
+    pool = newPool;
+  }
 
-    // Face the camera (works with orthographic too)
-    damageText.transform.forward = Camera.main.transform.forward;
+  public void SetCoinPool(ObjectPool newCoinPool) {
+    coinPool = newCoinPool;
+  }
 
-    // Optional: adjust Z position if you need to sort above other objects
-    Vector3 pos = damageText.transform.position;
-    pos.z = transform.position.z - 1f; // slightly closer to camera
-    damageText.transform.position = pos;
+  public void SetDamageTextPool(ObjectPool newDamageTextPool) {
+    damageTextPool = newDamageTextPool;
   }
 }

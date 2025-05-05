@@ -10,23 +10,35 @@ public class DamageText : MonoBehaviour {
   private Color originalColor;
   private float timer = 0f;
   private Vector3 originalScale;
+  private ObjectPool pool;
+  private Transform followTarget;
+  private Vector3 offset = Vector3.up * 1f;
 
   void Awake() {
     text = GetComponent<TextMeshPro>();
+    text.sortingLayerID = SortingLayer.NameToID("In Game UI");
     originalColor = text.color;
     originalScale = transform.localScale;
+    transform.forward = Camera.main.transform.forward;
   }
 
-  public void SetText(string damage) {
-    text.text = damage;
+  public void Initialize(ObjectPool pool, Transform reference, int damage) {
+    this.pool = pool;
+    this.followTarget = reference;
+    text.text = damage.ToString();
     timer = 0f;
+
+    transform.position = reference.position + offset;
   }
 
   void Update() {
+    if (pool == null) return;
     timer += Time.deltaTime;
 
-    // Float upward
-    transform.position += Vector3.up * floatSpeed * Time.deltaTime;
+    // Follow the reference (world-space, floating upward over time)
+    if (followTarget != null) {
+      transform.position = followTarget.position + offset + Vector3.up * (floatSpeed * timer);
+    }
 
     // Fade out
     float alpha = Mathf.Lerp(1f, 0f, timer / fadeDuration);
@@ -36,8 +48,9 @@ public class DamageText : MonoBehaviour {
     float scale = Mathf.Lerp(1f, scaleUpAmount, timer / fadeDuration);
     transform.localScale = originalScale * scale;
 
-    // Destroy when done
-    // if (timer >= fadeDuration)
-    //   Destroy(gameObject);
+    if (timer >= fadeDuration) {
+      followTarget = null;
+      pool.Return(gameObject);
+    }
   }
 }

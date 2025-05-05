@@ -4,6 +4,7 @@ using UnityEngine.Tilemaps;
 public class EnemySpawner : MonoBehaviour {
   public ObjectPool enemyPool;
   public ObjectPool coinPool;
+  public ObjectPool damageTextPool;
   public int count = 200;
   public Vector2 spawnArea = new Vector2(30, 30);
   public Tilemap obstacleTilemap;
@@ -32,9 +33,9 @@ public class EnemySpawner : MonoBehaviour {
         enemyGameObject.transform.position = worldPos;
 
         Enemy enemy = enemyGameObject.GetComponent<Enemy>();
-        enemy.pool = enemyPool;
-        enemy.coinPool = coinPool;
-
+        enemy.SetPool(enemyPool);
+        enemy.SetCoinPool(coinPool);
+        enemy.SetDamageTextPool(damageTextPool);
         spawned++;
       }
     }
