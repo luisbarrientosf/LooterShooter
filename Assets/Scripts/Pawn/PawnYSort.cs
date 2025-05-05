@@ -9,6 +9,7 @@ public class PlayerYSort : MonoBehaviour {
   public SpriteRenderer rightEyeRenderer;
   public SpriteRenderer hatRenderer;
   public SpriteRenderer shadowRenderer;
+  public MeshRenderer damageTextMeshRenderer;
 
   public float sortingScale = 100f;
 
@@ -26,6 +27,7 @@ public class PlayerYSort : MonoBehaviour {
     if (leftEyeRenderer) bounds.Encapsulate(leftEyeRenderer.bounds);
     if (rightEyeRenderer) bounds.Encapsulate(rightEyeRenderer.bounds);
     if (hatRenderer) bounds.Encapsulate(hatRenderer.bounds);
+    if (damageTextMeshRenderer) bounds.Encapsulate(damageTextMeshRenderer.bounds);
 
     float bottomY = bounds.min.y;
     if (Mathf.Approximately(bottomY, lastY)) return;
@@ -44,5 +46,6 @@ public class PlayerYSort : MonoBehaviour {
     if (leftEyeRenderer) leftEyeRenderer.sortingOrder = baseOrder + 5;
     if (rightEyeRenderer) rightEyeRenderer.sortingOrder = baseOrder + 5;
     if (hatRenderer) hatRenderer.sortingOrder = baseOrder + 6;
+    if (damageTextMeshRenderer) damageTextMeshRenderer.sortingOrder = baseOrder + 7;
   }
 }

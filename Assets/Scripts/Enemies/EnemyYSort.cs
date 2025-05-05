@@ -5,6 +5,7 @@ public class EnemyYSort : MonoBehaviour {
   public SpriteRenderer bodyRenderer;
   public SpriteRenderer headRenderer;
   public GameObject healthBar;
+  public MeshRenderer damageTextMeshRenderer;
   public float sortingScale = 100f;
 
   private float lastY;
@@ -16,6 +17,7 @@ public class EnemyYSort : MonoBehaviour {
     if (bodyRenderer != null) bounds.Encapsulate(bodyRenderer.bounds);
     if (bodyBorderRenderer != null) bounds.Encapsulate(bodyBorderRenderer.bounds);
     if (headRenderer != null) bounds.Encapsulate(headRenderer.bounds);
+    if (damageTextMeshRenderer != null) bounds.Encapsulate(damageTextMeshRenderer.bounds);
 
     float bottomY = bounds.min.y; // This gives the bottom Y of the object
 
@@ -39,5 +41,8 @@ public class EnemyYSort : MonoBehaviour {
         }
       }
     }
+
+    if (damageTextMeshRenderer) damageTextMeshRenderer.sortingOrder = baseOrder + 4;
+
   }
 }

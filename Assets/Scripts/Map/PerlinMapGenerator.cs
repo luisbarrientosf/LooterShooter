@@ -34,6 +34,7 @@ public class PerlinMapGenerator : MonoBehaviour {
           obstacleTilemap.SetTile(pos, waterTile);
         }
         else if (noise > mountainThreshold) {
+          groundTilemap.SetTile(pos, grassTile);
           obstacleTilemap.SetTile(pos, mountainTile);
         }
         else {

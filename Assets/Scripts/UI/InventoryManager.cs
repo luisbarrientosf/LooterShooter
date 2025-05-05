@@ -11,10 +11,10 @@ public class UIManager : MonoBehaviour {
       return;
     }
 
-    inventoryPanel.SetActive(false); // Ensure inventory is closed at start
+    inventoryPanel.SetActive(false);
 
     Instance = this;
-    DontDestroyOnLoad(gameObject); // optional if you want persistence
+    DontDestroyOnLoad(gameObject);
   }
 
   private void Update() {

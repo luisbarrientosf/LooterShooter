@@ -413,11 +413,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122579721}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2763991066318763801}
+  m_Father: {fileID: 1871354238}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1163,11 +1163,11 @@ MonoBehaviour:
   height: 100
   scale: 10
   groundTilemap: {fileID: 317558793}
-  waterTile: {fileID: 11400000, guid: 039cd78a2bdd347ecba463dfed117d4a, type: 2}
+  waterTile: {fileID: 11400000, guid: 1e001bd70734f44c0959f3c806950d05, type: 2}
   grassTile: {fileID: 11400000, guid: 67d89565a9125469bbb2f83831140df8, type: 2}
-  mountainTile: {fileID: 11400000, guid: 1e001bd70734f44c0959f3c806950d05, type: 2}
-  waterThreshold: 0.4
-  mountainThreshold: 0.75
+  mountainTile: {fileID: 11400000, guid: bf54adbaf9f0d4e058247f94a53e1429, type: 2}
+  waterThreshold: 0.3
+  mountainThreshold: 0.9
   noiseOffset: {x: 0, y: 0}
   obstacleTilemap: {fileID: 2058867079}
 --- !u!4 &1033956011
@@ -1473,6 +1473,11 @@ Transform:
   - {fileID: 1144004760}
   m_Father: {fileID: 29845008}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1871354238 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1537383489085232898, guid: f5c5b08d8c167594fb26ec4a8da8e1ee, type: 3}
+  m_PrefabInstance: {fileID: 6805830517624672983}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2047690927
 GameObject:
   m_ObjectHideFlags: 0
@@ -1872,6 +1877,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2648342861244907033, guid: f5c5b08d8c167594fb26ec4a8da8e1ee, type: 3}
+      propertyPath: damageTextMeshRenderer
+      value: 
+      objectReference: {fileID: 122579724}
     - target: {fileID: 3469884058572759005, guid: f5c5b08d8c167594fb26ec4a8da8e1ee, type: 3}
       propertyPath: m_Color.b
       value: 0.28648984
@@ -1982,8 +1991,8 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7492849668588653457, guid: f5c5b08d8c167594fb26ec4a8da8e1ee, type: 3}
       insertIndex: 0
       addedObject: {fileID: 2085936674}
-    - targetCorrespondingSourceObject: {fileID: 7492849668588653457, guid: f5c5b08d8c167594fb26ec4a8da8e1ee, type: 3}
-      insertIndex: -1
+    - targetCorrespondingSourceObject: {fileID: 1537383489085232898, guid: f5c5b08d8c167594fb26ec4a8da8e1ee, type: 3}
+      insertIndex: 0
       addedObject: {fileID: 122579725}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7643971904622659734, guid: f5c5b08d8c167594fb26ec4a8da8e1ee, type: 3}
