@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public class HUDManager : MonoBehaviour {
+public class HudUIManager : MonoBehaviour {
   public TextMeshProUGUI text;
   private PlayerHealth playerHealth;
   private PlayerInventory playerInventory;

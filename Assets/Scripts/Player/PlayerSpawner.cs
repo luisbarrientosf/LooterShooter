@@ -9,7 +9,9 @@ public class PlayerSpawner : MonoBehaviour {
   public Vector3Int searchMax = new Vector3Int(10, 10, 0);
 
   void Start() {
-    Vector3Int spawnCell = FindValidSpawnPosition(searchMin, searchMax);
+    // Vector3Int spawnCell = FindValidSpawnPosition(searchMin, searchMax);
+    // Vector3 worldPos = backgroundTilemap.CellToWorld(spawnCell) + new Vector3(0.5f, 0.5f, 0f);
+    Vector3Int spawnCell = new Vector3Int(0, 0, 0);
     Vector3 worldPos = backgroundTilemap.CellToWorld(spawnCell) + new Vector3(0.5f, 0.5f, 0f);
     playerTransform.position = worldPos;
   }
