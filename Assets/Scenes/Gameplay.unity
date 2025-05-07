@@ -1134,15 +1134,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f63e35a054401471499831cc5554de7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 100
-  height: 100
+  width: 200
+  height: 200
   scale: 10
   groundTilemap: {fileID: 317558793}
   waterTile: {fileID: 11400000, guid: 1e001bd70734f44c0959f3c806950d05, type: 2}
   grassTile: {fileID: 11400000, guid: 67d89565a9125469bbb2f83831140df8, type: 2}
-  mountainTile: {fileID: 11400000, guid: bf54adbaf9f0d4e058247f94a53e1429, type: 2}
+  mountainTile: {fileID: 11400000, guid: 482ffb917110f48e1a38a63426aabca0, type: 2}
   waterThreshold: 0.3
-  mountainThreshold: 0.9
+  mountainThreshold: 0.5
   noiseOffset: {x: 0, y: 0}
   obstacleTilemap: {fileID: 2058867079}
 --- !u!4 &1033956011
@@ -1565,7 +1565,7 @@ TilemapCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
+  m_CompositeOperation: 1
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
@@ -1609,7 +1609,9 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths: []
+  m_ColliderPaths:
+  - m_Collider: {fileID: 2058867075}
+    m_ColliderPaths: []
   m_CompositePaths:
     m_Paths: []
   m_VertexDistance: 0.0005
