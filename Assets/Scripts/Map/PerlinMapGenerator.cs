@@ -6,7 +6,6 @@ public class PerlinMapGenerator : MonoBehaviour {
   public int height = 100;
   public float scale = 10f;
 
-  public Tilemap groundTilemap;
   public TileBase waterTile;
   public TileBase grassTile;
   public TileBase mountainTile;
@@ -15,6 +14,9 @@ public class PerlinMapGenerator : MonoBehaviour {
   public float mountainThreshold = 0.75f;
 
   public Vector2 noiseOffset;
+
+  public Tilemap backgroundTilemap;
+  public Tilemap groundTilemap;
   public Tilemap obstacleTilemap;
 
   void Start() {
@@ -38,6 +40,7 @@ public class PerlinMapGenerator : MonoBehaviour {
           obstacleTilemap.SetTile(pos, mountainTile);
         }
         else {
+          backgroundTilemap.SetTile(pos, waterTile);
           groundTilemap.SetTile(pos, grassTile);
         }
       }

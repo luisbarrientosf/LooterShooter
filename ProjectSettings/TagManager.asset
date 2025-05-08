@@ -44,7 +44,10 @@ TagManager:
   - name: 'Tilemap Background '
     uniqueID: 3883114295
     locked: 0
-  - name: Tilemap Upper
+  - name: Tilemap Ground
+    uniqueID: 4030856083
+    locked: 0
+  - name: Tilemap Obstacles
     uniqueID: 3200637405
     locked: 0
   - name: Default
