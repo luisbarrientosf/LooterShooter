@@ -9,13 +9,14 @@ public class PawnBounceAnimation : MonoBehaviour {
 
   private Vector3 startPos;
   public float bounceTimer;
+  private bool isWalking = false;
 
   void Start() {
     startPos = bounceTarget.localPosition;
   }
 
   void Update() {
-    bool isWalking = animator.GetBool("isWalking");
+    isWalking = animator.GetBool("isWalking");
 
     if (isWalking) {
       bounceTimer += Time.deltaTime * bounceSpeed;
@@ -26,5 +27,9 @@ public class PawnBounceAnimation : MonoBehaviour {
       bounceTarget.localPosition = Vector3.Lerp(bounceTarget.localPosition, startPos, Time.deltaTime * 10f);
       bounceTimer = 0f;
     }
+  }
+
+  public bool IsWalking() {
+    return isWalking;
   }
 }

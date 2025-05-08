@@ -1264,8 +1264,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad9aee89bcc979a41b5f998841f1388f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
-  sprintSpeed: 50
+  speed: 20
+  sprintSpeed: 35
 --- !u!114 &3315175885367115483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1279,6 +1279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinCount: 0
+  items: []
 --- !u!50 &4284157809974329306
 Rigidbody2D:
   serializedVersion: 5
@@ -1333,7 +1334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  damageTextPrefab: {fileID: 0}
+  damageTextPool: {fileID: 0}
 --- !u!1 &8500260931661340035
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour {
   private Rigidbody2D rb;
   private Animator animator;
 
+  private Vector2 movementInput = Vector2.zero;
+
   private readonly List<KeyCode> keysBeingHolded = new();
   private readonly Dictionary<KeyCode, Vector2> keysDictionary = new() {
     { KeyCode.W, Vector2.up },
@@ -40,18 +42,16 @@ public class PlayerController : MonoBehaviour {
     float horizontal = Input.GetAxisRaw("Horizontal");
     float vertical = Input.GetAxisRaw("Vertical");
     bool hasInverseDirections = (up && down) || (left && right);
-    float sprintMultiplier = 1f;
+    float sprintMultiplier = Input.GetKey(KeyCode.LeftShift) ? sprintSpeed / speed : 1f;
 
-    if (Input.GetKey(KeyCode.LeftShift)) {
-      sprintMultiplier = sprintSpeed / speed;
-    }
+    Vector2 inputVector = new Vector2(horizontal, vertical).normalized;
+    movementInput = hasInverseDirections ? currentDirection : inputVector;
+    movementInput *= speed * sprintMultiplier;
+  }
 
-    Vector2 movement = new Vector2(horizontal, vertical).normalized;
-    if (hasInverseDirections) {
-      rb.MovePosition(rb.position + sprintMultiplier * speed * Time.deltaTime * currentDirection);
-    }
-    else {
-      rb.MovePosition(rb.position + sprintMultiplier * speed * Time.deltaTime * movement);
+  void FixedUpdate() {
+    if (movementInput != Vector2.zero) {
+      rb.MovePosition(rb.position + movementInput * Time.fixedDeltaTime);
     }
   }
 
@@ -85,8 +85,10 @@ public class PlayerController : MonoBehaviour {
       Debug.LogError("Animator component is missing.");
       return;
     }
+
     bool isWalking = currentDirection != Vector2.zero;
     animator.SetBool("isWalking", isWalking);
+
     if (up && down) {
       animator.SetFloat("walkingY", currentDirection.y);
       animator.SetFloat("walkingX", 0);
@@ -99,6 +101,5 @@ public class PlayerController : MonoBehaviour {
       animator.SetFloat("walkingX", currentDirection.x);
       animator.SetFloat("walkingY", currentDirection.y);
     }
-
   }
 }

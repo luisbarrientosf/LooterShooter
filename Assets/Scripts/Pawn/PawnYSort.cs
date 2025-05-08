@@ -9,6 +9,10 @@ public class PlayerYSort : MonoBehaviour {
   public SpriteRenderer rightEyeRenderer;
   public SpriteRenderer hatRenderer;
   public SpriteRenderer shadowRenderer;
+  public SpriteRenderer leftHandRendererBorder;
+  public SpriteRenderer leftHandRenderer;
+  public SpriteRenderer rightHandRendererBorder;
+  public SpriteRenderer rightHandRenderer;
   public MeshRenderer damageTextMeshRenderer;
 
   public float sortingScale = 100f;
@@ -27,6 +31,10 @@ public class PlayerYSort : MonoBehaviour {
     if (leftEyeRenderer) bounds.Encapsulate(leftEyeRenderer.bounds);
     if (rightEyeRenderer) bounds.Encapsulate(rightEyeRenderer.bounds);
     if (hatRenderer) bounds.Encapsulate(hatRenderer.bounds);
+    if (leftHandRenderer) bounds.Encapsulate(leftHandRenderer.bounds);
+    if (leftHandRendererBorder) bounds.Encapsulate(leftHandRendererBorder.bounds);
+    if (rightHandRenderer) bounds.Encapsulate(rightHandRenderer.bounds);
+    if (rightHandRendererBorder) bounds.Encapsulate(rightHandRendererBorder.bounds);
     if (damageTextMeshRenderer) bounds.Encapsulate(damageTextMeshRenderer.bounds);
 
     float bottomY = bounds.min.y;
@@ -47,5 +55,9 @@ public class PlayerYSort : MonoBehaviour {
     if (rightEyeRenderer) rightEyeRenderer.sortingOrder = baseOrder + 5;
     if (hatRenderer) hatRenderer.sortingOrder = baseOrder + 6;
     if (damageTextMeshRenderer) damageTextMeshRenderer.sortingOrder = baseOrder + 7;
+    if (leftHandRendererBorder) leftHandRendererBorder.sortingOrder = baseOrder + 8;
+    if (leftHandRenderer) leftHandRenderer.sortingOrder = baseOrder + 9;
+    if (rightHandRendererBorder) rightHandRendererBorder.sortingOrder = baseOrder + 8;
+    if (rightHandRenderer) rightHandRenderer.sortingOrder = baseOrder + 9;
   }
 }
