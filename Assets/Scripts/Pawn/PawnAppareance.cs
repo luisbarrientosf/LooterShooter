@@ -19,7 +19,7 @@ public class PawnAppearance : MonoBehaviour {
   }
 
   void Update() {
-    if (Input.GetKeyDown(KeyCode.R)) {
+    if (Input.GetKeyDown(KeyCode.X)) {
       RandomizeAppearance();
     }
   }

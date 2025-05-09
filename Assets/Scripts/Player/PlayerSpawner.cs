@@ -1,36 +1,40 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using System.Collections.Generic;
 
 public class PlayerSpawner : MonoBehaviour {
-  public Tilemap backgroundTilemap;
+  public Tilemap groundTilemap;
   public Tilemap obstacleTilemap;
   public Transform playerTransform;
-  public Vector3Int searchMin = new Vector3Int(-10, -10, 0);
-  public Vector3Int searchMax = new Vector3Int(10, 10, 0);
 
-  void Start() {
-    // Vector3Int spawnCell = FindValidSpawnPosition(searchMin, searchMax);
-    // Vector3 worldPos = backgroundTilemap.CellToWorld(spawnCell) + new Vector3(0.5f, 0.5f, 0f);
-    Vector3Int spawnCell = new Vector3Int(0, 0, 0);
-    Vector3 worldPos = backgroundTilemap.CellToWorld(spawnCell) + new Vector3(0.5f, 0.5f, 0f);
-    playerTransform.position = worldPos;
-  }
+  private List<Vector3Int> groundTiles = new List<Vector3Int>();
 
-  Vector3Int FindValidSpawnPosition(Vector3Int min, Vector3Int max) {
-    for (int attempts = 0; attempts < 100; attempts++) {
-      int x = Random.Range(min.x, max.x);
-      int y = Random.Range(min.y, max.y);
-      Vector3Int cell = new Vector3Int(x, y, 0);
-
-      bool hasGround = backgroundTilemap.HasTile(cell);
-      bool hasObstacle = obstacleTilemap.HasTile(cell);
-
-      if (hasGround && !hasObstacle) {
-        return cell;
+  void CacheGroundTiles() {
+    groundTiles.Clear();
+    // Loop through all positions in the ground tilemap's bounds
+    BoundsInt bounds = groundTilemap.cellBounds;
+    for (int x = bounds.xMin; x < bounds.xMax; x++) {
+      for (int y = bounds.yMin; y < bounds.yMax; y++) {
+        Vector3Int pos = new Vector3Int(x, y, 0);
+        if (groundTilemap.HasTile(pos)) {
+          groundTiles.Add(pos);
+        }
       }
     }
 
-    Debug.LogWarning("Could not find valid spawn position. Defaulting to searchMin.");
-    return min;
+    if (groundTiles.Count == 0) {
+      Debug.LogWarning("No ground tiles found for spawning.");
+    }
   }
+
+  public void SpawnPlayer() {
+    CacheGroundTiles();
+    if (groundTiles.Count == 0) return;
+
+    Vector3Int spawnCell = groundTiles[Random.Range(0, groundTiles.Count)];
+    Vector3 worldPos = groundTilemap.CellToWorld(spawnCell) + new Vector3(0.5f, 0.5f, 0f);
+    playerTransform.position = worldPos;
+  }
+
+
 }

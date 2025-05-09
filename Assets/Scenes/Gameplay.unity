@@ -458,8 +458,11 @@ GameObject:
   - component: {fileID: 317558791}
   - component: {fileID: 317558793}
   - component: {fileID: 317558792}
-  m_Layer: 0
-  m_Name: Background Tilemap
+  - component: {fileID: 317558795}
+  - component: {fileID: 317558794}
+  - component: {fileID: 317558796}
+  m_Layer: 4
+  m_Name: Water Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -570,6 +573,118 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!66 &317558794
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317558790}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths:
+  - m_Collider: {fileID: 317558796}
+    m_ColliderPaths: []
+  m_CompositePaths:
+    m_Paths: []
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.00005
+  m_UseDelaunayMesh: 0
+  m_CompositeGameObject: {fileID: 317558790}
+--- !u!50 &317558795
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317558790}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!19719996 &317558796
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317558790}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 1
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!1 &375362132
 GameObject:
   m_ObjectHideFlags: 0
@@ -1438,11 +1553,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70328630e12014927887a3aa10b89ca4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundTilemap: {fileID: 317558793}
+  groundTilemap: {fileID: 534603977}
   obstacleTilemap: {fileID: 2058867079}
   playerTransform: {fileID: 2763991066318763801}
-  searchMin: {x: -40, y: -40, z: 0}
-  searchMax: {x: 40, y: 40, z: 0}
 --- !u!1 &790352019
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,18 +1752,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f63e35a054401471499831cc5554de7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 200
-  height: 200
-  scale: 10
-  waterTile: {fileID: 11400000, guid: 1e001bd70734f44c0959f3c806950d05, type: 2}
+  width: 300
+  height: 300
+  scale: 14
+  waterTile: {fileID: 11400000, guid: 039cd78a2bdd347ecba463dfed117d4a, type: 2}
   grassTile: {fileID: 11400000, guid: a228c73521410454eb54335b5d02a826, type: 2}
   mountainTile: {fileID: 11400000, guid: 482ffb917110f48e1a38a63426aabca0, type: 2}
-  waterThreshold: 0.3
-  mountainThreshold: 0.5
+  waterThreshold: 0.2
+  mountainThreshold: 0.8
   noiseOffset: {x: 0, y: 0}
-  backgroundTilemap: {fileID: 317558793}
+  waterTilemap: {fileID: 317558793}
   groundTilemap: {fileID: 534603977}
   obstacleTilemap: {fileID: 2058867079}
+  playerSpawner: {fileID: 767733031}
+  enemySpawner: {fileID: 1451763292}
+  islands: []
+  islandCount: 3
+  minIslandRadius: 20
+  maxIslandRadius: 59.8
 --- !u!4 &1033956011
 Transform:
   m_ObjectHideFlags: 0
@@ -1759,7 +1878,7 @@ GameObject:
   - component: {fileID: 1215121658}
   - component: {fileID: 1215121659}
   m_Layer: 0
-  m_Name: Background Grid
+  m_Name: Water Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1841,8 +1960,9 @@ MonoBehaviour:
   coinPool: {fileID: 949129516}
   damageTextPool: {fileID: 31870129}
   count: 50
-  spawnArea: {x: 30, y: 30}
+  spawnArea: {x: 300, y: 300}
   obstacleTilemap: {fileID: 2058867079}
+  groundTilemap: {fileID: 534603977}
 --- !u!1 &1486023589
 GameObject:
   m_ObjectHideFlags: 0
