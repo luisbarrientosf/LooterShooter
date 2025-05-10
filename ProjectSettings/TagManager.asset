@@ -41,7 +41,7 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: 'Tilemap Background '
+  - name: Tilemap Water
     uniqueID: 3883114295
     locked: 0
   - name: Tilemap Ground

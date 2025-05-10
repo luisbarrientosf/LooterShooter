@@ -22,9 +22,9 @@ public class DamageText : MonoBehaviour {
     transform.forward = Camera.main.transform.forward;
   }
 
-  public void Initialize(ObjectPool pool, Transform reference, int damage) {
-    this.pool = pool;
-    this.followTarget = reference;
+  public void Initialize(ObjectPool damagePool, Transform reference, int damage) {
+    pool = damagePool;
+    followTarget = reference;
     text.text = damage.ToString();
     timer = 0f;
 

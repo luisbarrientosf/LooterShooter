@@ -17,6 +17,7 @@ public class PerlinMapGenerator : MonoBehaviour {
   public Vector2 noiseOffset;
 
   public Tilemap waterTilemap;
+  public Tilemap backgroundTilemap;
   public Tilemap groundTilemap;
   public Tilemap obstacleTilemap;
 
@@ -46,13 +47,14 @@ public class PerlinMapGenerator : MonoBehaviour {
 
   void Update() {
     if (Input.GetKeyDown(KeyCode.R)) {
-      groundTilemap.ClearAllTiles();
       waterTilemap.ClearAllTiles();
+      backgroundTilemap.ClearAllTiles();
+      groundTilemap.ClearAllTiles();
       obstacleTilemap.ClearAllTiles();
       GenerateIslands();
       GenerateMap();
       playerSpawner.SpawnPlayer();
-      enemySpawner.SpawnEnemies();
+      //enemySpawner.SpawnEnemies();
     }
   }
 
@@ -102,14 +104,13 @@ public class PerlinMapGenerator : MonoBehaviour {
 
         if (finalValue < waterThreshold) {
           waterTilemap.SetTile(pos, waterTile);
-          obstacleTilemap.SetTile(pos, waterTile);
         }
         else if (finalValue > mountainThreshold) {
           groundTilemap.SetTile(pos, grassTile);
           obstacleTilemap.SetTile(pos, mountainTile);
         }
         else {
-          waterTilemap.SetTile(pos, waterTile);
+          backgroundTilemap.SetTile(pos, waterTile);
           groundTilemap.SetTile(pos, grassTile);
         }
       }

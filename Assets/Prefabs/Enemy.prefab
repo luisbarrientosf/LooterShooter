@@ -804,7 +804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bef9b10dda887cf4c87a678cf6f8616f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 0
 --- !u!114 &415382435707409704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -820,8 +820,7 @@ MonoBehaviour:
   maxHealth: 5
   healthBar: {fileID: 8365771971003189350}
   healthBarFill: {fileID: 7526448450896502579}
-  damageTextPrefab: {fileID: 0}
-  smoothSpeed: 5
+  smoothSpeed: 1
 --- !u!114 &236154929126467458
 MonoBehaviour:
   m_ObjectHideFlags: 0

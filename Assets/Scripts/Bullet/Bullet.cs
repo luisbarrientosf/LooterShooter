@@ -13,15 +13,17 @@ public class Bullet : MonoBehaviour {
     direction = shootDir.normalized;
     lifeTimer = lifetime;
     pool = bulletPool;
-    gameObject.SetActive(true);
+    // gameObject.SetActive(true);
   }
 
   void Update() {
     transform.Translate(direction * speed * Time.deltaTime);
 
     lifeTimer -= Time.deltaTime;
-    if (lifeTimer <= 0f)
+    if (lifeTimer <= 0f) {
       ReturnToPool();
+      Debug.Log("Bullet returned to pool due to timeout.");
+    }
   }
 
   void OnTriggerEnter2D(Collider2D other) {
@@ -39,10 +41,12 @@ public class Bullet : MonoBehaviour {
       }
 
       ReturnToPool();
+      Debug.Log("Bullet hit an enemy.");
     }
     else if (other.CompareTag("Wall")) {
       hasHit = true;
       ReturnToPool();
+      Debug.Log("Bullet hit a wall.");
     }
   }
 
@@ -51,5 +55,6 @@ public class Bullet : MonoBehaviour {
     hasHit = false;
     lifeTimer = lifetime;
     pool.Return(gameObject);
+    Debug.Log("Bullet returned to pool.");
   }
 }

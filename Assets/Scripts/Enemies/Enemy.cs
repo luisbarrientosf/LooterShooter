@@ -10,7 +10,6 @@ public class Enemy : MonoBehaviour {
 
   public GameObject healthBar;
   public SpriteRenderer healthBarFill;
-  public GameObject damageTextPrefab;
 
   private float visibleTimer = 0f;
   private float visibleDuration = 2f;
