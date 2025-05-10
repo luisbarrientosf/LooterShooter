@@ -3,9 +3,14 @@ using UnityEngine;
 public class PlayerShooting : MonoBehaviour {
   public ObjectPool bulletPool;
   public Transform firePoint;
+  private GameManager gameManager;
+
+  void Start() {
+    gameManager = GameManager.Instance;
+  }
 
   void Update() {
-    if (Input.GetMouseButtonDown(0)) // left click
+    if (Input.GetMouseButtonDown(0) && !gameManager.IsGamePaused()) // left click
     {
       Shoot();
     }

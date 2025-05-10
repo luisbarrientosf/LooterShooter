@@ -25,6 +25,10 @@ public class SceneLoader : MonoBehaviour {
     while (!inventoryLoad.isDone)
       yield return null;
 
+    AsyncOperation pauseMenuLoad = SceneManager.LoadSceneAsync("Pause Menu", LoadSceneMode.Additive);
+    while (!pauseMenuLoad.isDone)
+      yield return null;
+
     SceneManager.UnloadSceneAsync("Loading");
   }
 }
