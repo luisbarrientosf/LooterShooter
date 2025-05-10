@@ -6,19 +6,25 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
+    path: Assets/Persistent Scene.unity
+    guid: ef2941101aef24626b9e2b8883365a81
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 863434899c8fa48e295c1217143ab0de
+  - enabled: 1
+    path: Assets/Scenes/Loading.unity
+    guid: e3232490623ee4211bc33b858aa6a77b
+  - enabled: 1
     path: Assets/Scenes/Gameplay.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Inventory.unity
     guid: 7068a1d03e5414fdebf11f3bad4e5d3b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/HUD.unity
     guid: 9cf5a743ad227470ebe550914e2d211b
-  - enabled: 1
-    path: Assets/Main Menu.unity
-    guid: 863434899c8fa48e295c1217143ab0de
   - enabled: 0
-    path: Assets/TestScene.unity
+    path: Assets/Scenes/TestScene.unity
     guid: e6d181fddcb5c4c77a5e252b17d2e782
   - enabled: 0
     path: Assets/Scenes/TileMap Tester.unity
