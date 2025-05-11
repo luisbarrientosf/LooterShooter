@@ -10,7 +10,8 @@ public class MainMenuUIManager : MonoBehaviour {
   public void Play() {
     // Load the game scene
     SceneLoader.targetScene = "Gameplay";
-    SceneManager.LoadScene("Loading");
+    SceneManager.LoadScene("Loading", LoadSceneMode.Additive);
+    SceneManager.UnloadSceneAsync("Main Menu");
   }
 
   public void Options() {

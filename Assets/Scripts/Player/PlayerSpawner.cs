@@ -34,6 +34,10 @@ public class PlayerSpawner : MonoBehaviour {
     Vector3Int spawnCell = groundTiles[Random.Range(0, groundTiles.Count)];
     Vector3 worldPos = groundTilemap.CellToWorld(spawnCell) + new Vector3(0.5f, 0.5f, 0f);
     playerTransform.position = worldPos;
+
+    PlayerHealth playerHealth = playerTransform.GetComponent<PlayerHealth>();
+    playerHealth.ResetHealth();
+    playerTransform.gameObject.SetActive(true);
   }
 
 

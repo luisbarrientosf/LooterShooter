@@ -21,6 +21,10 @@ public class InventoryUIManager : MonoBehaviour {
 
     Instance = this;
     DontDestroyOnLoad(gameObject);
+    DontDestroyOnLoad(inventoryPanel);
+    DontDestroyOnLoad(slotPrefab);
+    DontDestroyOnLoad(gridParent);
+    DontDestroyOnLoad(title);
     inventoryPanel.SetActive(false);
     if (title != null) {
       title.SetActive(false);
@@ -47,7 +51,28 @@ public class InventoryUIManager : MonoBehaviour {
     }
   }
 
+  public void ShowInventory() {
+    if (inventoryPanel == null) return;
+
+    inventoryPanel.SetActive(true);
+    if (title != null) {
+      title.SetActive(true);
+    }
+    RefreshUI();
+  }
+
+  public void HideInventory() {
+    if (inventoryPanel == null) return;
+
+    inventoryPanel.SetActive(false);
+    if (title != null) {
+      title.SetActive(false);
+    }
+  }
+
   void Update() {
+    if (GameManager.Instance.IsGameOver()) return;
+
     if (Input.GetKeyDown(KeyCode.I)) {
       ToggleInventory();
     }

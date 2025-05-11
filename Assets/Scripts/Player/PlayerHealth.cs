@@ -1,11 +1,24 @@
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour {
+  public static PlayerHealth Instance;
   public int maxHealth = 100;
   private int currentHealth;
   public ObjectPool damageTextPool;
+  private GameManager gameManager;
+
+  private void Start() {
+    gameManager = GameManager.Instance;
+  }
 
   void Awake() {
+    if (Instance == null) {
+      Instance = this;
+      // DontDestroyOnLoad(gameObject);
+    }
+    else {
+      Destroy(gameObject);
+    }
     currentHealth = maxHealth;
   }
 
@@ -26,9 +39,14 @@ public class PlayerHealth : MonoBehaviour {
     }
   }
 
+  public void ResetHealth() {
+    currentHealth = maxHealth;
+  }
+
   void Die() {
     Debug.Log("Player died!");
     // Add death animation, disable movement, etc.
+    gameManager.SetIsGameOver(true);
     gameObject.SetActive(false);
   }
 

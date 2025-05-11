@@ -1,9 +1,9 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class GameplaySceneLoader : MonoBehaviour {
   void Start() {
-    SceneManager.LoadSceneAsync("HUD", LoadSceneMode.Additive);
-    SceneManager.LoadSceneAsync("Inventory", LoadSceneMode.Additive);
+    GameManager.Instance.mapGenerator = PerlinMapGenerator.Instance;
+    GameManager.Instance.player = PlayerHealth.Instance;
+    GameManager.Instance.StartGame();
   }
 }

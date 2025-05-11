@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public class PerlinMapGenerator : MonoBehaviour {
+  public static PerlinMapGenerator Instance;
   public int width = 100;
   public int height = 100;
   public float scale = 10f;
@@ -38,6 +39,16 @@ public class PerlinMapGenerator : MonoBehaviour {
   public float minIslandRadius = 15f;
   public float maxIslandRadius = 30f;
 
+  void Awake() {
+    if (Instance == null) {
+      Instance = this;
+      DontDestroyOnLoad(gameObject);
+    }
+    else {
+      Destroy(gameObject);
+    }
+  }
+
   void Start() {
     GenerateIslands();
     GenerateMap();
@@ -45,17 +56,16 @@ public class PerlinMapGenerator : MonoBehaviour {
     enemySpawner.SpawnEnemies();
   }
 
-  void Update() {
-    if (Input.GetKeyDown(KeyCode.R)) {
-      waterTilemap.ClearAllTiles();
-      backgroundTilemap.ClearAllTiles();
-      groundTilemap.ClearAllTiles();
-      obstacleTilemap.ClearAllTiles();
-      GenerateIslands();
-      GenerateMap();
-      playerSpawner.SpawnPlayer();
-      //enemySpawner.SpawnEnemies();
-    }
+  public void GenerateNewMap() {
+    waterTilemap.ClearAllTiles();
+    backgroundTilemap.ClearAllTiles();
+    groundTilemap.ClearAllTiles();
+    obstacleTilemap.ClearAllTiles();
+    GenerateIslands();
+    GenerateMap();
+    playerSpawner.SpawnPlayer();
+    enemySpawner.SpawnEnemies();
+
   }
 
   void GenerateIslands() {
