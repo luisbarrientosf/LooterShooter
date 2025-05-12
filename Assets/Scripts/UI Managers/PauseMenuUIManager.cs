@@ -4,11 +4,9 @@ using UnityEngine.SceneManagement;
 public class PauseMenuUIManager : MonoBehaviour {
   public GameObject panel;
   private GameManager gameManager;
-  //private InventoryUIManager inventoryUIManager;
 
   void Awake() {
     gameManager = GameManager.Instance;
-    //inventoryUIManager = InventoryUIManager.Instance;
   }
 
   void Start() {
@@ -32,6 +30,9 @@ public class PauseMenuUIManager : MonoBehaviour {
     bool isActive = !panel.activeSelf;
     panel.SetActive(isActive);
     gameManager.SetIsGamePaused(isActive);
+    if (isActive) {
+      InventoryUIManager.Instance.HideInventory();
+    }
   }
 
 
@@ -40,11 +41,12 @@ public class PauseMenuUIManager : MonoBehaviour {
 
 
     panel.SetActive(false);
-    // inventoryUIManager.HideInventory();
     SceneManager.LoadScene("Main Menu", LoadSceneMode.Additive);
     SceneManager.UnloadSceneAsync("Gameplay");
     SceneManager.UnloadSceneAsync("Pause Menu");
     SceneManager.UnloadSceneAsync("You Died");
+    SceneManager.UnloadSceneAsync("HUD");
+    SceneManager.UnloadSceneAsync("Inventory");
   }
 
   public void Continue() {

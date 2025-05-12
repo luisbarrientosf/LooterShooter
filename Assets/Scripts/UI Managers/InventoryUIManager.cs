@@ -1,11 +1,9 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class InventoryUIManager : MonoBehaviour {
   public static InventoryUIManager Instance;
 
-  [Header("UI References")]
   public GameObject inventoryPanel;
   public GameObject slotPrefab;
   public Transform gridParent;
@@ -18,60 +16,34 @@ public class InventoryUIManager : MonoBehaviour {
       Destroy(gameObject);
       return;
     }
-
     Instance = this;
-    DontDestroyOnLoad(gameObject);
-    DontDestroyOnLoad(inventoryPanel);
-    DontDestroyOnLoad(slotPrefab);
-    DontDestroyOnLoad(gridParent);
-    DontDestroyOnLoad(title);
-    inventoryPanel.SetActive(false);
-    if (title != null) {
-      title.SetActive(false);
-    }
+    inventory = GameManager.Instance.player.GetComponent<PlayerInventory>();
   }
 
   void Start() {
-    inventory = GameManager.Instance.player.GetComponent<PlayerInventory>();
-    if (inventory == null) {
-      Debug.LogError("PlayerInventory component not found on player.");
-      return;
-    }
-    if (inventoryPanel == null) {
-      Debug.LogError("Inventory panel not assigned.");
-      return;
-    }
-    if (slotPrefab == null) {
-      Debug.LogError("Slot prefab not assigned.");
-      return;
-    }
-    if (gridParent == null) {
-      Debug.LogError("Grid parent not assigned.");
-      return;
-    }
+    if (!CheckInventoryUI()) return;
+    inventoryPanel.SetActive(false);
+    title.SetActive(false);
   }
 
   public void ShowInventory() {
-    if (inventoryPanel == null) return;
+    if (!CheckInventoryUI()) return;
 
-    inventoryPanel.SetActive(true);
-    if (title != null) {
-      title.SetActive(true);
-    }
     RefreshUI();
+    inventoryPanel.SetActive(true);
+    title.SetActive(true);
   }
 
   public void HideInventory() {
-    if (inventoryPanel == null) return;
+    if (!CheckInventoryUI()) return;
 
     inventoryPanel.SetActive(false);
-    if (title != null) {
-      title.SetActive(false);
-    }
+    title.SetActive(false);
   }
 
   void Update() {
     if (GameManager.Instance.IsGameOver()) return;
+    if (GameManager.Instance.IsGamePaused()) return;
 
     if (Input.GetKeyDown(KeyCode.I)) {
       ToggleInventory();
@@ -79,21 +51,18 @@ public class InventoryUIManager : MonoBehaviour {
   }
 
   public void ToggleInventory() {
-    if (inventoryPanel == null) return;
+    if (!CheckInventoryUI()) return;
 
     bool isActive = !inventoryPanel.activeSelf;
     inventoryPanel.SetActive(isActive);
-    if (title != null) {
-      title.SetActive(isActive);
-    }
+    title.SetActive(isActive);
 
-    if (isActive)
+    if (isActive) {
       RefreshUI();
+    }
   }
 
   public void RefreshUI() {
-    if (inventory == null) return;
-
     // Clear existing slots
     foreach (Transform child in gridParent) {
       Destroy(child.gameObject);
@@ -106,5 +75,25 @@ public class InventoryUIManager : MonoBehaviour {
       if (icon != null)
         icon.sprite = item.icon;
     }
+  }
+
+  private bool CheckInventoryUI() {
+    if (inventoryPanel == null) {
+      Debug.LogError("Inventory panel is not assigned.");
+      return false;
+    }
+    if (slotPrefab == null) {
+      Debug.LogError("Slot prefab is not assigned.");
+      return false;
+    }
+    if (gridParent == null) {
+      Debug.LogError("Grid parent is not assigned.");
+      return false;
+    }
+    if (inventory == null) {
+      Debug.LogError("PlayerInventory component is not assigned.");
+      return false;
+    }
+    return true;
   }
 }

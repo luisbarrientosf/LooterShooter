@@ -32,17 +32,19 @@ public class YouDiedUIManager : MonoBehaviour {
     SceneManager.UnloadSceneAsync("Gameplay");
     SceneManager.UnloadSceneAsync("Pause Menu");
     SceneManager.UnloadSceneAsync("You Died");
+    SceneManager.UnloadSceneAsync("HUD");
+    SceneManager.UnloadSceneAsync("Inventory");
   }
 
   public void Restart() {
     if (!CheckYouDiedUI()) return;
-
     panel.SetActive(false);
     gameManager.StartGame();
   }
 
   public void Show() {
     if (!CheckYouDiedUI()) return;
+    InventoryUIManager.Instance.HideInventory();
 
     panel.SetActive(true);
   }

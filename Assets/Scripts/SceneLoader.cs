@@ -10,20 +10,17 @@ public class SceneLoader : MonoBehaviour {
   }
 
   IEnumerator LoadGameScenes() {
-    // wait 1 frame to let Loading UI show up
-    yield return null;
-
     AsyncOperation mainLoad = SceneManager.LoadSceneAsync(targetScene, LoadSceneMode.Additive);
     while (!mainLoad.isDone)
       yield return null;
 
-    // AsyncOperation hudLoad = SceneManager.LoadSceneAsync("HUD", LoadSceneMode.Additive);
-    // while (!hudLoad.isDone)
-    //   yield return null;
+    AsyncOperation hudLoad = SceneManager.LoadSceneAsync("HUD", LoadSceneMode.Additive);
+    while (!hudLoad.isDone)
+      yield return null;
 
-    // AsyncOperation inventoryLoad = SceneManager.LoadSceneAsync("Inventory", LoadSceneMode.Additive);
-    // while (!inventoryLoad.isDone)
-    //   yield return null;
+    AsyncOperation inventoryLoad = SceneManager.LoadSceneAsync("Inventory", LoadSceneMode.Additive);
+    while (!inventoryLoad.isDone)
+      yield return null;
 
     AsyncOperation pauseMenuLoad = SceneManager.LoadSceneAsync("Pause Menu", LoadSceneMode.Additive);
     while (!pauseMenuLoad.isDone)
