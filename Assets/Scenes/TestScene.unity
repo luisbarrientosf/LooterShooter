@@ -644,7 +644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapGenerator: {fileID: 0}
-  player: {fileID: 0}
+  player: {fileID: 2763991066318763802}
 --- !u!4 &1131354739
 Transform:
   m_ObjectHideFlags: 0
@@ -1482,6 +1482,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7492849668588653457, guid: f5c5b08d8c167594fb26ec4a8da8e1ee, type: 3}
   m_PrefabInstance: {fileID: 6805830517624672983}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2763991066318763802 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3760917226665120426, guid: f5c5b08d8c167594fb26ec4a8da8e1ee, type: 3}
+  m_PrefabInstance: {fileID: 6805830517624672983}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 189e99037faaa344a94a81ef072d48a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6805830517624672983
 PrefabInstance:
   m_ObjectHideFlags: 0
