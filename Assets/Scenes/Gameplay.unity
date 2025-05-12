@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 6605116711048060021, guid: c5015ae9e56be42fa9116034b8591aa6, type: 3}
-  initialSize: 50
+  initialSize: 20
 --- !u!4 &31870130
 Transform:
   m_ObjectHideFlags: 0
@@ -2403,7 +2403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 8895885877602799990, guid: ddf99bf13f71444aa8f1063001a26c38, type: 3}
-  initialSize: 100
+  initialSize: 30
 --- !u!1 &957740540
 GameObject:
   m_ObjectHideFlags: 0
@@ -2890,7 +2890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 6186465975471884251, guid: cb667efcd3ec814468b0b47987854d92, type: 3}
-  initialSize: 10
+  initialSize: 20
 --- !u!1 &1647659775
 GameObject:
   m_ObjectHideFlags: 0

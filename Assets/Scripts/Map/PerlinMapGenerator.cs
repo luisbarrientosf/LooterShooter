@@ -49,13 +49,6 @@ public class PerlinMapGenerator : MonoBehaviour {
     }
   }
 
-  void Start() {
-    GenerateIslands();
-    GenerateMap();
-    playerSpawner.SpawnPlayer();
-    enemySpawner.SpawnEnemies();
-  }
-
   public void GenerateNewMap() {
     waterTilemap.ClearAllTiles();
     backgroundTilemap.ClearAllTiles();
@@ -65,7 +58,6 @@ public class PerlinMapGenerator : MonoBehaviour {
     GenerateMap();
     playerSpawner.SpawnPlayer();
     enemySpawner.SpawnEnemies();
-
   }
 
   void GenerateIslands() {

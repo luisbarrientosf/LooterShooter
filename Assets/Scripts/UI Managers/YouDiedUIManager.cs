@@ -18,12 +18,6 @@ public class YouDiedUIManager : MonoBehaviour {
     gameManager = GameManager.Instance;
   }
 
-  public void Show() {
-    if (!CheckYouDiedUI()) return;
-
-    panel.SetActive(true);
-  }
-
   void Start() {
     if (!CheckYouDiedUI()) return;
 
@@ -45,6 +39,12 @@ public class YouDiedUIManager : MonoBehaviour {
 
     panel.SetActive(false);
     gameManager.StartGame();
+  }
+
+  public void Show() {
+    if (!CheckYouDiedUI()) return;
+
+    panel.SetActive(true);
   }
 
   private bool CheckYouDiedUI() {
