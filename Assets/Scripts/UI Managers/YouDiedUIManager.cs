@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,7 +11,6 @@ public class YouDiedUIManager : MonoBehaviour {
   void Awake() {
     if (Instance == null) {
       Instance = this;
-      //DontDestroyOnLoad(gameObject);
     }
     else {
       Destroy(gameObject);
@@ -28,18 +28,33 @@ public class YouDiedUIManager : MonoBehaviour {
     if (!CheckYouDiedUI()) return;
 
     panel.SetActive(false);
-    SceneManager.LoadScene("Main Menu", LoadSceneMode.Additive);
-    SceneManager.UnloadSceneAsync("Gameplay");
-    SceneManager.UnloadSceneAsync("Pause Menu");
-    SceneManager.UnloadSceneAsync("You Died");
-    SceneManager.UnloadSceneAsync("HUD");
-    SceneManager.UnloadSceneAsync("Inventory");
+
+    StartCoroutine(ExitToMainMenu());
+
   }
 
   public void Restart() {
     if (!CheckYouDiedUI()) return;
     panel.SetActive(false);
-    gameManager.StartGame();
+    if (gameManager.isTestGame) {
+      gameManager.StartTestGame();
+    }
+    else {
+      gameManager.StartGame();
+    }
+  }
+
+  private IEnumerator ExitToMainMenu() {
+    AsyncOperation mainMenuLoad = SceneManager.LoadSceneAsync("Main Menu", LoadSceneMode.Additive);
+    while (!mainMenuLoad.isDone)
+      yield return null;
+
+    string currentScene = gameManager.isTestGame ? "TestScene" : "Gameplay";
+    SceneManager.UnloadSceneAsync(currentScene);
+    SceneManager.UnloadSceneAsync("Pause Menu");
+    SceneManager.UnloadSceneAsync("You Died");
+    SceneManager.UnloadSceneAsync("Inventory");
+    SceneManager.UnloadSceneAsync("HUD");
   }
 
   public void Show() {

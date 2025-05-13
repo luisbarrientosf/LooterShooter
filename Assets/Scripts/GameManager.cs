@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour {
   public PlayerHealth player;
   private bool isGamePaused = false;
   private bool isGameOver = false;
+  public bool isTestGame = false;
 
   void Awake() {
     if (Instance == null) {
@@ -17,8 +18,14 @@ public class GameManager : MonoBehaviour {
     }
   }
 
+  public void StartTestGame() {
+    player.ResetHealth();
+    player.gameObject.SetActive(true);
+    SetIsGameOver(false);
+    SetIsGamePaused(false);
+  }
+
   public void StartGame() {
-    Debug.Log("Game started!");
     if (!CheckGameManager()) return;
 
     mapGenerator.GenerateNewMap();
@@ -33,7 +40,6 @@ public class GameManager : MonoBehaviour {
   }
 
   public void SetIsGamePaused(bool value) {
-    Debug.Log("Game paused: " + value);
     isGamePaused = value;
     Time.timeScale = isGamePaused ? 0 : 1;
   }
@@ -43,7 +49,6 @@ public class GameManager : MonoBehaviour {
   }
 
   public void SetIsGameOver(bool value) {
-    Debug.Log("Game over: " + value);
     isGameOver = value;
     if (isGameOver) {
       SetIsGamePaused(true);

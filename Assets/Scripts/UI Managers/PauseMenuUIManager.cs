@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -39,14 +40,8 @@ public class PauseMenuUIManager : MonoBehaviour {
   public void Exit() {
     if (!CheckPauseMenu()) return;
 
-
     panel.SetActive(false);
-    SceneManager.LoadScene("Main Menu", LoadSceneMode.Additive);
-    SceneManager.UnloadSceneAsync("Gameplay");
-    SceneManager.UnloadSceneAsync("Pause Menu");
-    SceneManager.UnloadSceneAsync("You Died");
-    SceneManager.UnloadSceneAsync("HUD");
-    SceneManager.UnloadSceneAsync("Inventory");
+    StartCoroutine(ExitToMainMenu());
   }
 
   public void Continue() {
@@ -59,6 +54,19 @@ public class PauseMenuUIManager : MonoBehaviour {
   public void Options() {
     // Load the options scene
     //SceneManager.LoadScene("OptionsScene");
+  }
+
+  private IEnumerator ExitToMainMenu() {
+    AsyncOperation mainMenuLoad = SceneManager.LoadSceneAsync("Main Menu", LoadSceneMode.Additive);
+    while (!mainMenuLoad.isDone)
+      yield return null;
+
+    string currentScene = gameManager.isTestGame ? "TestScene" : "Gameplay";
+    SceneManager.UnloadSceneAsync(currentScene);
+    SceneManager.UnloadSceneAsync("Pause Menu");
+    SceneManager.UnloadSceneAsync("You Died");
+    SceneManager.UnloadSceneAsync("Inventory");
+    SceneManager.UnloadSceneAsync("HUD");
   }
 
   private bool CheckPauseMenu() {
