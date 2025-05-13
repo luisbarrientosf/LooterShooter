@@ -6,7 +6,8 @@ public class InventoryUIManager : MonoBehaviour {
 
   public GameObject inventoryPanel;
   public GameObject slotPrefab;
-  public Transform gridParent;
+  public GameObject itemPrefab;
+  public Transform slotsGridParent;
   public GameObject title;
 
   private PlayerInventory inventory;
@@ -64,36 +65,40 @@ public class InventoryUIManager : MonoBehaviour {
 
   public void RefreshUI() {
     // Clear existing slots
-    foreach (Transform child in gridParent) {
+    foreach (Transform child in slotsGridParent) {
       Destroy(child.gameObject);
     }
 
     // Create one slot per item
     foreach (Item item in inventory.items) {
-      GameObject slot = Instantiate(slotPrefab, gridParent);
-      Image icon = slot.GetComponent<Image>();
-      if (icon != null)
-        icon.sprite = item.icon;
+      GameObject itemImage = Instantiate(slotPrefab, slotsGridParent);
+      Image[] images = itemImage.GetComponentsInChildren<Image>();
+      foreach (Image image in images) {
+        if (image.gameObject != itemImage) {
+          image.sprite = item.icon;
+        }
+      }
     }
   }
 
   private bool CheckInventoryUI() {
+    bool isValid = true;
     if (inventoryPanel == null) {
       Debug.LogError("Inventory panel is not assigned.");
-      return false;
+      isValid = false;
     }
     if (slotPrefab == null) {
       Debug.LogError("Slot prefab is not assigned.");
-      return false;
+      isValid = false;
     }
-    if (gridParent == null) {
-      Debug.LogError("Grid parent is not assigned.");
-      return false;
+    if (slotsGridParent == null) {
+      Debug.LogError("Slots Grid parent is not assigned.");
+
     }
     if (inventory == null) {
       Debug.LogError("PlayerInventory component is not assigned.");
-      return false;
+      isValid = false;
     }
-    return true;
+    return isValid;
   }
 }
