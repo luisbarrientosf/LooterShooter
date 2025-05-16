@@ -4,14 +4,17 @@ public class PlayerShooting : MonoBehaviour {
   public ObjectPool bulletPool;
   public Transform firePoint;
   private GameManager gameManager;
+  private IInputProvider inputProvider;
 
   void Start() {
     gameManager = GameManager.Instance;
+    inputProvider = GetComponent<IInputProvider>();
+    CheckPlayerShooting();
   }
 
   void Update() {
-    if (Input.GetMouseButtonDown(0) && !gameManager.IsGamePaused()) // left click
-    {
+    if (!CheckPlayerShooting()) return;
+    if (inputProvider.IsAttackPressed() && !gameManager.IsGamePaused()) {
       Shoot();
     }
   }
@@ -23,5 +26,30 @@ public class PlayerShooting : MonoBehaviour {
     Bullet bullet = bulletPool.Get().GetComponent<Bullet>();
     bullet.transform.position = firePoint.position;
     bullet.Init(direction, bulletPool);
+  }
+
+  bool CheckPlayerShooting() {
+    bool isValid = true;
+    if (bulletPool == null) {
+      Debug.LogError("Bullet pool is not assigned.");
+      isValid = false;
+    }
+
+    if (firePoint == null) {
+      Debug.LogError("Fire point is not assigned.");
+      isValid = false;
+    }
+
+    if (gameManager == null) {
+      Debug.LogError("GameManager instance is missing.");
+      isValid = false;
+    }
+
+    if (inputProvider == null) {
+      Debug.LogError("IInputProvider component is missing.");
+      isValid = false;
+    }
+
+    return isValid;
   }
 }
