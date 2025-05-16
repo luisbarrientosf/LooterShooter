@@ -26,6 +26,9 @@ public class MoveState : PlayerState {
     inputProvider = player.GetComponent<IInputProvider>();
     playerInput = player.GetComponent<PlayerInput>();
     rb = player.GetComponent<Rigidbody2D>();
+
+    if (!CheckMoveState()) return;
+    animator.SetBool("isWalking", true);
   }
 
   public override void Exit() {
@@ -34,42 +37,15 @@ public class MoveState : PlayerState {
 
   public override void Update() {
     if (!CheckMoveState()) return;
-
-    if (playerInput.currentControlScheme == "Keyboard&Mouse") {
-      UpdateKeysBeingHolded();
-
-      Vector2 currentDirection = GetCurrentDirection();
-      bool up = Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow);
-      bool down = Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow);
-      bool left = Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow);
-      bool right = Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow);
-
-      UpdateAnimator(currentDirection, up, down, left, right);
-
-      float horizontal = Input.GetAxisRaw("Horizontal");
-      float vertical = Input.GetAxisRaw("Vertical");
-      bool hasInverseDirections = (up && down) || (left && right);
-
-      bool isSprinting = inputProvider.IsSprinting();
-      float sprintMultiplier = isSprinting ? player.sprintSpeed / player.speed : 1f;
-
-      Vector2 inputVector = new Vector2(horizontal, vertical).normalized;
-      Vector2 movementInput = hasInverseDirections ? currentDirection : inputVector;
-      movementInput *= player.speed * sprintMultiplier;
-
-      player.SetMovementInput(movementInput);
+    if (inputProvider is HumanInputProvider && playerInput.currentControlScheme == "Keyboard&Mouse") {
+      ManageKeyboardInput();
     }
     else {
-      Vector2 rawInput = inputProvider.GetMoveInput();
-      Vector2 currentDirection = rawInput.normalized;
+      ManageInput();
+    }
 
-      bool isSprinting = inputProvider.IsSprinting();
-      float sprintMultiplier = isSprinting ? player.sprintSpeed / player.speed : 1f;
-
-      Vector2 movementInput = currentDirection * player.speed * sprintMultiplier;
-
-      player.SetMovementInput(movementInput);
-      UpdateAnimator(currentDirection);
+    if (player.GetMovementInput() == Vector2.zero) {
+      player.ChangeState(new IdleState(player));
     }
   }
 
@@ -83,16 +59,11 @@ public class MoveState : PlayerState {
   }
 
   private void UpdateAnimator(Vector2 direction) {
-    bool isWalking = direction != Vector2.zero;
-    animator.SetBool("isWalking", isWalking);
     animator.SetFloat("walkingX", direction.x);
     animator.SetFloat("walkingY", direction.y);
   }
 
   private void UpdateAnimator(Vector2 currentDirection, bool up, bool down, bool left, bool right) {
-    bool isWalking = currentDirection != Vector2.zero;
-    animator.SetBool("isWalking", isWalking);
-
     if (up && down) {
       animator.SetFloat("walkingY", currentDirection.y);
       animator.SetFloat("walkingX", 0);
@@ -101,11 +72,50 @@ public class MoveState : PlayerState {
       animator.SetFloat("walkingX", currentDirection.x);
       animator.SetFloat("walkingY", 0);
     }
-    else if (isWalking) {
+    else {
       animator.SetFloat("walkingX", currentDirection.x);
       animator.SetFloat("walkingY", currentDirection.y);
     }
   }
+
+  private void ManageKeyboardInput() {
+    UpdateKeysBeingHolded();
+
+    Vector2 currentDirection = GetCurrentDirection();
+    bool up = Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow);
+    bool down = Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow);
+    bool left = Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow);
+    bool right = Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow);
+
+    UpdateAnimator(currentDirection, up, down, left, right);
+
+    float horizontal = Input.GetAxisRaw("Horizontal");
+    float vertical = Input.GetAxisRaw("Vertical");
+    bool hasInverseDirections = (up && down) || (left && right);
+
+    bool isSprinting = inputProvider.IsSprinting();
+    float sprintMultiplier = isSprinting ? player.sprintSpeed / player.speed : 1f;
+
+    Vector2 inputVector = new Vector2(horizontal, vertical).normalized;
+    Vector2 movementInput = hasInverseDirections ? currentDirection : inputVector;
+    movementInput *= player.speed * sprintMultiplier;
+
+    player.SetMovementInput(movementInput);
+  }
+
+  private void ManageInput() {
+    Vector2 rawInput = inputProvider.GetMoveInput();
+    Vector2 currentDirection = rawInput.normalized;
+
+    bool isSprinting = inputProvider.IsSprinting();
+    float sprintMultiplier = isSprinting ? player.sprintSpeed / player.speed : 1f;
+
+    Vector2 movementInput = currentDirection * player.speed * sprintMultiplier;
+
+    player.SetMovementInput(movementInput);
+    UpdateAnimator(currentDirection);
+  }
+
 
 
   private Vector2 GetCurrentDirection() {
@@ -147,10 +157,13 @@ public class MoveState : PlayerState {
       Debug.LogError("InputProvider is not assigned.");
       isValid = false;
     }
-    if (playerInput == null) {
-      Debug.LogError("PlayerInput is not assigned.");
-      isValid = false;
+    else {
+      if (inputProvider is HumanInputProvider && playerInput == null) {
+        Debug.LogError("PlayerInput is not assigned.");
+        isValid = false;
+      }
     }
+
     if (rb == null) {
       Debug.LogError("Rigidbody2D is not assigned.");
       isValid = false;
