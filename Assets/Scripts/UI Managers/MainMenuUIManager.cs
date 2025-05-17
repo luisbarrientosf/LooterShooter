@@ -16,12 +16,12 @@ public class MainMenuUIManager : MonoBehaviour {
   }
 
   IEnumerator LoadScenes() {
-    string targetScene = GameManager.Instance.isTestGame ? "TestScene" : "Gameplay";
+    string targetScene = GameManager.Instance.isTestGame ? Scenes.TestScene : Scenes.Gameplay;
     SceneLoader.targetScene = targetScene;
-    AsyncOperation loadingLoad = SceneManager.LoadSceneAsync("Loading", LoadSceneMode.Additive);
+    AsyncOperation loadingLoad = SceneManager.LoadSceneAsync(Scenes.Loading, LoadSceneMode.Additive);
     while (!loadingLoad.isDone)
       yield return null;
-    SceneManager.UnloadSceneAsync("Main Menu");
-    SceneManager.UnloadSceneAsync("Loading");
+    SceneManager.UnloadSceneAsync(Scenes.MainMenu);
+    SceneManager.UnloadSceneAsync(Scenes.Loading);
   }
 }

@@ -57,16 +57,16 @@ public class PauseMenuUIManager : MonoBehaviour {
   }
 
   private IEnumerator ExitToMainMenu() {
-    AsyncOperation mainMenuLoad = SceneManager.LoadSceneAsync("Main Menu", LoadSceneMode.Additive);
+    AsyncOperation mainMenuLoad = SceneManager.LoadSceneAsync(Scenes.MainMenu, LoadSceneMode.Additive);
     while (!mainMenuLoad.isDone)
       yield return null;
 
-    string currentScene = gameManager.isTestGame ? "TestScene" : "Gameplay";
+    string currentScene = gameManager.isTestGame ? Scenes.TestScene : Scenes.Gameplay;
     SceneManager.UnloadSceneAsync(currentScene);
-    SceneManager.UnloadSceneAsync("Pause Menu");
-    SceneManager.UnloadSceneAsync("You Died");
-    SceneManager.UnloadSceneAsync("Inventory");
-    SceneManager.UnloadSceneAsync("HUD");
+    SceneManager.UnloadSceneAsync(Scenes.PauseMenu);
+    SceneManager.UnloadSceneAsync(Scenes.YouDied);
+    SceneManager.UnloadSceneAsync(Scenes.Inventory);
+    SceneManager.UnloadSceneAsync(Scenes.HUD);
   }
 
   private bool CheckPauseMenu() {

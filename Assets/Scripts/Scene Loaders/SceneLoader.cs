@@ -15,23 +15,23 @@ public class SceneLoader : MonoBehaviour {
       yield return null;
 
     if (!GameManager.Instance.isTestGame) {
-      AsyncOperation hudLoad = SceneManager.LoadSceneAsync("HUD", LoadSceneMode.Additive);
+      AsyncOperation hudLoad = SceneManager.LoadSceneAsync(Scenes.HUD, LoadSceneMode.Additive);
       while (!hudLoad.isDone)
         yield return null;
 
-      AsyncOperation inventoryLoad = SceneManager.LoadSceneAsync("Inventory", LoadSceneMode.Additive);
+      AsyncOperation inventoryLoad = SceneManager.LoadSceneAsync(Scenes.Inventory, LoadSceneMode.Additive);
       while (!inventoryLoad.isDone)
         yield return null;
 
-      AsyncOperation pauseMenuLoad = SceneManager.LoadSceneAsync("Pause Menu", LoadSceneMode.Additive);
+      AsyncOperation pauseMenuLoad = SceneManager.LoadSceneAsync(Scenes.PauseMenu, LoadSceneMode.Additive);
       while (!pauseMenuLoad.isDone)
         yield return null;
 
-      AsyncOperation youDiedMenuLoad = SceneManager.LoadSceneAsync("You Died", LoadSceneMode.Additive);
+      AsyncOperation youDiedMenuLoad = SceneManager.LoadSceneAsync(Scenes.YouDied, LoadSceneMode.Additive);
       while (!youDiedMenuLoad.isDone)
         yield return null;
     }
 
-    SceneManager.UnloadSceneAsync("Loading");
+    SceneManager.UnloadSceneAsync(Scenes.Loading);
   }
 }
