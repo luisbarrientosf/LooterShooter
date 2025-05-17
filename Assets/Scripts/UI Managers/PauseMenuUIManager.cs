@@ -5,9 +5,12 @@ using UnityEngine.SceneManagement;
 public class PauseMenuUIManager : MonoBehaviour {
   public GameObject panel;
   private GameManager gameManager;
+  private InventoryUIManager inventoryUIManager;
 
   void Awake() {
     gameManager = GameManager.Instance;
+    inventoryUIManager = InventoryUIManager.Instance;
+    CheckPauseMenu();
   }
 
   void Start() {
@@ -32,7 +35,7 @@ public class PauseMenuUIManager : MonoBehaviour {
     panel.SetActive(isActive);
     gameManager.SetIsGamePaused(isActive);
     if (isActive) {
-      InventoryUIManager.Instance.HideInventory();
+      inventoryUIManager.HideInventory();
     }
   }
 
@@ -76,6 +79,10 @@ public class PauseMenuUIManager : MonoBehaviour {
     }
     if (gameManager == null) {
       Debug.LogError("GameManager instance is null.");
+      return false;
+    }
+    if (inventoryUIManager == null) {
+      Debug.LogError("InventoryUIManager instance is null.");
       return false;
     }
 

@@ -6,6 +6,7 @@ public class YouDiedUIManager : MonoBehaviour {
   public static YouDiedUIManager Instance;
   public GameObject panel;
   private GameManager gameManager;
+  private InventoryUIManager inventoryUIManager;
 
 
   void Awake() {
@@ -16,6 +17,8 @@ public class YouDiedUIManager : MonoBehaviour {
       Destroy(gameObject);
     }
     gameManager = GameManager.Instance;
+    inventoryUIManager = InventoryUIManager.Instance;
+    CheckYouDiedUI();
   }
 
   void Start() {
@@ -59,7 +62,7 @@ public class YouDiedUIManager : MonoBehaviour {
 
   public void Show() {
     if (!CheckYouDiedUI()) return;
-    InventoryUIManager.Instance.HideInventory();
+    inventoryUIManager.HideInventory();
 
     panel.SetActive(true);
   }
@@ -71,6 +74,10 @@ public class YouDiedUIManager : MonoBehaviour {
     }
     if (gameManager == null) {
       Debug.LogError("GameManager instance is null.");
+      return false;
+    }
+    if (inventoryUIManager == null) {
+      Debug.LogError("InventoryUIManager instance is null.");
       return false;
     }
     return true;

@@ -22,7 +22,7 @@ public class Bullet : MonoBehaviour {
     lifeTimer -= Time.deltaTime;
     if (lifeTimer <= 0f) {
       ReturnToPool();
-      Debug.Log("Bullet returned to pool due to timeout.");
+      // Debug.Log("Bullet returned to pool due to timeout.");
     }
   }
 
@@ -37,16 +37,16 @@ public class Bullet : MonoBehaviour {
         enemy.TakeDamage(3); // or any damage value
       }
       else {
-        Debug.LogWarning("Enemy script not found on the object.");
+        // Debug.LogWarning("Enemy script not found on the object.");
       }
 
       ReturnToPool();
-      Debug.Log("Bullet hit an enemy.");
+      // Debug.Log("Bullet hit an enemy.");
     }
     else if (other.CompareTag("Wall")) {
       hasHit = true;
       ReturnToPool();
-      Debug.Log("Bullet hit a wall.");
+      // Debug.Log("Bullet hit a wall.");
     }
   }
 
@@ -55,6 +55,6 @@ public class Bullet : MonoBehaviour {
     hasHit = false;
     lifeTimer = lifetime;
     pool.Return(gameObject);
-    Debug.Log("Bullet returned to pool.");
+    // Debug.Log("Bullet returned to pool.");
   }
 }

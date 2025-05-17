@@ -19,6 +19,8 @@ public class InventoryUIManager : MonoBehaviour {
     }
     Instance = this;
     inventory = GameManager.Instance.player.GetComponent<PlayerInventory>();
+    GameManager.Instance.inventoryUIManager = this;
+    CheckInventoryUI();
   }
 
   void Start() {

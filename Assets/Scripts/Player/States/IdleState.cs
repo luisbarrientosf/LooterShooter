@@ -6,7 +6,7 @@ public class IdleState : PlayerState {
   private IInputProvider inputProvider;
 
   public override void Enter() {
-    Debug.Log("Entered Idle State");
+    // Debug.Log("Entered Idle State");
     animator = player.GetComponent<Animator>();
     inputProvider = player.GetComponent<IInputProvider>();
 
@@ -15,7 +15,7 @@ public class IdleState : PlayerState {
   }
 
   public override void Exit() {
-    Debug.Log("Exited Idle State");
+    // Debug.Log("Exited Idle State");
   }
 
 

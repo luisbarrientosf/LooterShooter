@@ -47,6 +47,7 @@ public class PerlinMapGenerator : MonoBehaviour {
     else {
       Destroy(gameObject);
     }
+    GameManager.Instance.mapGenerator = this;
   }
 
   public void GenerateNewMap() {

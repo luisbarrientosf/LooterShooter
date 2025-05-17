@@ -21,7 +21,7 @@ public class MoveState : PlayerState {
   private Rigidbody2D rb;
 
   public override void Enter() {
-    Debug.Log("Entered Move State");
+    // Debug.Log("Entered Move State");
     animator = player.GetComponent<Animator>();
     inputProvider = player.GetComponent<IInputProvider>();
     playerInput = player.GetComponent<PlayerInput>();
@@ -32,7 +32,7 @@ public class MoveState : PlayerState {
   }
 
   public override void Exit() {
-    Debug.Log("Exited Move State");
+    // Debug.Log("Exited Move State");
   }
 
   public override void Update() {

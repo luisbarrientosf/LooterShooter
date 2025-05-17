@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 849990189}
   - component: {fileID: 849990188}
   m_Layer: 0
-  m_Name: Scene Manager
+  m_Name: Scene Loader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -285,7 +285,7 @@ GameObject:
   - component: {fileID: 1953952572}
   - component: {fileID: 1953952573}
   m_Layer: 0
-  m_Name: ToggleFullscreen
+  m_Name: Toggle Fullscreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
