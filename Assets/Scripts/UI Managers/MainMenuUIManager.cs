@@ -17,7 +17,7 @@ public class MainMenuUIManager : MonoBehaviour {
 
   IEnumerator LoadScenes() {
     string targetScene = GameManager.Instance.isTestGame ? Scenes.TestScene : Scenes.Gameplay;
-    SceneLoader.targetScene = targetScene;
+    LoadingSceneLoader.targetScene = targetScene;
     AsyncOperation loadingLoad = SceneManager.LoadSceneAsync(Scenes.Loading, LoadSceneMode.Additive);
     while (!loadingLoad.isDone)
       yield return null;

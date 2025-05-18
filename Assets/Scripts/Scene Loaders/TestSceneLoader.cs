@@ -1,14 +1,21 @@
+using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 
 public class TestSceneLoader : MonoBehaviour {
-  void Start() {
+  void Awake() {
     GameManager.Instance.player = PlayerHealth.Instance;
-    SceneManager.LoadScene(Scenes.HUD, LoadSceneMode.Additive);
-    SceneManager.LoadScene(Scenes.Inventory, LoadSceneMode.Additive);
-    SceneManager.LoadScene(Scenes.PauseMenu, LoadSceneMode.Additive);
-    SceneManager.LoadScene(Scenes.GameOver, LoadSceneMode.Additive);
+    StartCoroutine(LoadGameScenes());
+  }
+
+  void Start() {
     GameManager.Instance.StartTestGame();
+  }
+
+  IEnumerator LoadGameScenes() {
+    yield return SceneLoader.LoadScene(Scenes.HUD);
+    yield return SceneLoader.LoadScene(Scenes.Inventory);
+    yield return SceneLoader.LoadScene(Scenes.PauseMenu);
+    yield return SceneLoader.LoadScene(Scenes.GameOver);
   }
 }

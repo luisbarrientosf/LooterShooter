@@ -4,10 +4,10 @@ using UnityEngine.SceneManagement;
 public class PersistentSceneManager : MonoBehaviour {
   void Start() {
     if (GameManager.Instance.isTestGame) {
-      SceneManager.LoadScene("Test Scene", LoadSceneMode.Additive);
+      // SceneManager.LoadScene("Test Scene", LoadSceneMode.Additive);
     }
     else {
-      SceneManager.LoadScene("Main Menu", LoadSceneMode.Additive);
+      SceneManager.LoadScene(Scenes.MainMenu, LoadSceneMode.Additive);
     }
   }
 }

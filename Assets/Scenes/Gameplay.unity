@@ -2210,7 +2210,7 @@ GameObject:
   - component: {fileID: 836916738}
   - component: {fileID: 836916737}
   m_Layer: 8
-  m_Name: Scene Load
+  m_Name: Scene Loader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

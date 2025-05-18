@@ -47,11 +47,11 @@ public class GameOverUIManager : MonoBehaviour {
       yield return null;
 
     string currentScene = gameManager.isTestGame ? Scenes.TestScene : Scenes.Gameplay;
-    SceneManager.UnloadSceneAsync(currentScene);
     SceneManager.UnloadSceneAsync(Scenes.PauseMenu);
     SceneManager.UnloadSceneAsync(Scenes.GameOver);
-    SceneManager.UnloadSceneAsync(Scenes.Inventory);
     SceneManager.UnloadSceneAsync(Scenes.HUD);
+    SceneManager.UnloadSceneAsync(Scenes.Inventory);
+    SceneManager.UnloadSceneAsync(currentScene);
   }
 
   public void Show() {

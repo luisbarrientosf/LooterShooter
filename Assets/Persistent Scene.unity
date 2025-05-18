@@ -368,12 +368,13 @@ MonoBehaviour:
   mapGenerator: {fileID: 0}
   player: {fileID: 0}
   inventoryUIManager: {fileID: 0}
+  gameOverUIManager: {fileID: 0}
   isTestGame: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1614902640}
-  - {fileID: 849990189}
   - {fileID: 2047690928}
+  - {fileID: 849990189}
+  - {fileID: 1614902640}
   - {fileID: 1731515872}
