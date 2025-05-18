@@ -17,7 +17,8 @@ public class YouDiedUIManager : MonoBehaviour {
       Destroy(gameObject);
     }
     gameManager = GameManager.Instance;
-    inventoryUIManager = InventoryUIManager.Instance;
+    inventoryUIManager = GameManager.Instance.inventoryUIManager;
+    GameManager.Instance.youDiedUIManager = this;
     CheckYouDiedUI();
   }
 

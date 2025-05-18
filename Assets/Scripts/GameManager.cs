@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour {
   public PerlinMapGenerator mapGenerator;
   public PlayerHealth player;
   public InventoryUIManager inventoryUIManager;
+  public YouDiedUIManager youDiedUIManager;
 
   private bool isGamePaused = false;
   private bool isGameOver = false;
@@ -54,7 +55,8 @@ public class GameManager : MonoBehaviour {
     isGameOver = value;
     if (isGameOver) {
       SetIsGamePaused(true);
-      inventoryUIManager.ShowInventory();
+      inventoryUIManager.HideInventory();
+      youDiedUIManager.Show();
     }
   }
 

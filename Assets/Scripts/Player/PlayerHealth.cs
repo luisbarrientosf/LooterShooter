@@ -19,6 +19,7 @@ public class PlayerHealth : MonoBehaviour {
     else {
       Destroy(gameObject);
     }
+    GameManager.Instance.player = this;
     currentHealth = maxHealth;
   }
 
