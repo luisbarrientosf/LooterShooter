@@ -18,7 +18,7 @@ public class GameplaySceneLoader : MonoBehaviour {
       yield return LoadSceneSafe(Scenes.HUD);
       yield return LoadSceneSafe(Scenes.Inventory);
       yield return LoadSceneSafe(Scenes.PauseMenu);
-      yield return LoadSceneSafe(Scenes.YouDied);
+      yield return LoadSceneSafe(Scenes.GameOver);
     }
   }
 

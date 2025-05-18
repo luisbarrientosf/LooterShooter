@@ -2,8 +2,8 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class YouDiedUIManager : MonoBehaviour {
-  public static YouDiedUIManager Instance;
+public class GameOverUIManager : MonoBehaviour {
+  public static GameOverUIManager Instance;
   public GameObject panel;
   private GameManager gameManager;
   private InventoryUIManager inventoryUIManager;
@@ -18,27 +18,20 @@ public class YouDiedUIManager : MonoBehaviour {
     }
     gameManager = GameManager.Instance;
     inventoryUIManager = GameManager.Instance.inventoryUIManager;
-    GameManager.Instance.youDiedUIManager = this;
-    CheckYouDiedUI();
+    GameManager.Instance.gameOverUIManager = this;
+    CheckGameOverUIManager();
   }
 
   void Start() {
-    if (!CheckYouDiedUI()) return;
-
     panel.SetActive(false);
   }
 
   public void Exit() {
-    if (!CheckYouDiedUI()) return;
-
     panel.SetActive(false);
-
     StartCoroutine(ExitToMainMenu());
-
   }
 
   public void Restart() {
-    if (!CheckYouDiedUI()) return;
     panel.SetActive(false);
     if (gameManager.isTestGame) {
       gameManager.StartTestGame();
@@ -56,21 +49,21 @@ public class YouDiedUIManager : MonoBehaviour {
     string currentScene = gameManager.isTestGame ? Scenes.TestScene : Scenes.Gameplay;
     SceneManager.UnloadSceneAsync(currentScene);
     SceneManager.UnloadSceneAsync(Scenes.PauseMenu);
-    SceneManager.UnloadSceneAsync(Scenes.YouDied);
+    SceneManager.UnloadSceneAsync(Scenes.GameOver);
     SceneManager.UnloadSceneAsync(Scenes.Inventory);
     SceneManager.UnloadSceneAsync(Scenes.HUD);
   }
 
   public void Show() {
-    if (!CheckYouDiedUI()) return;
+    if (!CheckGameOverUIManager()) return;
     inventoryUIManager.HideInventory();
 
     panel.SetActive(true);
   }
 
-  private bool CheckYouDiedUI() {
+  private bool CheckGameOverUIManager() {
     if (panel == null) {
-      Debug.LogError("You Died UI panel is not assigned.");
+      Debug.LogError("Game Over UI panel is not assigned.");
       return false;
     }
     if (gameManager == null) {

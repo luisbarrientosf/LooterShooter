@@ -8,7 +8,7 @@ public class TestSceneLoader : MonoBehaviour {
     SceneManager.LoadScene(Scenes.HUD, LoadSceneMode.Additive);
     SceneManager.LoadScene(Scenes.Inventory, LoadSceneMode.Additive);
     SceneManager.LoadScene(Scenes.PauseMenu, LoadSceneMode.Additive);
-    SceneManager.LoadScene(Scenes.YouDied, LoadSceneMode.Additive);
+    SceneManager.LoadScene(Scenes.GameOver, LoadSceneMode.Additive);
     GameManager.Instance.StartTestGame();
   }
 }

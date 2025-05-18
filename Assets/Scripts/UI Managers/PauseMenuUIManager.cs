@@ -67,7 +67,7 @@ public class PauseMenuUIManager : MonoBehaviour {
     string currentScene = gameManager.isTestGame ? Scenes.TestScene : Scenes.Gameplay;
     SceneManager.UnloadSceneAsync(currentScene);
     SceneManager.UnloadSceneAsync(Scenes.PauseMenu);
-    SceneManager.UnloadSceneAsync(Scenes.YouDied);
+    SceneManager.UnloadSceneAsync(Scenes.GameOver);
     SceneManager.UnloadSceneAsync(Scenes.Inventory);
     SceneManager.UnloadSceneAsync(Scenes.HUD);
   }

@@ -3,7 +3,7 @@ public static class Scenes {
   public const string Gameplay = "Gameplay";
   public const string Settings = "Settings";
   public const string PauseMenu = "Pause Menu";
-  public const string YouDied = "You Died";
+  public const string GameOver = "Game Over";
   public const string Inventory = "Inventory";
   public const string HUD = "HUD";
   public const string TestScene = "TestScene";
