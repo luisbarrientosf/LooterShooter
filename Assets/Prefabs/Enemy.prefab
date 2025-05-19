@@ -609,7 +609,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 3500845f3b234a644928d5e1901889da, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -741,6 +741,7 @@ GameObject:
   - component: {fileID: 426593751427165338}
   - component: {fileID: 415382435707409704}
   - component: {fileID: 236154929126467458}
+  - component: {fileID: 8790812618781346983}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -757,7 +758,7 @@ Transform:
   m_GameObject: {fileID: 6186465975471884251}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 5.8406816, y: -0.6880704, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -804,7 +805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bef9b10dda887cf4c87a678cf6f8616f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 1.5
 --- !u!114 &415382435707409704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -817,7 +818,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a5cbcd93421c41c38bcbf08e9cf0d74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5
+  pool: {fileID: 0}
+  coinPool: {fileID: 0}
+  damageTextPool: {fileID: 0}
+  maxHealth: 25
   healthBar: {fileID: 8365771971003189350}
   healthBarFill: {fileID: 7526448450896502579}
   smoothSpeed: 1
@@ -835,6 +839,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 20
   damageCooldown: 2
+--- !u!114 &8790812618781346983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6186465975471884251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 812d57ac0bb11dc46b87970d77e61540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headRenderer: {fileID: 5195694673302744994}
+  bodyRenderers:
+  - {fileID: 194154285191653176}
+  - {fileID: 100417215504431319}
+  flashDuration: 0.05
+  bodyFlashColor: {r: 0.79622644, g: 0.79622644, b: 0.79622644, a: 1}
 --- !u!1 &7487989988471820184
 GameObject:
   m_ObjectHideFlags: 0

@@ -409,8 +409,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 636897318}
+  - component: {fileID: 636897319}
   m_Layer: 0
-  m_Name: CameraScripts
+  m_Name: Camera Scripts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -428,10 +429,25 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1857196941}
+  m_Children: []
   m_Father: {fileID: 1527856897}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &636897319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636897317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 626bf0cb8a882c041b07ba1a304e7e5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cinemachineCamera: {fileID: 2018767550}
+  zoomSpeed: 20
+  minZoom: 6
+  maxZoom: 12
 --- !u!1 &693316420
 GameObject:
   m_ObjectHideFlags: 0
@@ -692,7 +708,7 @@ MonoBehaviour:
   enemyPool: {fileID: 1453508250}
   coinPool: {fileID: 224312451}
   damageTextPool: {fileID: 2104962395}
-  count: 0
+  count: 10
   spawnArea: {x: 10, y: 10}
 --- !u!4 &1213375825
 Transform:
@@ -1022,54 +1038,6 @@ Transform:
   - {fileID: 636897318}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1857196940
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1857196941}
-  - component: {fileID: 1857196942}
-  m_Layer: 0
-  m_Name: CameraZoom
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1857196941
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1857196940}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 636897318}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1857196942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1857196940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 626bf0cb8a882c041b07ba1a304e7e5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cinemachineCamera: {fileID: 2018767550}
-  zoomSpeed: 20
-  minZoom: 6
-  maxZoom: 12
 --- !u!1001 &1938678340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1201,7 +1169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7643971904622659734, guid: f5c5b08d8c167594fb26ec4a8da8e1ee, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8054304549805480710, guid: f5c5b08d8c167594fb26ec4a8da8e1ee, type: 3}
       propertyPath: m_Controller
@@ -1393,6 +1361,7 @@ GameObject:
   - component: {fileID: 2018767552}
   - component: {fileID: 2018767550}
   - component: {fileID: 2018767551}
+  - component: {fileID: 2018767553}
   m_Layer: 0
   m_Name: CinemachineCamera
   m_TagString: Untagged
@@ -1489,6 +1458,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1527856897}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2018767553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018767549}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb4aa61a6029a344b8572e3d0f15acd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2096444299 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2919796659157814770, guid: f5c5b08d8c167594fb26ec4a8da8e1ee, type: 3}

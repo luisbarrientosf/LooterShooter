@@ -1,9 +1,9 @@
 using UnityEngine;
 
 public class Enemy : MonoBehaviour {
-  private ObjectPool pool;
-  private ObjectPool coinPool;
-  private ObjectPool damageTextPool;
+  public ObjectPool pool;
+  public ObjectPool coinPool;
+  public ObjectPool damageTextPool;
 
   public float maxHealth = 100f;
   private float currentHealth;
@@ -20,6 +20,12 @@ public class Enemy : MonoBehaviour {
   private float currentHealthPercent;
 
   public float smoothSpeed = 5f;
+
+  private SpriteFlash spriteFlash;
+
+  void Awake() {
+    spriteFlash = GetComponent<SpriteFlash>();
+  }
 
   void Start() {
     currentHealth = maxHealth;
@@ -44,10 +50,10 @@ public class Enemy : MonoBehaviour {
   public void TakeDamage(float amount) {
     currentHealth -= amount;
     currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-
     targetHealthPercent = currentHealth / maxHealth;
     ShowDamageText((int)amount);
     ShowHealthBarTemporarily();
+    spriteFlash.Flash();
 
     if (currentHealth <= 0f) {
       Die();
@@ -96,6 +102,10 @@ public class Enemy : MonoBehaviour {
   private void ShowDamageText(int amount) {
     GameObject instance = damageTextPool.Get();
     DamageText damageText = instance.GetComponent<DamageText>();
+    if (damageText == null) {
+      Debug.LogError("DamageText component is missing on the instance.");
+      return;
+    }
     damageText.Initialize(damageTextPool, transform, amount);
   }
 
