@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour {
   public PlayerHealth player;
   public InventoryUIManager inventoryUIManager;
   public GameOverUIManager gameOverUIManager;
+  public PoolManager poolManager;
 
   private bool isGamePaused = false;
   private bool isGameOver = false;

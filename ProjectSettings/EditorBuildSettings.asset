@@ -29,7 +29,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/You Died.unity
     guid: fb87607fb9ade5d4b8f8a95c580c2e63
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/TestScene.unity
     guid: e6d181fddcb5c4c77a5e252b17d2e782
   - enabled: 0

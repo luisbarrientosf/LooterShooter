@@ -3,12 +3,11 @@ using UnityEngine;
 
 public class GameplaySceneLoader : MonoBehaviour {
   void Awake() {
-    GameManager.Instance.mapGenerator = PerlinMapGenerator.Instance;
-    GameManager.Instance.player = PlayerHealth.Instance;
     StartCoroutine(LoadGameScenes());
   }
 
   void Start() {
+    StartCoroutine(GameManager.Instance.poolManager.InitializeAllPools());
     GameManager.Instance.StartGame();
   }
 
