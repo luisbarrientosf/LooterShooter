@@ -11,15 +11,15 @@ public class HumanInputProvider : MonoBehaviour, IInputProvider {
 
   private readonly List<KeyCode> keysBeingHeld = new();
   private readonly Dictionary<KeyCode, Vector2> keysDictionary = new() {
-        { KeyCode.W, Vector2.up },
-        { KeyCode.UpArrow, Vector2.up },
-        { KeyCode.S, Vector2.down },
-        { KeyCode.DownArrow, Vector2.down },
-        { KeyCode.A, Vector2.left },
-        { KeyCode.LeftArrow, Vector2.left },
-        { KeyCode.D, Vector2.right },
-        { KeyCode.RightArrow, Vector2.right }
-    };
+    { KeyCode.W, Vector2.up },
+    { KeyCode.UpArrow, Vector2.up },
+    { KeyCode.S, Vector2.down },
+    { KeyCode.DownArrow, Vector2.down },
+    { KeyCode.A, Vector2.left },
+    { KeyCode.LeftArrow, Vector2.left },
+    { KeyCode.D, Vector2.right },
+    { KeyCode.RightArrow, Vector2.right }
+  };
 
   private void Awake() {
     playerInput = GetComponent<PlayerInput>();
@@ -33,9 +33,33 @@ public class HumanInputProvider : MonoBehaviour, IInputProvider {
     UpdateKeysBeingHeld();
   }
 
+  public bool IsAttackPressed() {
+    return attackAction.WasPressedThisFrame();
+  }
+
+  public bool IsSprinting() {
+    return sprintAction.IsPressed();
+  }
+
   public Vector2 GetMoveInput() {
-    return GetCurrentDirection();
-    //return moveAction.ReadValue<Vector2>();
+    if (playerInput.currentControlScheme == "Keyboard&Mouse") {
+      bool up = Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow);
+      bool down = Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow);
+      bool left = Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow);
+      bool right = Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow);
+      bool hasInverseDirections = (up && down) || (left && right);
+
+      if (hasInverseDirections) {
+        return GetCurrentDirection();
+      }
+
+      float horizontal = Input.GetAxisRaw("Horizontal");
+      float vertical = Input.GetAxisRaw("Vertical");
+      return new Vector2(horizontal, vertical);
+    }
+    else {
+      return moveAction.ReadValue<Vector2>();
+    }
   }
 
   public Vector2 GetCurrentDirection() {
@@ -48,14 +72,6 @@ public class HumanInputProvider : MonoBehaviour, IInputProvider {
     }
 
     return Vector2.zero;
-  }
-
-  public bool IsAttackPressed() {
-    return attackAction.WasPressedThisFrame();
-  }
-
-  public bool IsSprinting() {
-    return sprintAction.IsPressed();
   }
 
   private void UpdateKeysBeingHeld() {
