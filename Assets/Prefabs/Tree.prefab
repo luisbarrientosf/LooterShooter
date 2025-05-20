@@ -150,7 +150,8 @@ GameObject:
   m_Component:
   - component: {fileID: 693524801241763632}
   - component: {fileID: 6923718568240288327}
-  m_Layer: 0
+  - component: {fileID: 4325455960212857943}
+  m_Layer: 9
   m_Name: Walk On Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,7 +203,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -218,3 +219,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.4996248, y: 0.4078871}
   m_EdgeRadius: 0
+--- !u!114 &4325455960212857943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3979531275398856199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 575ff875a5425428f870e5538b5e0d1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slowMultiplier: 0.5
