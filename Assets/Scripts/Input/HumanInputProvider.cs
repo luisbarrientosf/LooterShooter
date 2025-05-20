@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,6 +9,18 @@ public class HumanInputProvider : MonoBehaviour, IInputProvider {
   private InputAction attackAction;
   private InputAction sprintAction;
 
+  private readonly List<KeyCode> keysBeingHeld = new();
+  private readonly Dictionary<KeyCode, Vector2> keysDictionary = new() {
+        { KeyCode.W, Vector2.up },
+        { KeyCode.UpArrow, Vector2.up },
+        { KeyCode.S, Vector2.down },
+        { KeyCode.DownArrow, Vector2.down },
+        { KeyCode.A, Vector2.left },
+        { KeyCode.LeftArrow, Vector2.left },
+        { KeyCode.D, Vector2.right },
+        { KeyCode.RightArrow, Vector2.right }
+    };
+
   private void Awake() {
     playerInput = GetComponent<PlayerInput>();
     moveAction = playerInput.actions["Move"];
@@ -16,8 +29,25 @@ public class HumanInputProvider : MonoBehaviour, IInputProvider {
     CheckHumanInputProvider();
   }
 
+  private void Update() {
+    UpdateKeysBeingHeld();
+  }
+
   public Vector2 GetMoveInput() {
-    return moveAction.ReadValue<Vector2>();
+    return GetCurrentDirection();
+    //return moveAction.ReadValue<Vector2>();
+  }
+
+  public Vector2 GetCurrentDirection() {
+    // Use last pressed key direction
+    for (int i = keysBeingHeld.Count - 1; i >= 0; i--) {
+      KeyCode key = keysBeingHeld[i];
+      if (Input.GetKey(key)) {
+        return keysDictionary[key];
+      }
+    }
+
+    return Vector2.zero;
   }
 
   public bool IsAttackPressed() {
@@ -26,6 +56,19 @@ public class HumanInputProvider : MonoBehaviour, IInputProvider {
 
   public bool IsSprinting() {
     return sprintAction.IsPressed();
+  }
+
+  private void UpdateKeysBeingHeld() {
+    foreach (var pair in keysDictionary) {
+      if (Input.GetKeyDown(pair.Key)) {
+        keysBeingHeld.Remove(pair.Key); // Ensure it’s at the end
+        keysBeingHeld.Add(pair.Key);
+      }
+
+      if (Input.GetKeyUp(pair.Key)) {
+        keysBeingHeld.Remove(pair.Key);
+      }
+    }
   }
 
   private bool CheckHumanInputProvider() {

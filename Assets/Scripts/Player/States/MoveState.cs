@@ -4,17 +4,7 @@ using UnityEngine.InputSystem;
 
 public class MoveState : PlayerState {
   public MoveState(PlayerController player) : base(player) { }
-  private readonly List<KeyCode> keysBeingHolded = new();
-  private readonly Dictionary<KeyCode, Vector2> keysDictionary = new() {
-    { KeyCode.W, Vector2.up },
-    { KeyCode.UpArrow, Vector2.up },
-    { KeyCode.S, Vector2.down },
-    { KeyCode.DownArrow, Vector2.down },
-    { KeyCode.A, Vector2.left },
-    { KeyCode.LeftArrow, Vector2.left },
-    { KeyCode.D, Vector2.right },
-    { KeyCode.RightArrow, Vector2.right }
-  };
+
   private Animator animator;
   private IInputProvider inputProvider;
   private PlayerInput playerInput;
@@ -37,6 +27,8 @@ public class MoveState : PlayerState {
 
   public override void Update() {
     if (!CheckMoveState()) return;
+    // ManageInput();
+
     if (inputProvider is HumanInputProvider && playerInput.currentControlScheme == "Keyboard&Mouse") {
       ManageKeyboardInput();
     }
@@ -79,9 +71,8 @@ public class MoveState : PlayerState {
   }
 
   private void ManageKeyboardInput() {
-    UpdateKeysBeingHolded();
+    Vector2 currentDirection = inputProvider.GetMoveInput();
 
-    Vector2 currentDirection = GetCurrentDirection();
     bool up = Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow);
     bool down = Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow);
     bool left = Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow);
@@ -117,31 +108,6 @@ public class MoveState : PlayerState {
   }
 
 
-
-  private Vector2 GetCurrentDirection() {
-    Vector2 currentDirection = Vector2.zero;
-    for (int i = keysBeingHolded.Count - 1; i >= 0; i--) {
-      KeyCode key = keysBeingHolded[i];
-      if (Input.GetKey(key)) {
-        currentDirection = keysDictionary[key];
-        break;
-      }
-    }
-    return currentDirection;
-  }
-
-  private void UpdateKeysBeingHolded() {
-    foreach (var pair in keysDictionary) {
-      if (Input.GetKeyDown(pair.Key)) {
-        keysBeingHolded.Remove(pair.Key);
-        keysBeingHolded.Add(pair.Key);
-      }
-
-      if (Input.GetKeyUp(pair.Key)) {
-        keysBeingHolded.Remove(pair.Key);
-      }
-    }
-  }
 
   private bool CheckMoveState() {
     bool isValid = true;
