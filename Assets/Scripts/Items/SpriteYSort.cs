@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SpriteYSort : MonoBehaviour {
   public SpriteRenderer spriteRenderer;
-  public float sortingScale = 100f;
+  public float sortingScale = 1000f; // match player
 
   private float lastY;
   private int lastBaseOrder;
@@ -14,7 +14,7 @@ public class SpriteYSort : MonoBehaviour {
     if (Mathf.Approximately(bottomY, lastY)) return;
 
     lastY = bottomY;
-    int baseOrder = -(int)(bottomY * sortingScale);
+    int baseOrder = YSortUtils.GetBaseSortingOrder(spriteRenderer.bounds, sortingScale);
     if (baseOrder == lastBaseOrder) return;
 
     lastBaseOrder = baseOrder;

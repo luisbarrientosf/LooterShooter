@@ -805,7 +805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bef9b10dda887cf4c87a678cf6f8616f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.5
+  speed: 0
 --- !u!114 &415382435707409704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -855,8 +855,8 @@ MonoBehaviour:
   bodyRenderers:
   - {fileID: 194154285191653176}
   - {fileID: 100417215504431319}
-  flashDuration: 0.05
-  bodyFlashColor: {r: 0.79622644, g: 0.79622644, b: 0.79622644, a: 1}
+  flashDuration: 0.01
+  bodyFlashColor: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
 --- !u!1 &7487989988471820184
 GameObject:
   m_ObjectHideFlags: 0

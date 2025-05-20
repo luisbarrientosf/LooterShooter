@@ -50,10 +50,13 @@ TagManager:
   - name: Tilemap Obstacles
     uniqueID: 3200637405
     locked: 0
+  - name: UI back Player
+    uniqueID: 1378163359
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: In Game UI
+  - name: UI over Player
     uniqueID: 3564939657
     locked: 0
   m_RenderingLayers:

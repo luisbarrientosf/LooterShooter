@@ -41,7 +41,7 @@ public class PlayerYSort : MonoBehaviour {
     if (Mathf.Approximately(bottomY, lastY)) return;
 
     lastY = bottomY;
-    int baseOrder = -(int)(bottomY * sortingScale);
+    int baseOrder = YSortUtils.GetBaseSortingOrder(bounds, sortingScale);
     if (baseOrder == lastBaseOrder) return;
 
     lastBaseOrder = baseOrder;
