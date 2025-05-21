@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 public class SpriteYSort : MonoBehaviour {
@@ -10,30 +11,25 @@ public class SpriteYSort : MonoBehaviour {
   private int lastBaseOrder;
 
   void LateUpdate() {
-    if (!spriteRenderer) return;
     Collider2D collider2D = GetComponent<Collider2D>();
-    if (!collider2D) {
-      float bottomY = spriteRenderer.bounds.min.y;
-      if (Mathf.Approximately(bottomY, lastY)) return;
+    float centerY = collider2D.bounds.min.y;
+    if (Mathf.Approximately(centerY, lastY)) return;
 
-      lastY = bottomY;
-      int baseOrder = YSortUtils.GetBaseSortingOrder(spriteRenderer.bounds, sortingScale);
-      if (baseOrder == lastBaseOrder) return;
+    lastY = centerY;
+    int baseOrder = YSortUtils.GetBaseSortingOrderTree(collider2D.bounds, sortingScale);
+    if (baseOrder == lastBaseOrder) return;
 
-      lastBaseOrder = baseOrder;
-      spriteRenderer.sortingOrder = baseOrder;
-    }
-    else {
-      // use collider2D center
-      float centerY = collider2D.bounds.min.y;
-      if (Mathf.Approximately(centerY, lastY)) return;
+    lastBaseOrder = baseOrder;
+    spriteRenderer.sortingOrder = baseOrder;
+  }
 
-      lastY = centerY;
-      int baseOrder = YSortUtils.GetBaseSortingOrder(collider2D.bounds, sortingScale);
-      if (baseOrder == lastBaseOrder) return;
+  void OnDrawGizmosSelected() {
+    Gizmos.color = Color.red;
+    Collider2D collider2D = GetComponent<Collider2D>();
 
-      lastBaseOrder = baseOrder;
-      spriteRenderer.sortingOrder = baseOrder;
-    }
+    Gizmos.DrawWireCube(collider2D.bounds.center, collider2D.bounds.size);
+    Handles.color = Color.white;
+    Vector3 labelPosition = collider2D.bounds.extents.y * Vector3.down + collider2D.bounds.center;
+    Handles.Label(labelPosition, lastBaseOrder.ToString());
   }
 }

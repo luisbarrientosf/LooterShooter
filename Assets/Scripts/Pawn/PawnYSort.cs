@@ -47,17 +47,17 @@ public class PlayerYSort : MonoBehaviour {
     lastBaseOrder = baseOrder;
 
     if (shadowRenderer) shadowRenderer.sortingOrder = baseOrder;
-    if (bodyBorderRenderer) bodyBorderRenderer.sortingOrder = baseOrder + 1;
-    if (bodyRenderer) bodyRenderer.sortingOrder = baseOrder + 2;
-    if (headBorderRenderer) headBorderRenderer.sortingOrder = baseOrder + 3;
-    if (headRenderer) headRenderer.sortingOrder = baseOrder + 4;
-    if (leftEyeRenderer) leftEyeRenderer.sortingOrder = baseOrder + 5;
-    if (rightEyeRenderer) rightEyeRenderer.sortingOrder = baseOrder + 5;
-    if (hatRenderer) hatRenderer.sortingOrder = baseOrder + 6;
-    if (damageTextMeshRenderer) damageTextMeshRenderer.sortingOrder = baseOrder + 7;
-    if (leftHandRendererBorder) leftHandRendererBorder.sortingOrder = baseOrder + 8;
-    if (leftHandRenderer) leftHandRenderer.sortingOrder = baseOrder + 9;
-    if (rightHandRendererBorder) rightHandRendererBorder.sortingOrder = baseOrder + 8;
-    if (rightHandRenderer) rightHandRenderer.sortingOrder = baseOrder + 9;
+    if (bodyBorderRenderer) bodyBorderRenderer.sortingOrder = baseOrder;
+    if (bodyRenderer) bodyRenderer.sortingOrder = baseOrder;
+    if (headBorderRenderer) headBorderRenderer.sortingOrder = baseOrder;
+    if (headRenderer) headRenderer.sortingOrder = baseOrder;
+    if (leftEyeRenderer) leftEyeRenderer.sortingOrder = baseOrder;
+    if (rightEyeRenderer) rightEyeRenderer.sortingOrder = baseOrder;
+    if (hatRenderer) hatRenderer.sortingOrder = baseOrder;
+    if (damageTextMeshRenderer) damageTextMeshRenderer.sortingOrder = baseOrder;
+    if (leftHandRendererBorder) leftHandRendererBorder.sortingOrder = baseOrder;
+    if (leftHandRenderer) leftHandRenderer.sortingOrder = baseOrder;
+    if (rightHandRendererBorder) rightHandRendererBorder.sortingOrder = baseOrder;
+    if (rightHandRenderer) rightHandRenderer.sortingOrder = baseOrder;
   }
 }
