@@ -77,7 +77,7 @@ public class InventoryUIManager : MonoBehaviour {
       Image[] images = itemImage.GetComponentsInChildren<Image>();
       foreach (Image image in images) {
         if (image.gameObject != itemImage) {
-          image.sprite = item.icon;
+          image.sprite = item.sprite;
         }
       }
     }

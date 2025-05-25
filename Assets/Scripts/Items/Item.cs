@@ -9,7 +9,7 @@ public enum ItemType {
 public class Item : ScriptableObject {
   public string itemName;
   public string description;
-  public Sprite icon;
+  public Sprite sprite;
   public ItemType itemType;
 
   public virtual void Use(PlayerInventory player) {

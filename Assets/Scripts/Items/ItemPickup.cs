@@ -6,10 +6,25 @@ public class ItemPickup : MonoBehaviour {
   private bool collected = false;
   private PlayerInventory playerInventory;
   private HudUIManager hudManager;
+  private SpriteRenderer spriteRenderer;
+
+  void Awake() {
+    spriteRenderer = GetComponent<SpriteRenderer>();
+    if (item != null) {
+      spriteRenderer.sprite = item.sprite;
+    }
+  }
 
   void Update() {
     if (playerInRange && !collected && Input.GetKeyDown(KeyCode.E)) {
       CollectItem();
+    }
+  }
+
+  void OnValidate() {
+    if (spriteRenderer == null && item != null) {
+      spriteRenderer = GetComponent<SpriteRenderer>();
+      spriteRenderer.sprite = item.sprite;
     }
   }
 
