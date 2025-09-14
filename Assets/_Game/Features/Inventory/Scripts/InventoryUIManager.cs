@@ -10,7 +10,7 @@ public class InventoryUIManager : MonoBehaviour {
   public Transform slotsGridParent;
   public GameObject title;
 
-  private PlayerInventory inventory;
+  public PlayerInventory inventory;
 
   void Awake() {
     if (Instance != null && Instance != this) {
@@ -18,7 +18,6 @@ public class InventoryUIManager : MonoBehaviour {
       return;
     }
     Instance = this;
-    inventory = GameManager.Instance.player.GetComponent<PlayerInventory>();
     GameManager.Instance.inventoryUIManager = this;
     CheckInventoryUI();
   }

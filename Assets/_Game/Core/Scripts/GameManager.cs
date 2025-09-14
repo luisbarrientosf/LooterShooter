@@ -1,7 +1,7 @@
 using UnityEngine;
 
-public class GameManager : MonoBehaviour {
-  public static GameManager Instance;
+public class GameManager : Singleton<GameManager> {
+
   public PerlinMapGenerator mapGenerator;
   public PlayerHealth player;
   public InventoryUIManager inventoryUIManager;
@@ -12,15 +12,6 @@ public class GameManager : MonoBehaviour {
   private bool isGameOver = false;
   public bool isTestGame = false;
 
-  void Awake() {
-    if (Instance == null) {
-      Instance = this;
-      DontDestroyOnLoad(gameObject);
-    }
-    else {
-      Destroy(gameObject);
-    }
-  }
 
   public void StartTestGame() {
     player.ResetHealth();

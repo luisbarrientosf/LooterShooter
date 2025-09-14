@@ -5,11 +5,10 @@ using UnityEngine.SceneManagement;
 public class PauseMenuUIManager : MonoBehaviour {
   public GameObject panel;
   private GameManager gameManager;
-  private InventoryUIManager inventoryUIManager;
+  public InventoryUIManager inventoryUIManager;
 
   void Awake() {
     gameManager = GameManager.Instance;
-    inventoryUIManager = InventoryUIManager.Instance;
     CheckPauseMenu();
   }
 
@@ -65,11 +64,9 @@ public class PauseMenuUIManager : MonoBehaviour {
       yield return null;
 
     string currentScene = gameManager.isTestGame ? Scenes.TestScene : Scenes.Gameplay;
-    SceneManager.UnloadSceneAsync(Scenes.PauseMenu);
-    SceneManager.UnloadSceneAsync(Scenes.GameOver);
-    SceneManager.UnloadSceneAsync(Scenes.Inventory);
-    SceneManager.UnloadSceneAsync(Scenes.HUD);
     SceneManager.UnloadSceneAsync(currentScene);
+    Destroy(GameManager.Instance.gameObject);
+    Destroy(PoolManager.Instance.gameObject);
   }
 
   private bool CheckPauseMenu() {

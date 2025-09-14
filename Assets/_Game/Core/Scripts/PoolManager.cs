@@ -3,17 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class PoolManager : MonoBehaviour {
-  public PoolManager Instance;
+public class PoolManager : Singleton<PoolManager> {
   public List<ObjectPool> pools;
 
-  void Awake() {
-    if (Instance == null) {
-      Instance = this;
-    }
-    else {
-      Destroy(gameObject);
-    }
+  void Start() {
     GameManager.Instance.poolManager = this;
   }
 

@@ -6,7 +6,7 @@ public class GameOverUIManager : MonoBehaviour {
   public static GameOverUIManager Instance;
   public GameObject panel;
   private GameManager gameManager;
-  private InventoryUIManager inventoryUIManager;
+  public InventoryUIManager inventoryUIManager;
 
 
   void Awake() {
@@ -17,7 +17,6 @@ public class GameOverUIManager : MonoBehaviour {
       Destroy(gameObject);
     }
     gameManager = GameManager.Instance;
-    inventoryUIManager = GameManager.Instance.inventoryUIManager;
     GameManager.Instance.gameOverUIManager = this;
     CheckGameOverUIManager();
   }
@@ -47,11 +46,9 @@ public class GameOverUIManager : MonoBehaviour {
       yield return null;
 
     string currentScene = gameManager.isTestGame ? Scenes.TestScene : Scenes.Gameplay;
-    SceneManager.UnloadSceneAsync(Scenes.PauseMenu);
-    SceneManager.UnloadSceneAsync(Scenes.GameOver);
-    SceneManager.UnloadSceneAsync(Scenes.HUD);
-    SceneManager.UnloadSceneAsync(Scenes.Inventory);
     SceneManager.UnloadSceneAsync(currentScene);
+    Destroy(GameManager.Instance.gameObject);
+    Destroy(PoolManager.Instance.gameObject);
   }
 
   public void Show() {

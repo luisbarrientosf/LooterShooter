@@ -1,9 +1,5 @@
 using UnityEngine;
 
-/// <summary>
-/// Base class for MonoBehaviour singletons.
-/// Inherit like: public class GameManager : Singleton<GameManager> {}
-/// </summary>
 public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour {
   private static T _instance;
   public static T Instance {
