@@ -11,6 +11,7 @@ public enum EquipmentSlot {
 
 public class EquipableItem : Item {
   public EquipmentSlot slot;
+  public AppearanceItem appearanceOptions;
   public int attackBonus;
   public int defenseBonus;
 

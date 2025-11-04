@@ -8,12 +8,12 @@ public class PawnAppearance : MonoBehaviour {
 
   public GameObject[] leftEyesVariants;
   public GameObject[] rightEyesVariants;
-  public GameObject[] hatsVariants;
+  public EquipableItem[] hatsVariants;
 
   void Start() {
     leftEyesVariants = Resources.LoadAll<GameObject>("Sprites/Player/Eyes/LeftEyes");
     rightEyesVariants = Resources.LoadAll<GameObject>("Sprites/Player/Eyes/RightEyes");
-    hatsVariants = Resources.LoadAll<GameObject>("Sprites/Player/Hats");
+    hatsVariants = Resources.LoadAll<EquipableItem>("Hats");
 
     RandomizeAppearance();
   }
@@ -30,7 +30,7 @@ public class PawnAppearance : MonoBehaviour {
     AttachAppearanceItem(rightEyeRenderer, rightEyesVariants[randomEyesIndex]);
 
     int randomHatIndex = Random.Range(0, hatsVariants.Length);
-    AttachAppearanceItem(hatRenderer, hatsVariants[randomHatIndex]);
+    AttachEquippableItem(hatRenderer, hatsVariants[randomHatIndex]);
   }
 
   public void AttachAppearanceItem(SpriteRenderer targetRenderer, GameObject itemPrefab) {
@@ -42,5 +42,15 @@ public class PawnAppearance : MonoBehaviour {
       targetRenderer.transform.localScale = appareanceOptions.correctLocalScale;
       targetRenderer.transform.localEulerAngles = appareanceOptions.correctLocalRotation;
     }
+  }
+
+  public void AttachEquippableItem(SpriteRenderer targetRenderer, EquipableItem item) {
+    targetRenderer.sprite = item.sprite;
+
+    if (item.appearanceOptions == null) return;
+
+    targetRenderer.transform.localPosition = item.appearanceOptions.correctLocalPosition;
+    targetRenderer.transform.localScale = item.appearanceOptions.correctLocalScale;
+    targetRenderer.transform.localEulerAngles = item.appearanceOptions.correctLocalRotation;
   }
 }
