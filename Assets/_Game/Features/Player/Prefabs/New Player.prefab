@@ -449,6 +449,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f646e39e048c748e4a279ce20f5e9329, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HumanInputProvider
+--- !u!1 &1785987177107180359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4478078831851903873}
+  m_Layer: 0
+  m_Name: Right Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4478078831851903873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785987177107180359}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3125, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8864161889668587521}
+  m_Father: {fileID: 8355932992249650045}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2135850137694136463
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,12 +596,12 @@ Transform:
   m_GameObject: {fileID: 2271420690632014542}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5573850189114162130}
-  - {fileID: 8864161889668587521}
+  - {fileID: 5697447078823603163}
+  - {fileID: 4478078831851903873}
   m_Father: {fileID: 5649067952828047492}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2707800418273511905
@@ -745,17 +777,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00cc4d3d47ce7af4bbebe4756ff92c86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bodyBorderRenderer: {fileID: 0}
   bodyRenderer: {fileID: 230555655286618076}
-  headBorderRenderer: {fileID: 0}
   headRenderer: {fileID: 5597977258718678334}
   leftEyeRenderer: {fileID: 2224091167731137579}
   rightEyeRenderer: {fileID: 6785390007152971700}
   hatRenderer: {fileID: 1905189347791244092}
   shadowRenderer: {fileID: 6226667833378578373}
-  leftHandRendererBorder: {fileID: 0}
   leftHandRenderer: {fileID: 496750098992153101}
-  rightHandRendererBorder: {fileID: 0}
   rightHandRenderer: {fileID: 227809538614940319}
   damageTextMeshRenderer: {fileID: 0}
   sortingScale: 100
@@ -902,6 +930,38 @@ MonoBehaviour:
   blinkIntervalMin: 4
   blinkIntervalMax: 8
   blinkDuration: 0.1
+--- !u!1 &5371621735681472101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5697447078823603163}
+  m_Layer: 0
+  m_Name: Left Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5697447078823603163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5371621735681472101}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3125, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5573850189114162130}
+  m_Father: {fileID: 8355932992249650045}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5582996249284499933
 GameObject:
   m_ObjectHideFlags: 0
@@ -1018,8 +1078,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8864161889668587521}
   - component: {fileID: 227809538614940319}
+  - component: {fileID: 8501384559118773118}
   m_Layer: 0
-  m_Name: Right Hand
+  m_Name: Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1034,11 +1095,11 @@ Transform:
   m_GameObject: {fileID: 6308905203818766547}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3125, y: 0, z: 0.3}
+  m_LocalPosition: {x: 0, y: 0, z: 0.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8355932992249650045}
+  m_Father: {fileID: 4478078831851903873}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &227809538614940319
 SpriteRenderer:
@@ -1098,6 +1159,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 2
   m_SpriteSortPoint: 0
+--- !u!114 &8501384559118773118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6308905203818766547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bc808b16d0e11e4eb94bcfe47334114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HandArcMotion
+  pawnBounceAnimation: {fileID: 5142635470605820608}
+  followTarget: {fileID: 4478078831851903873}
+  arcRadius: 0.1
+  arcDuration: 0.2
+  returnDuration: 0.1
 --- !u!1 &6385812031551321698
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,8 +1186,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5573850189114162130}
   - component: {fileID: 496750098992153101}
+  - component: {fileID: 765691619087151135}
   m_Layer: 0
-  m_Name: Left Hand
+  m_Name: Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1124,11 +1203,11 @@ Transform:
   m_GameObject: {fileID: 6385812031551321698}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3125, y: 0, z: 0.3}
+  m_LocalPosition: {x: 0, y: 0, z: 0.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8355932992249650045}
+  m_Father: {fileID: 5697447078823603163}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &496750098992153101
 SpriteRenderer:
@@ -1188,6 +1267,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 2
   m_SpriteSortPoint: 0
+--- !u!114 &765691619087151135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6385812031551321698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bc808b16d0e11e4eb94bcfe47334114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HandArcMotion
+  pawnBounceAnimation: {fileID: 5142635470605820608}
+  followTarget: {fileID: 5697447078823603163}
+  arcRadius: 0.1
+  arcDuration: 0.2
+  returnDuration: 0.1
 --- !u!1 &6719957612159005202
 GameObject:
   m_ObjectHideFlags: 0

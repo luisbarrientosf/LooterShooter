@@ -2,6 +2,7 @@ using UnityEngine;
 
 public enum EquipmentSlot {
   Head,
+  Eyes,
   Body,
   Weapon,
   Accessory

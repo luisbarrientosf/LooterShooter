@@ -11,8 +11,8 @@ public class PawnAppearance : MonoBehaviour {
   public EquipableItem[] hatsVariants;
 
   void Start() {
-    leftEyesVariants = Resources.LoadAll<GameObject>("Sprites/Player/Eyes/LeftEyes");
-    rightEyesVariants = Resources.LoadAll<GameObject>("Sprites/Player/Eyes/RightEyes");
+    leftEyesVariants = Resources.LoadAll<GameObject>("Eyes/LeftEyes");
+    rightEyesVariants = Resources.LoadAll<GameObject>("Eyes/RightEyes");
     hatsVariants = Resources.LoadAll<EquipableItem>("Hats");
 
     RandomizeAppearance();
